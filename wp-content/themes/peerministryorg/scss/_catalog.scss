@@ -1,0 +1,221 @@
+.woocommerce .page-title{
+	position: absolute;
+	top: -100%;
+}
+.woocommerce-ordering,
+.woocommerce-result-count{
+	display: none;
+}
+.products{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+ 	.product{
+		width: calc( ( 100% / 3 ) - 40px );
+		padding: 0;
+		margin: 0;
+		display: block;
+		float: left;
+		background: rgba( 255, 255, 255, .7 );
+		box-shadow: 6px 6px 0 #ccc;
+		margin: 10px 40px 10px 0;
+		padding: 4px;
+		position: relative;
+	 	a:first-child{
+	 		display: block;
+	 		margin-bottom: 26px;
+			h3{
+				margin: 0 0 5px;
+			}
+		}
+		.variations .label,
+		.single_variation,
+		.reset_variations,
+		.product_type_variable{
+			display: none !important;   //sometimes javascript sets this inline so this will override that
+		}
+		.button{
+			position: absolute;
+			bottom: 5px;
+			right: 5px;
+		}
+ 	}
+}
+.product{
+	.images,
+	.summary,
+	.woocommerce-tabs{
+		float: left;
+	}
+	.images{
+		margin: 0 20px 0 0;
+	}
+	.summary{
+		.variations,
+		.single_variation_wrap{
+			float: left;
+		}
+		*[itemprop=offers],
+		.reset_variations,
+		.single_variation{
+			display: none !important;  //because it gets some inline crap via WC javascript
+		}
+		.product_meta{
+			margin-top: 10px;
+			float: left;
+		}
+		.variations_form{
+			margin: 12px 0;
+		}
+	}
+	.variations{
+		select{
+			padding: 4px;
+			margin-left: 8px;
+		}
+	}
+	.single_add_to_cart_button{
+		height: 26px;
+		margin-top: 1px;
+	}
+	.woocommerce-tabs{
+		width: 45%;
+		margin-top: 24px;
+		background: rgba( 255, 255, 255, .7 );
+		border: 1px solid #bbb;
+		@extend .nav-tab-wrapper;
+		.tabs{
+			margin: -8px 0 -20px;
+		}
+		.tabs li{
+			display: inline;
+		}
+		.tabs a{
+			width: auto;
+		}
+		.panel{
+			padding: 0 8px;
+			height: 250px;
+			overflow-x: hidden;
+			overflow-y: scroll;
+			text-align: left;
+			h2{
+				display: none;
+			}
+		}
+	}
+}
+
+.well.cart{
+	.cart_list{
+		list-style: none;
+		padding: 0;
+		margin: 0 19px 0 0;
+		li{
+			list-style: none;
+			padding: 0;
+			margin: 0 0 10px;
+			border-bottom: 1px dotted $peer_blue;
+			img{
+				float: left;
+				margin-right: 8px;
+			}
+			div{
+				margin: 0 0 20px;
+			}
+			&::after{
+				content: '';
+				display: table;
+				clear: both;
+			}
+		}
+	}
+	.total{
+		margin: 0 19px 0 0;
+		text-align: right;
+	}
+	footer{
+		text-align: right;
+		a{
+			@include pill( $peer_blue );
+			margin-top: -2px;
+			&.checkout{
+				@include pill( $peer_green );
+			}
+		}
+	}
+}
+.cart-collaterals{
+	float: right;
+}
+.cart-wrapper{
+	.cart{
+		width: 100%;
+	}
+	.cart_totals table{
+		th,
+		td{
+			text-align: right;
+		}
+		td{
+			min-width: 60px;
+		}
+		.shipping{
+			display: none;
+		}
+	}
+	.cart,
+	.cart_totals table{
+		margin-top: 20px;
+		th,
+		td{
+			padding: 6px;
+			&.product-name{
+				width: 58%;
+			}
+			&.product-price,
+			&.product-quantity,
+			&.product-subtotal{
+				width: 14%;
+			}
+		}
+		th{
+			@include linear-gradient( #eee, #ccc );
+			border-left: 1px solid #999;
+			&:first-of-type{
+				border-left: 0;
+			}
+		}
+		td{
+			border-bottom: 1px dotted $peer_green;
+		}
+		.product-name img{
+			float: left;
+			margin-right: 8px;
+		}
+		.actions,
+		.total{
+			text-align: right;
+		}
+		.coupon {
+			margin: 0 0 10px;
+			input{
+				height: 24px;
+			}
+			.button{
+				@include pill( $peer_yellow );
+				color: black;
+			}
+		}
+		.button,
+		.remove{
+			@include pill( $peer_blue );
+		}
+		.checkout-button{
+			@include pill( $peer_green );
+		}
+	}
+	.shipping_calculator{
+		display: none;
+	}
+}	

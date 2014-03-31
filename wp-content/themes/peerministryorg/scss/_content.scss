@@ -1,0 +1,33 @@
+main {
+	padding: 10px;
+	color: #000000;
+	min-height: 350px;
+	background-color: #fff;
+	background-color: rgba(255, 255, 255, 0.4);
+	background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0.4), #ffffff);
+	background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0.4), #ffffff);
+	background-image: -webkit-gradient(linear, 0 0, 100% 0, from(rgba(255, 255, 255, 0.4)), to(#ffffff));
+	background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.4), #ffffff);
+	background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0.4), #ffffff);
+	background-image: linear-gradient(left, rgba(255, 255, 255, 0.4), #ffffff);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0.4)', endColorstr='#ffffff', GradientType=1);
+	margin: 10px 10px 0 0;
+}
+
+main .image-wrapper {
+	@include transition(  all .7s linear );
+	padding: 6px;
+	background: #fff;
+	display: block;
+	margin: 20px;
+	box-shadow: 3px 3px 12px #666;
+	img {
+		max-width: 100%;
+	}
+}
+
+main .page header h2{
+	position: absolute;
+	top: -100%;
+}

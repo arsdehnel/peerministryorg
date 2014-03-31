@@ -1,0 +1,45 @@
+.modal-overlay {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 500;
+	background-color: black;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	display: none;
+	&.active{
+		display: block;
+	}
+}
+
+.modal-window{
+	z-index: 1000;
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 50px;
+	bottom: 50px;
+	left: 50px;
+	background: white;
+	&.active{
+		display: block;
+	}
+	.modal-content{
+		padding: 8px;
+	}
+}
+
+.modal-close{
+	position: absolute;
+	top: -6px;
+	right: -12px;
+	cursor: pointer;
+	.icon-modal-close:before {
+		font-style: normal;	
+		content: "\f05c";
+		font-family: FontAwesome;
+		font-size: 30px;
+	}
+}

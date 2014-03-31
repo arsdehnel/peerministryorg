@@ -1,0 +1,25 @@
+.datagrid {
+    margin: 0 auto 10px;
+	th, 
+	td {
+	    border: 1px solid #333;
+	    padding: 3px 6px;
+	}
+	.btn {
+	    padding: 0px 4px;
+	    font-size: 10px;
+	    margin: 1px 3px 3px;
+	}
+	tr:nth-child(even) {
+	    background: #eee;
+	}
+	tr:nth-child(odd) {
+	    background: #fff;
+	}
+	thead th{
+	  background-color: $peer_teal;
+	  color: $peer_yellow;
+	  padding: 4px;
+	}
+}
+

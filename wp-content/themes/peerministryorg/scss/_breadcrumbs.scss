@@ -1,0 +1,122 @@
+/* ----------------------------------------------- 
+         BREADCRUMBS
+   ----------------------------------------------- */
+.breadcrumbs { 
+	list-style: none; 
+	overflow: hidden; 
+	font: 14px Helvetica, Arial, Sans-Serif;
+	margin: 0 auto 20px;
+	padding: 0 8px;
+	min-width: 800px;
+}
+.breadcrumbs-steps{
+	counter-reset:section;  
+	li{
+		&::after{
+		    position: absolute;
+		    counter-increment:section;
+		    content: counter(section);
+		    display: block;
+		    width: 16px;
+		    border-radius: 12px;
+		    line-height: 15px;
+		    top: 6px;
+		    left: 40px;
+		    background: rgba(255,255,255,.5) ;
+		    color: white;
+		    font-weight: bold;
+		    text-align: center;
+		    font-size: 10px;
+		}
+		a{
+			padding: 5px 0 6px 65px;
+		}
+	}
+}
+.breadcrumbs li { 
+	float: left;
+	position: relative;
+}
+.breadcrumbs li a {
+	color: white;
+	padding: 5px 0 6px 45px;
+	text-decoration: none; 
+	background: brown;                   /* fallback color */
+	background: rgba(0,0,110,1); 
+	position: relative; 
+	display: block;
+	float: left;
+}
+.breadcrumbs li a::after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid rgba(0,0,110,1);
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}
+.breadcrumbs li a::before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;       
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}
+.breadcrumbs li:first-child {
+  &::after{
+    left: 6px;
+  }
+  a {
+	  padding-left: 10px;
+  }
+}
+.breadcrumbs li:nth-child(2) a        { background:        rgba(0,0,140,1); }
+.breadcrumbs li:nth-child(2) a::after { border-left-color: rgba(0,0,140,1); }
+.breadcrumbs li:nth-child(3) a        { background:        rgba(0,0,170,1); }
+.breadcrumbs li:nth-child(3) a::after { border-left-color: rgba(0,0,170,1); }
+.breadcrumbs li:nth-child(4) a        { background:        rgba(0,0,200,1); }
+.breadcrumbs li:nth-child(4) a::after { border-left-color: rgba(0,0,200,1); }
+.breadcrumbs li:nth-child(5) a        { background:        rgba(0,0,230,1); }
+.breadcrumbs li:nth-child(5) a::after { border-left-color: rgba(0,0,230,1); }
+.breadcrumbs li:last-child a{
+  padding-right: 20px;
+}
+.breadcrumbs li:last-child a::after {
+  display: none;
+}
+.breadcrumbs li a:hover { background: rgb(0,0,255); }
+.breadcrumbs li a:hover::after { border-left-color: rgb(0,0,255) }
+.breadcrumbs .current ~ li a {
+  background: lightgrey;
+	pointer-events: none;
+	cursor: default;
+  &::after{
+    border-left-color: lightgrey;
+    pointer-events: none;
+    cursor: default;
+  }
+}
+.breadcrumbs li.current a{
+  background: #090;
+  pointer-events: none;
+  cursor: default;
+  &::after{
+    border-left-color: #090;
+    pointer-events: none;
+    cursor: default;
+  }
+}

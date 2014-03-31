@@ -1,0 +1,38 @@
+.modal-spinner {
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100px;
+}
+.btn-toolbar-thumbnail-options .spinner {
+  font-size: 8px;
+  width: 35px;
+  height: 21px;
+}
+.btn-toolbar-thumbnail-options .spinner .icon {
+  top: 5px;
+  left: 10px;
+  color: inherit;
+}
+.spinner {
+  padding-left: 35px;
+  font-size: 18px;
+  position: relative;
+  width: 150px;
+  text-align: left;
+}
+.spinner .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: WebSymbolsRegular;
+  font-size: 150%;
+}
+.spinner .text em {
+  font-style: normal;
+  color: #999;
+}
+.spinner.spinner-large {
+  font-size: 36px;
+}
