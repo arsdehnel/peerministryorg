@@ -58,11 +58,11 @@ switch(ENVIRONMENT){
 
 	case 'test':
 
-		define('DB_NAME', 'arsdehnel_test_peerministryorg');
-		define('DB_USER', 'arsdehnel_test');
-		define('DB_PASSWORD', '3a4d7a2m');
-		define('DB_HOST', 'pdb1.awardspace.com');
-		define('WP_DEBUG', true);
+		define('DB_NAME', 'peerministryorg');
+		define('DB_USER', 'peerministryorg');
+		define('DB_PASSWORD', 'Ro^LJ@0vCk&_');
+		define('DB_HOST', 'localhost');
+		define('WP_DEBUG', false);
 
 		break;
 
