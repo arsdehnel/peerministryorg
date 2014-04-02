@@ -19,23 +19,26 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  
 // Define Environments - may be a string or array of options for an environment
 $environments = array(
-	'dev'	=> 'dev.',
-	'test'  => 'test.'
+	'dev.'	    => 'dev',
+	'preview.'  => 'test',
+	'www.'      => 'prod',
+	'v2.'       => 'test',
+	'v1.'       => 'prod',
 );
 
 // Get Server name
 $server_name = $_SERVER['SERVER_NAME'];
 
 //assign the environments
-foreach($environments AS $key => $env){
-	if(stristr($server_name, $env)){
-		define('ENVIRONMENT', $key);
+foreach($environments AS $url_partial => $env){
+	if(stristr($server_name, $url_partial)){
+		define('ENVIRONMENT', $env);
 		break;
 	}
 }
 
 // If no environment is set default to production
-if(!defined('ENVIRONMENT')) define('ENVIRONMENT', 'production');
+if(!defined('ENVIRONMENT')) define('ENVIRONMENT', 'prod');
 
 // Define different DB connection details depending on environment
 switch(ENVIRONMENT){
@@ -65,10 +68,10 @@ switch(ENVIRONMENT){
 
 	case 'production':
 
-		define('DB_NAME', 'arsdehnel_prod');
-		define('DB_USER', 'arsdehnel_prod');
-		define('DB_PASSWORD', '3a4d7a2m');
-		define('DB_HOST', 'pdb1.awardspace.com');
+		define('DB_NAME', 'peerministryorg');
+		define('DB_USER', 'peerministryorg');
+		define('DB_PASSWORD', 'Ro^LJ@0vCk&_');
+		define('DB_HOST', 'localhost');
 		define('WP_DEBUG', false);
 
 		break;
