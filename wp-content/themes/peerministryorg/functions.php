@@ -39,6 +39,11 @@ function mytheme_comment($comment, $args, $depth) {
 
 automatic_feed_links();
 
+register_nav_menus( array(
+  'main'   => 'Main Menu',
+  'footer' => 'Footer Menu'
+) );
+
 // Widgetized Sidebar HTML5 Markup
 if ( function_exists('register_sidebar') ) {
 	register_sidebar(array(

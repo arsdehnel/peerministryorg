@@ -51,8 +51,8 @@ switch(ENVIRONMENT){
 		define('DB_HOST', 'localhost');
 		//define('WP_DEBUG', true);
 
-		define('WP_SITEURL', 'http://dev.peerministry.org/');
-		define('WP_HOME', 'http://dev.peerministry.org/');
+		//define('WP_SITEURL', 'http://dev.peerministry.org/');
+		//define('WP_HOME', 'http://dev.peerministry.org/');
 
 		break;
 
