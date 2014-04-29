@@ -15,7 +15,11 @@
 		-webkit-transition: all .3s;
 		transition: all .3s;
 		padding: 10px;
-	    vertical-align: top;
+	  vertical-align: top;
+    &.cart{
+      color: $peer_green;
+      text-shadow: 0 0 3px white;
+    }
 	}
 	a:hover,
 	a.active{

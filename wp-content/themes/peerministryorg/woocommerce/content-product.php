@@ -34,37 +34,48 @@ if ( 0 == ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 
 	$classes[] = 'first';
 if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 	$classes[] = 'last';
+
+$classes[] = 'grid-4-12';
 ?>
 <li <?php post_class( $classes ); ?>>
 
-	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
+	<div class="product-inner">
 
-	<a href="<?php the_permalink(); ?>">
-		<h3><?php the_title(); ?></h3>
+		<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
+
+		<a class="product-page-link" href="<?php the_permalink(); ?>">
+			<?php
+				/**
+				 * woocommerce_before_shop_loop_item_title hook
+				 *
+				 * @hooked woocommerce_show_product_loop_sale_flash - 10
+				 * @hooked woocommerce_template_loop_product_thumbnail - 10
+				 */
+				do_action( 'woocommerce_before_shop_loop_item_title' );
+			?>
+			<h3><?php the_title(); ?></h3>
+			<?php
+				/**
+				 * woocommerce_after_shop_loop_item_title hook
+				 *
+				 * @hooked woocommerce_template_loop_price - 10
+				 */
+				do_action( 'woocommerce_after_shop_loop_item_title' );
+			?>
+
+		</a>
 
 		<?php
-			/**
-			 * woocommerce_before_shop_loop_item_title hook
-			 *
-			 * @hooked woocommerce_show_product_loop_sale_flash - 10
-			 * @hooked woocommerce_template_loop_product_thumbnail - 10
-			 */
-			do_action( 'woocommerce_before_shop_loop_item_title' );
+
+			//this theme doesn't display add to cart options on the loop page for variable options by default
+			//but that is required of this so we're calling this manually here if needed for this product
+			if( $product->product_type == 'variable' ){
+				woocommerce_variable_add_to_cart();
+			}
 		?>
 
-		<hr>
+		<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
 
-		<?php
-			/**
-			 * woocommerce_after_shop_loop_item_title hook
-			 *
-			 * @hooked woocommerce_template_loop_price - 10
-			 */
-			do_action( 'woocommerce_after_shop_loop_item_title' );
-		?>
-
-	</a>
-
-	<?php do_action( 'woocommerce_after_shop_loop_item' ); ?>
+	</div>
 
 </li>

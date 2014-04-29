@@ -141,8 +141,8 @@ class WC_Gateway_Stripe_Subscriptions extends WC_Gateway_Stripe {
 		global $woocommerce;
 
 		$order_items = $order->get_items();
-		$product = $order->get_product_from_item( array_shift( $order_items ) );
-		$subscription_name = sprintf( __( 'Subscription for "%s"', 'wc_stripe' ), $product->get_title() ) . ' ' . sprintf( __( '(Order %s)', 'wp_stripe' ), $order->get_order_number() );
+		$order_item = array_shift( $order_items );
+		$subscription_name = sprintf( __( 'Subscription for "%s"', 'wc_stripe' ), $order_item['name'] ) . ' ' . sprintf( __( '(Order %s)', 'wp_stripe' ), $order->get_order_number() );
 
 		if ( $amount * 100 < 50 )
 			return new WP_Error( 'stripe_error', __( 'Minimum amount is 0.50', 'wc_stripe' ) );

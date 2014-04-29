@@ -6,11 +6,13 @@
  
 //WooCommerce
 add_theme_support( 'woocommerce' );
+add_filter( 'woocommerce_enqueue_styles', '__return_false' );
+remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10 );
+add_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_product_thumbnail', 10 );
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_result_count', 20 );
 remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30 );
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
-add_action( 'woocommerce_after_shop_loop_item', 'woocommerce_variable_add_to_cart', 30 );
-
+add_action( 'hook_woocommerce_in_cart_product_thumbnail', 'woocommerce_cart_thumb', 50 );
 
 // Custom HTML5 Comment Markup
 function mytheme_comment($comment, $args, $depth) {
@@ -36,6 +38,11 @@ function mytheme_comment($comment, $args, $depth) {
      </article>
     <!-- </li> is added by wordpress automatically -->
 <?php
+}
+
+function woocommerce_cart_thumb( $imgElem ){
+  $pattern = '/(width|height)="[0-9]*"/i';
+  return preg_replace($pattern, "", $imgElem);
 }
 
 automatic_feed_links();

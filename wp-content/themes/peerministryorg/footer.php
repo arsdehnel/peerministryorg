@@ -23,14 +23,27 @@
                     <li><a href="/everyday/content/newsletter" data-toggle="modal-external">E-News</a></li>
                     <li><a href="http://peerministryleadership.blogspot.com/" target="_blank">Blog</a></li>
                     <li><a href="http://www.facebook.com/pages/Bloomington-MN/Peer-Ministry/30163575347" target="_blank">Facebook</a></li>
-                    <li><a href="/wp-admin/" data-toggle="modal-external">Log In</a></li>
+                    <?php
+                        $items = wp_get_nav_menu_items( 'footer' );
+                        if( is_array( $items ) && count( $items ) ):
+                            foreach( $items as $item ):
+                                echo '<li><a href="'.$item->url.'"';
+                                if( $cur_id == $item->object_id ):
+                                    echo ' class="active"';
+                                elseif( get_permalink( $cur_id ) == $item->url ):
+                                    echo ' class="active"';
+                                endif;
+                                echo '>'.$item->title.'</a></li>';   
+                            endforeach;
+                        endif;
+                    ?>
                 </ul>
             </div>
         </nav>
     </footer>
   <div class="modal-window">
-  	<div class="modal-close"><i class="icon-modal-close font-fontawesome"></i></div>
-  	<div class="modal-content"></div>
+    <div class="modal-close"><i class="icon-modal-close font-fontawesome"></i></div>
+    <div class="modal-content"></div>
   </div>
   <div class="modal-overlay"></div>
 </div> <!--! end of #container -->
@@ -49,7 +62,7 @@
        change the UA-XXXXX-X to be your site's ID -->
   <!-- WordPress.com does not allow Google Analytics code to be built into themes they host. 
        Add this section from HTML Boilerplate manually (html5-boilerplate/index.html), or use a Google Analytics WordPress Plugin-->
-	   
+       
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
@@ -57,7 +70,7 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-			   
+               
   <?php wp_footer(); ?>
 
 </body>

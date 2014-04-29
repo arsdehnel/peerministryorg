@@ -4,47 +4,56 @@
  *
  * @author 		WooThemes
  * @package 	WooCommerce/Templates
- * @version     1.6.4
+ * @version     2.1.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $woocommerce, $current_user;
 
+$page_title = ( $load_address == 'billing' ) ? __( 'Billing Address', 'woocommerce' ) : __( 'Shipping Address', 'woocommerce' );
+
 get_currentuserinfo();
 ?>
 
-<?php $woocommerce->show_messages(); ?>
+<?php wc_print_notices(); ?>
 
-<?php if (!$load_address) : ?>
+<?php if ( ! $load_address ) : ?>
 
-	<?php woocommerce_get_template('myaccount/my-address.php'); ?>
+	<?php wc_get_template( 'myaccount/my-address.php' ); ?>
 
 <?php else : ?>
 
-	<form action="<?php echo esc_url( add_query_arg( 'address', $load_address, get_permalink( woocommerce_get_page_id('edit_address') ) ) ); ?>" method="post">
+	<div class="grid-3-12 well well-nav">
+		<?php wc_get_template( 'myaccount/my-profile-nav.php' ); ?>
+	</div>
+	<div class="grid-6-12">
 
-		<h3><?php if ($load_address=='billing') _e( 'Billing Address', 'woocommerce' ); else _e( 'Shipping Address', 'woocommerce' ); ?></h3>
+		<form method="post">
 
-		<?php
-		foreach ($address as $key => $field) :
-			$value = (isset($_POST[$key])) ? $_POST[$key] : get_user_meta( get_current_user_id(), $key, true );
+			<h2 class="woocommerce-header"><?php echo apply_filters( 'woocommerce_my_account_edit_address_title', $page_title ); ?></h2>
 
-			// Default values
-			if (!$value && ($key=='billing_email' || $key=='shipping_email')) $value = $current_user->user_email;
-			if (!$value && ($key=='billing_country' || $key=='shipping_country')) $value = $woocommerce->countries->get_base_country();
-			if (!$value && ($key=='billing_state' || $key=='shipping_state')) $value = $woocommerce->countries->get_base_state();
+			<?php foreach ( $address as $key => $field ) : ?>
 
-			woocommerce_form_field( $key, $field, $value );
-		endforeach;
-		?>
+				<?php woocommerce_form_field( $key, $field, ! empty( $_POST[ $key ] ) ? wc_clean( $_POST[ $key ] ) : $field['value'] ); ?>
 
-		<p>
-			<input type="submit" class="button" name="save_address" value="<?php _e( 'Save Address', 'woocommerce' ); ?>" />
-			<?php $woocommerce->nonce_field('edit_address') ?>
-			<input type="hidden" name="action" value="edit_address" />
-		</p>
+			<?php endforeach; ?>
 
-	</form>
+			<p>
+				<input type="submit" class="button" name="save_address" value="<?php _e( 'Save Address', 'woocommerce' ); ?>" />
+				<?php wp_nonce_field( 'woocommerce-edit_address' ); ?>
+				<input type="hidden" name="action" value="edit_address" />
+			</p>
+
+		</form>
+	</div>
+	<div class="grid-3-12 well">
+		<header>Your Address</header>
+		<div class="well-contents">
+			<p>
+				Please provide the same address here as is included on your credit card statement.  This will only be used for billing purposes, no postal mail will be delivered nor will this address be distributed to any third parties.
+			</p>
+		</div>
+	</div>
 
 <?php endif; ?>

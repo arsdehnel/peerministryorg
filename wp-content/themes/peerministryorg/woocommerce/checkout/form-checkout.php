@@ -11,7 +11,11 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $woocommerce;
 
-$woocommerce->show_messages();
+wc_print_notices();
+
+?>
+<h2 class="woocommerce-header">Checkout</h2>
+<?php
 
 do_action( 'woocommerce_before_checkout_form', $checkout );
 
@@ -22,28 +26,17 @@ if ( ! $checkout->enable_signup && ! $checkout->enable_guest_checkout && ! is_us
 }
 
 // filter hook for include new pages inside the payment method
-$get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', $woocommerce->cart->get_checkout_url() ); ?>
+$get_checkout_url = apply_filters( 'woocommerce_get_checkout_url', WC()->cart->get_checkout_url() ); ?>
 
-<form name="checkout" method="post" class="checkout" action="<?php echo esc_url( $get_checkout_url ); ?>">
+<form name="checkout" method="post" class="checkout grid" action="<?php echo esc_url( $get_checkout_url ); ?>">
 
 	<?php if ( sizeof( $checkout->checkout_fields ) > 0 ) : ?>
 
 		<?php do_action( 'woocommerce_checkout_before_customer_details' ); ?>
 
-		<div class="col2-set" id="customer_details">
-
-			<div class="col-1">
-
-				<?php do_action( 'woocommerce_checkout_billing' ); ?>
-
-			</div>
-
-			<div class="col-2">
-
-				<?php do_action( 'woocommerce_checkout_shipping' ); ?>
-
-			</div>
-
+		<div class="grid-6-12" id="customer_details">
+			<?php do_action( 'woocommerce_checkout_billing' ); ?>
+			<?php do_action( 'woocommerce_checkout_shipping' ); ?>
 		</div>
 
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>

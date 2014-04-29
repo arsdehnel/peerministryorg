@@ -1,0 +1,23 @@
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+.hide {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.invisible {
+  visibility: hidden;
+}
+.container{
+	position: relative;
+	.container-action{
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+}

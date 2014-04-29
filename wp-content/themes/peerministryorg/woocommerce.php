@@ -23,49 +23,18 @@ get_header(); ?>
     		?>
     	</div>
     	<div class="grid-2-12 well cart">
-    		<?php 
-				if ( sizeof( $woocommerce->cart->get_cart() ) > 0 ) :
-    				echo '<header>';
-    				echo 'Your Cart';
-    				echo '</header>';
-	    			woocommerce_mini_cart();
-	    		endif;
-    			/*
-    			
-    			if( $woocommerce->cart->cart_contents_count > 0 ):
-	    			global $woocommerce; 
-	    			foreach( $woocommerce->cart->cart_contents as $item ):			//item is an array
-	    				echo '<div>Product ID: '.$item['product_id'].'</div>';
-	    				echo '<div>Variation ID: '.$item['variation_id'].'</div>';
-	    				echo '<div>Print Qty: '.$item['variation']['Print Quantity'].'</div>';
-	    				echo '<div>Product: '.$item['data']->post->post_title.'</div>';
-	    				echo '<div>Price: '.$item['data']->price.'</div>';
-	    				/*
-	    				print_r( $item['data']->post );
-	    				foreach( $item as $key => $value ):
-	    					if( !is_object( $value ) ):
-			   					echo '<div>'.$key.': '.$value.'</div>';
-	    					else:
-			   					echo '<div>'.$key.': '.$value->post->post_title.' is object</div>';
-	    						//print_r( $value->post );
-	    						foreach( $value as $key => $value ):
-				   					echo '<div>'.$key.'</div>';
-	    						endforeach;
-			   					echo '<div>'.$key.' is object</div>';
-	    					endif;
-							echo '<hr>';
-	    				endforeach;
-	    				//var_dump( $item->data );
-	    				echo '<hr>';
-	    				echo '<hr>';
-	    				echo '<hr>';
-	    				echo '<hr>';
-	    			endforeach;
-	    		endif;
-	    		
-	    		*/
-	    		
-    		?>
+				<?php 
+    				if ( sizeof( $woocommerce->cart->get_cart() ) > 0 ) :
+    	    			woocommerce_mini_cart();
+    	    		else:
+                        ?>
+    	    			<p>
+                            Currently your cart has no items in it.  Select an item's "Add To Cart" yellow button in the item listing in the middle of this page to add an item to your cart.
+                        </p>
+                        <?php
+    	    		endif;
+        		?>
+            </div>
     	</div>
     </div>
   

@@ -1,0 +1,63 @@
+@mixin button( $base-color, $pill_placement: 'standalone' ){
+    $color:         hsl(0, 0, 100%);
+    $border:        adjust-color($base-color, $saturation:  9%,  $lightness: -14%);
+    $inset-shadow:  adjust-color($base-color, $saturation: -8%,  $lightness:  15%);
+    $stop-gradient: adjust-color($base-color, $saturation:  9%,  $lightness: -11%);
+    $text-shadow:   adjust-color($base-color, $saturation:  15%, $lightness: -18%);
+
+    @if lightness($base-color) > 60% {
+        $color:       hsl(0, 0, 20%);
+        $text-shadow: adjust-color($base-color, $saturation: 10%, $lightness: 4%);
+    }
+
+    border: 1px solid $border;
+
+    @if $pill_placement == 'standalone' {
+        border-radius: 3px;
+    }
+
+    @if $pill_placement == 'left'{
+        border-radius: 3px 0 0 3px;
+    }
+
+    @if $pill_placement == 'right'{
+        border-radius: 0 3px 3px 0;
+
+    }
+
+    box-shadow: inset 0 1px 0 0 $inset-shadow;
+    color: $color;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: bold;
+    @include linear-gradient ($base-color, $stop-gradient);
+    padding: 5px 12px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 $text-shadow;
+    background-clip: padding-box;
+
+    &:hover:not(:disabled) {
+
+        $base-color-hover:    adjust-color($base-color, $saturation: -4%, $lightness: -5%);
+        $inset-shadow-hover:  adjust-color($base-color, $saturation: -7%, $lightness:  5%);
+        $stop-gradient-hover: adjust-color($base-color, $saturation:  8%, $lightness: -14%);
+
+        box-shadow: inset 0 1px 0 0 $inset-shadow-hover;
+        cursor: pointer;
+        @include linear-gradient ($base-color-hover, $stop-gradient-hover);
+
+    }
+
+    &:active:not(:disabled) {
+        $border-active:       adjust-color($base-color, $saturation: 9%, $lightness: -14%);
+        $inset-shadow-active: adjust-color($base-color, $saturation: 7%, $lightness: -17%);
+
+        border: 1px solid $border-active;
+        box-shadow: inset 0 0 8px 4px $inset-shadow-active, inset 0 0 8px 4px $inset-shadow-active, 0 1px 1px 0 #eee;
+    } 
+    @if $pill_placement == 'right'{
+        border-left: 0;
+        
+    }
+
+}

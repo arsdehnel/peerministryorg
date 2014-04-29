@@ -1,27 +1,17 @@
-.message-wrapper{
+%message-wrapper{
 	display: block;
 	list-style: none;
-	margin: 0;
+	margin: 0 0 10px;
 	padding: 0;
 	border: 1px solid black;
+	border-radius: 4px;
 	li{
 		list-style: none;
 		margin: 0;
 		padding: 0;
 	}
-}
-
-.woocommerce-error{
-	@extend .message-wrapper;
-	color: red;
-	border-color: red;
-	padding: 4px;
-	background-color: pink;
-	background-color: rgba( 255, 0, 0, .3);
 	li::before{
 		margin-right: 3px;
-		content: "\e608";
-		font-family: 'peerministry';
 		speak: none;
 		font-style: normal;
 		font-weight: normal;
@@ -32,5 +22,31 @@
 		/* Better Font Rendering =========== */
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;		
+	}
+}
+
+.woocommerce-message{
+	@extend %message-wrapper;
+	color: green;
+	border-color: green;
+	padding: 4px;
+	background-color: lime;
+	background-color: rgba( 0, 200, 0, .3);
+	li::before{
+		content: "\e608";
+		font-family: 'peerministry';
+	}
+}
+
+.woocommerce-error{
+	@extend %message-wrapper;
+	color: red;
+	border-color: red;
+	padding: 4px;
+	background-color: pink;
+	background-color: rgba( 255, 0, 0, .3);
+	li::before{
+		content: "\e608";
+		font-family: 'peerministry';
 	}
 }

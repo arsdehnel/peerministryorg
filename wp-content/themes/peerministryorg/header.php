@@ -63,6 +63,10 @@
 				endif;
 				echo '>'.$item->title.'</a>';		
 			endforeach;
+      global $woocommerce;
+      if( sizeof( $woocommerce->cart->get_cart() ) > 0 ):
+        echo '<a class="cart icon-cart" href="'.$woocommerce->cart->get_cart_url().'" title="View your shopping cart">Cart</a>';
+      endif;
 			echo '</nav>';
 		endif;
     ?> 

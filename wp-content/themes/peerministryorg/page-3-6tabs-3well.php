@@ -73,7 +73,9 @@ get_header(); ?>
     		<header>
 	    		<?php echo get_field('well_title'); ?>    			
     		</header>
-			<?php echo get_field('well_content'); ?>
+    		<div class="well-contents">
+				<?php echo get_field('well_content'); ?>
+			</div>
     	</div>
     </div>
   

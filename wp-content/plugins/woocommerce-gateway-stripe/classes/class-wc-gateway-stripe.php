@@ -149,7 +149,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 							'title' => __( 'Description', 'wc_stripe' ),
 							'type' => 'textarea',
 							'description' => __( 'This controls the description which the user sees during checkout.', 'wc_stripe' ),
-							'default' => 'Pay with your credit card via Stripe.'
+							'default' => __( 'Pay with your credit card via Stripe.', 'wc_stripe')
 						),
 			'testmode' => array(
 							'title' => __( 'Test mode', 'wc_stripe' ),
@@ -507,7 +507,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 		if ( is_user_logged_in() && $stripe_token ) {
 			$response = $this->stripe_request( array(
 				'email'       => $order->billing_email,
-				'description' => 'Customer: ' . $order->shipping_first_name . ' ' . $order->shipping_last_name,
+				'description' => 'Customer: ' . $order->billing_first_name . ' ' . $order->billing_last_name,
 				'card'        => $stripe_token,
 				'expand[]'    => 'default_card'
 			), 'customers' );
@@ -524,6 +524,9 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 						'exp_month'		=> $response->default_card->exp_month,
 					) );
 				}
+
+				// Update the customer ID index for anything else that uses it
+				$_POST['stripe_customer_id'] = count( get_user_meta( get_current_user_id(), '_stripe_customer_id', false ) ) - 1;
 
 				return $response->id;
 			}

@@ -17,13 +17,13 @@ $woocommerce->show_messages();
 <?php do_action( 'woocommerce_before_cart' ); ?>
 
 <form action="<?php echo esc_url( $woocommerce->cart->get_cart_url() ); ?>" method="post">
-
+	<h2 class="woocommerce-header">Your Cart</h2>
 <?php do_action( 'woocommerce_before_cart_table' ); ?>
 
 <table class="shop_table cart" cellspacing="0">
 	<thead>
 		<tr>
-			<th class="product-remove">&nbsp;</th>
+			<th class="product-remove">Remove?</th>
 			<th class="product-thumbnail">&nbsp;</th>
 			<th class="product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
 			<th class="product-price"><?php _e( 'Price', 'woocommerce' ); ?></th>
@@ -36,7 +36,8 @@ $woocommerce->show_messages();
 
 		<?php
 		if ( sizeof( $woocommerce->cart->get_cart() ) > 0 ) {
-			foreach ( $woocommerce->cart->get_cart() as $cart_item_key => $values ) {
+			$item_count = 0;
+			foreach ( $woocommerce->cart->get_cart() as $cart_item_key => $values ):
 				$_product = $values['data'];
 				if ( $_product->exists() && $values['quantity'] > 0 ) {
 					?>
@@ -66,10 +67,22 @@ $woocommerce->show_messages();
 								if ( ! $_product->is_visible() || ( ! empty( $_product->variation_id ) && ! $_product->parent_is_visible() ) )
 									echo apply_filters( 'woocommerce_in_cart_product_title', $_product->get_title(), $values, $cart_item_key );
 								else
-									printf('<a href="%s">%s</a>', esc_url( get_permalink( apply_filters('woocommerce_in_cart_product_id', $values['product_id'] ) ) ), apply_filters('woocommerce_in_cart_product_title', $_product->get_title(), $values, $cart_item_key ) );
+									printf('<a class="product-link" href="%s">%s</a>', esc_url( get_permalink( apply_filters('woocommerce_in_cart_product_id', $values['product_id'] ) ) ), apply_filters('woocommerce_in_cart_product_title', $_product->get_title(), $values, $cart_item_key ) );
 
 								// Meta data
-								echo $woocommerce->cart->get_item_data( $values );
+								$item_data = $woocommerce->cart->get_item_data( $values );
+
+								if( strlen( $item_data ) > 0 ):
+
+									?>
+									<a class="details-link element-toggle" href="#cart-item-<?php echo $item_count; ?>">Details</a>
+									<div class="cart-item-details hide" id="cart-item-<?php echo $item_count; ?>">
+										<?php echo  $item_data; ?>
+									</div>
+									<?php
+									//echo $woocommerce->cart->get_item_data( $values );
+
+								endif;
 
                    				// Backorder notification
                    				if ( $_product->backorders_require_notification() && $_product->is_on_backorder( $values['quantity'] ) )
@@ -113,7 +126,8 @@ $woocommerce->show_messages();
 					</tr>
 					<?php
 				}
-			}
+				$item_count++;
+			endforeach;
 		}
 
 		do_action( 'woocommerce_cart_contents' );
@@ -123,23 +137,31 @@ $woocommerce->show_messages();
 
 				<?php if ( $woocommerce->cart->coupons_enabled() ) { ?>
 					<div class="coupon">
+						<a href="#coupon-entry" class="element-toggle">Coupon or discount?</a>
+						<div class="hide" id="coupon-entry">
 
-						<label for="coupon_code"><?php _e( 'Coupon', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button" name="apply_coupon" value="<?php _e( 'Apply Coupon', 'woocommerce' ); ?>" />
+							<label for="coupon_code"><?php _e( 'Enter coupon or discount code:', 'woocommerce' ); ?>:</label> <input name="coupon_code" class="input-text" id="coupon_code" value="" /> <input type="submit" class="button" name="apply_coupon" value="<?php _e( 'Apply', 'woocommerce' ); ?>" />
 
-						<?php do_action('woocommerce_cart_coupon'); ?>
+							<?php do_action('woocommerce_cart_coupon'); ?>
+						</div>
 
 					</div>
 				<?php } ?>
 
-				<input type="submit" class="button" name="update_cart" value="<?php _e( 'Update Cart', 'woocommerce' ); ?>" /> <input type="submit" class="checkout-button button alt" name="proceed" value="<?php _e( 'Proceed to Checkout &rarr;', 'woocommerce' ); ?>" />
-
-				<?php do_action('woocommerce_proceed_to_checkout'); ?>
-
-				<?php $woocommerce->nonce_field('cart') ?>
 			</td>
 		</tr>
 
 		<?php do_action( 'woocommerce_after_cart_contents' ); ?>
+		<?php woocommerce_cart_totals(); ?>
+		<tr>
+			<td colspan="6" class="actions">
+				<input type="submit" class="button" name="update_cart" value="<?php _e( 'Update Cart', 'woocommerce' ); ?>" /> 
+
+				<?php $woocommerce->nonce_field('cart') ?>
+				<input type="submit" class="checkout-button button alt" name="proceed" value="<?php _e( 'Proceed to Checkout &rarr;', 'woocommerce' ); ?>" />
+				<?php do_action('woocommerce_proceed_to_checkout'); ?>
+			</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -151,7 +173,6 @@ $woocommerce->show_messages();
 
 	<?php do_action('woocommerce_cart_collaterals'); ?>
 
-	<?php woocommerce_cart_totals(); ?>
 
 	<?php woocommerce_shipping_calculator(); ?>
 

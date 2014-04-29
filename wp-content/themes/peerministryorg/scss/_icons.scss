@@ -1,43 +1,38 @@
-[class^="icon-"], [class*=" icon-"] {
-	font-family: 'peerministry';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
+[class^="icon-"],
+[class*=" icon-"]{
+	&:before{
+		font-family: 'peerministry';
+		speak: none;
+		font-style: normal;
+		font-weight: normal;
+		font-variant: normal;
+		text-transform: none;
+		line-height: 1;
+		margin-right: 4px;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+		/* Better Font Rendering =========== */
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
 }
 
+.icon-cart:before {
+	content: "\e605";
+}
 .icon-credit:before {
 	content: "\e600";
 }
 .icon-warning:before {
 	content: "\e601";
 }
-.icon-info:before {
-	content: "\e602";
+.icon-notification:before {
+	content: "\e604";
 }
 .icon-question:before {
 	content: "\e603";
 }
-.icon-notification:before {
-	content: "\e604";
-}
-.icon-cart:before {
-	content: "\e605";
-}
-.icon-disk:before {
-	content: "\e606";
-}
-.icon-tag:before {
-	content: "\e607";
-}
-.icon-spam:before {
-	content: "\e608";
+.icon-info:before {
+	content: "\e602";
 }
 .icon-info2:before {
 	content: "\e609";
@@ -48,9 +43,21 @@
 .icon-checkmark-circle:before {
 	content: "\e60b";
 }
-.icon-facebook:before {
-	content: "\e60c";
+.icon-spam:before {
+	content: "\e608";
+}
+.icon-minus:before {
+	content: "\e607";
+}
+.icon-plus:before {
+	content: "\e60e";
 }
 .icon-mail:before {
 	content: "\e60d";
+}
+.icon-facebook:before {
+	content: "\e60c";
+}
+.icon-blogger:before {
+	content: "\e606";
 }
