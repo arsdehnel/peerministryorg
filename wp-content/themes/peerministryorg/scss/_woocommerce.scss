@@ -24,7 +24,8 @@ $input_width : 250px;
 			height: 250px;
 			padding: 6px 8px;
 			h3{
-				font-family: 'dinmedium', arial, sans-serif;
+				font-family: $styled-font;
+				font-weight: bold;
 				margin: 0 0 5px;
 				letter-spacing: -.02em;
 				text-transform: uppercase;
@@ -46,8 +47,8 @@ $input_width : 250px;
 			bottom: 5px;
 			left: 5px;
 			right: 5px;
-		} 
-	}	
+		}
+	}
 	.button{
 		@include button( $peer_yellow );
 		color: #444;
@@ -66,7 +67,7 @@ $input_width : 250px;
 	.btn-group .dropdown-menu{
 		background: tint( $peer_yellow, 50% );
 		width: 100%;
-	} 
+	}
 	.product_type_simple.button{
 		position: absolute;
 		right: 5px;
@@ -267,7 +268,7 @@ table.order_details{
 .cart{
 	.product-name{
 		width: 58%;
-	}	
+	}
 	.product-quantity{
 		width: 14%;
 		text-align: center;
@@ -282,7 +283,7 @@ table.order_details{
 #order_review .shop_table{
 	.product-name{
 		width: 70%;
-	}	
+	}
 	.product-total{
 		width: 30%;
 		text-align: right;
@@ -292,7 +293,7 @@ table.order_details{
 table.order_details{
 	.product-name{
 		width: 60%;
-	}	
+	}
 	.product-quantity{
 		width: 20%;
 		text-align: center;
@@ -391,7 +392,7 @@ table.order_details{
 			border-bottom: none;
 		}
 	}
-	input, 
+	input,
 	select,
 	textarea{
 		width: $input_width;
@@ -423,7 +424,8 @@ table.order_details{
 	font-size: 36px;
 	margin-top: 6px;
 	padding-top: 0;
-	font-family: 'dinmedium', arial, sans-serif;
+	font-family: $styled-font;
+	font-weight: bold;
 }
 
 .well.cart footer{

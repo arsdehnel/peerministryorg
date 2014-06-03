@@ -2,7 +2,7 @@
 	.panel{
 		position: relative;
 		width: 100%;
-		min-height: 110px;
+		min-height: 130px;
 		margin: 8px 0;
 		border: 2px solid #ddd;
 		&.panel-blue{
@@ -20,7 +20,8 @@
 	}
 	header{
 		text-transform: uppercase;
-		font-family: 'dinmedium', arial;
+		font-family: $styled-font;
+		font-weight: bold;
 		font-size: 20px;
 		text-decoration: underline;
 		text-align: center;
@@ -28,13 +29,12 @@
 	.csstransforms & header{
 		position: absolute;
 		bottom: 0;
-		left: 5px;
-		//width: 200px;
+		left: 10px;
 		height: 30px;
 		@include transform( rotate( -90deg ) );
 		@include transform-origin( 0 0 );
 	}
 	.panel-content{
-		padding-left: 35px;
+		padding-left: 45px;
 	}
 }

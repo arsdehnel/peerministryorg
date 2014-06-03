@@ -18,7 +18,7 @@
 			height: 31px;
 			width: 155px;
 			@include transition( all .3s );
-			font-family: 'dinregular', 'arial';
+			font-family: $styled-font;
 			padding: 8px 16px 8px 4px;
 			line-height: 12px;
 			margin: 0 40px 20px 0;
@@ -44,13 +44,15 @@
 			}
 			&:hover{
 				color: black;
-				font-family: 'dinmedium', arial;
+				font-family: $styled-font;
+				font-weight: bold;
 			}
 			&.active{
 				@include transform( scale(1.2) );
 				margin-top: 1px;
 				color: black;
-				font-family: 'dinmedium', arial;
+				font-family: $styled-font;
+				font-weight: bold;
 				font-size: 16px;
 			}
 		}

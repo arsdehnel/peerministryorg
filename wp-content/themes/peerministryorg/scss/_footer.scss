@@ -8,7 +8,7 @@ footer{
 				display: inline-block;
 				margin: 0 auto;
 				li {
-					font-family: 'dinregular', 'arial';
+					font-family: $styled-font;
 					text-decoration: none;
 					font-size: 13px;
 					color: #ffffff;
@@ -22,7 +22,7 @@ footer{
 							text-shadow: 0 0 5px #fff;
 						}
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -35,7 +35,7 @@ footer{
 			ul {
 				li {
 					float: none;
-				}			
+				}
 			}
 		}
 	}

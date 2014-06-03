@@ -13,7 +13,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 /* ----------------------------------------------------------
     FONTS
    ---------------------------------------------------------- */
-@font-face {
+@font-face{
+	font-family:"din-neuzeit-grotesk-light";
+	src:url("fonts/din-neuzeit-grotesk-light.eot?#iefix");
+	src:url("Fonts/din-neuzeit-grotesk-light.eot?#iefix") format("eot"),
+	    url("Fonts/din-neuzeit-grotesk-light.woff") format("woff"),
+	    url("Fonts/din-neuzeit-grotesk-light.ttf") format("truetype"),
+	    url("Fonts/din-neuzeit-grotesk-light.svg#din-neuzeit-grotesk-light") format("svg");
+}
+
+/* @font-face {
   font-family: 'dinmedium';
   src: url('fonts/dinmedium-webfont.eot');
   src: url('fonts/dinmedium-webfont.eot?#iefix') format('embedded-opentype'),
@@ -43,7 +52,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
+ */@font-face {
   font-family: 'peerministry';
   src:url('fonts/peerministry.eot?oqb1w5');
   src:url('fonts/peerministry.eot?#iefixoqb1w5') format('embedded-opentype'),
@@ -54,6 +63,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   font-style: normal;
 }
 
+
+$styled-font: 'din-neuzeit-grotesk-light', arial, sans-serif;
+$base-font: arial, sans-serif;
 
 /* ----------------------------------------------------------
     COLORS

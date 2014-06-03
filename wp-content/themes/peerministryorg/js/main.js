@@ -180,7 +180,7 @@
 				var header = $(this),
 				    panel = header.parent();
 
-				console.log(parseInt(header.css('width'),10));
+				//console.log(parseInt(header.css('width'),10));
 				header.css({width: panel.css('height'),bottom: ( header.outerHeight() * -1 )});
 			})
 		}
