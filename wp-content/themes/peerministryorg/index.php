@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<main role="main">
+<div class="main" role="main">
   <?php if (have_posts()) : ?>
     <?php while (have_posts()) : the_post(); ?>
 
@@ -18,7 +18,7 @@ get_header(); ?>
         </header>
         <?php the_content('Read the rest of this entry &raquo;'); ?>
         <footer>
-          <?php the_tags('Tags: ', ', ', '<br />'); ?> 
+          <?php the_tags('Tags: ', ', ', '<br />'); ?>
           Posted in <?php the_category(', ') ?>
           | <?php edit_post_link('Edit', '', ' | '); ?>
           <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
@@ -39,7 +39,7 @@ get_header(); ?>
     <?php get_search_form(); ?>
 
   <?php endif; ?>
-</main>
+</div><!-- /.main -->
 
 <?php get_sidebar(); ?>
 

@@ -33,7 +33,7 @@
                                 elseif( get_permalink( $cur_id ) == $item->url ):
                                     echo ' class="active"';
                                 endif;
-                                echo '>'.$item->title.'</a></li>';   
+                                echo '>'.$item->title.'</a></li>';
                             endforeach;
                         endif;
                     ?>
@@ -56,13 +56,14 @@
 
 
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/plugins.js") ?>
+  <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/spin.min.js") ?>
   <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/main.js") ?>
 
   <!-- asynchronous google analytics: mathiasbynens.be/notes/async-analytics-snippet
        change the UA-XXXXX-X to be your site's ID -->
-  <!-- WordPress.com does not allow Google Analytics code to be built into themes they host. 
+  <!-- WordPress.com does not allow Google Analytics code to be built into themes they host.
        Add this section from HTML Boilerplate manually (html5-boilerplate/index.html), or use a Google Analytics WordPress Plugin-->
-       
+
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
   <script>
     var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
@@ -70,7 +71,7 @@
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
-               
+
   <?php wp_footer(); ?>
 
 </body>

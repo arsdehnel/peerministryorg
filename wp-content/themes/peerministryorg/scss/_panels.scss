@@ -1,0 +1,40 @@
+.panel-well{
+	.panel{
+		position: relative;
+		width: 100%;
+		min-height: 110px;
+		margin: 8px 0;
+		border: 2px solid #ddd;
+		&.panel-blue{
+			background: tint( $peer_blue, 50% );
+		}
+		&.panel-orange{
+			background: tint( $peer_orange, 50% );
+		}
+		&.panel-green{
+			background: tint( $peer_green, 50% );
+		}
+		&.panel-yellow{
+			background: tint( $peer_yellow, 50% );
+		}
+	}
+	header{
+		text-transform: uppercase;
+		font-family: 'dinmedium', arial;
+		font-size: 20px;
+		text-decoration: underline;
+		text-align: center;
+	}
+	.csstransforms & header{
+		position: absolute;
+		bottom: 0;
+		left: 5px;
+		//width: 200px;
+		height: 30px;
+		@include transform( rotate( -90deg ) );
+		@include transform-origin( 0 0 );
+	}
+	.panel-content{
+		padding-left: 35px;
+	}
+}

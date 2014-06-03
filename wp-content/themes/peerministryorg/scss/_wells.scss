@@ -2,25 +2,22 @@
     color: #025577;
     padding: 0;
     margin-bottom: 20px;
-    background-color: #eee;
-    border: 2px solid #f15a24;
+    background-color: white;
+    border: 10px solid $peer_teal;
     header,
     footer{
-        background-color: rgba(241, 90, 36, 0.25);
+        background-color: tint( $peer_teal, 50% );
         color: #f15a24;
-        padding: 6px;
+        padding: 12px 6px;
         font-size: 16px;
         font-weight: bold;
     }
-    header:first-child{
-        border-bottom: 2px solid #f15a24;
-    }
     header{
-        border-width: 2px 0;
+        border-width: 2px 0 0;
         border-color: #f15a24;
         border-style: solid;
         &:first-child{
-            border-width: 0 0 2px 0;
+            border-width: 0;
         }
     }
     footer{
@@ -48,7 +45,7 @@
             color: $peer_blue;
         }
         a{
-            color: $peer_green;            
+            color: $peer_green;
             &:hover{
                 text-decoration: none;
                 color: shade( $peer_blue, 30% );

@@ -42,11 +42,17 @@
 				height: 34px;
 				background: transparent url(images/tab_right.gif) 0 0 no-repeat;
 			}
-		}
-		.active a{
-			@include transform( scale(1.2) );
-			margin-top: 1px;
-			color: black;
+			&:hover{
+				color: black;
+				font-family: 'dinmedium', arial;
+			}
+			&.active{
+				@include transform( scale(1.2) );
+				margin-top: 1px;
+				color: black;
+				font-family: 'dinmedium', arial;
+				font-size: 16px;
+			}
 		}
 	}
 	.nav-tabs-content{

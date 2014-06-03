@@ -5,7 +5,7 @@ Template Name: 3-6tabs-3well
 
 get_header(); ?>
 
-<main role="main">
+<div class="main" role="main">
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <article class="page" id="post-<?php the_ID(); ?>">
     <header>
@@ -26,7 +26,7 @@ get_header(); ?>
 				if( is_array( $image_3 ) ):
 					$images[] = $image_3;
 				endif;
-				
+
 				foreach( $images as $image ):
 					echo '<span class="image-wrapper">';
 					echo '<img src="'.$image['sizes']['medium'].'" data-option-type="image" id="image-6" height="'.$image['sizes']['medium-height'].'" width="'.$image['sizes']['medium-width'].'">';
@@ -35,18 +35,18 @@ get_header(); ?>
 		    ?>
     	</div>
     	<div class="grid-6-12 nav-tab-wrapper">
-		    <?php 
+		    <?php
 				$args = array(
 					'child_of' => get_the_id(),
 					'post_type' => 'page'
-					
-				); 
-				$pages = get_pages($args); 
+
+				);
+				$pages = get_pages($args);
 
 				if( is_array( $pages ) && count( $pages ) ):
 
 					$tab_content = '<div class="tab-content-wrapper content">';
-				
+
 					echo '<nav class="tabs">';
 
 					foreach( $pages as $page ):
@@ -58,32 +58,32 @@ get_header(); ?>
 						endif;
 						$tab_content .= $page->post_content.'</div>';
 					endforeach;
-					
+
 					echo '</nav>';
-					
+
 					$tab_content .= '</div><!--/.tab-content-wrapper -->';
-					
+
 					echo $tab_content;
-				
+
 				endif;
-		    	
+
 		    ?>
     	</div>
     	<div class="grid-3-12 well content">
     		<header>
-	    		<?php echo get_field('well_title'); ?>    			
+	    		<?php echo get_field('well_title'); ?>
     		</header>
     		<div class="well-contents">
 				<?php echo get_field('well_content'); ?>
 			</div>
     	</div>
     </div>
-  
-    
+
+
 
   </article>
   <?php endwhile; endif; ?>
 
-</main>
+</div><!-- /.main -->
 
 <?php get_footer(); ?>

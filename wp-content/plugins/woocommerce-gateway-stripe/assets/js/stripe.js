@@ -13,24 +13,18 @@ jQuery( function() {
 	});
 
 	/* Both Forms */
-	jQuery("form.checkout, form#order_review").on('change', '.card-number, .card-cvc, .card-expiry-month, .card-expiry-year, input[name=stripe_customer_id]', function( event ) {
+	jQuery("form.checkout, form#order_review").on('change', '#stripe-card-number, #stripe-card-expiry, #stripe-card-cvc, input[name=stripe_customer_id]', function( event ) {
 		jQuery('.woocommerce_error, .woocommerce-error, .woocommerce-message, .woocommerce_message, .stripe_token').remove();
 		jQuery('.stripe_token').remove();
 	});
 
 	/* Open and close */
 	jQuery("form.checkout, form#order_review").on('change', 'input[name=stripe_customer_id]', function() {
-
 		if ( jQuery('input[name=stripe_customer_id]:checked').val() == 'new' ) {
-
 			jQuery('div.stripe_new_card').slideDown( 200 );
-
 		} else {
-
 			jQuery('div.stripe_new_card').slideUp( 200 );
-
 		}
-
 	} );
 
 } );
@@ -39,19 +33,18 @@ function stripeFormHandler() {
 	if ( jQuery('#payment_method_stripe').is(':checked') && ( jQuery('input[name=stripe_customer_id]:checked').size() == 0 || jQuery('input[name=stripe_customer_id]:checked').val() == 'new' ) ) {
 		if ( jQuery( 'input.stripe_token' ).size() == 0 ) {
 
-			var card 	= jQuery('.card-number').val();
-			var cvc 	= jQuery('.card-cvc').val();
-			var month	= jQuery('.card-expiry-month').val();
-			var year	= jQuery('.card-expiry-year').val();
-			var $form = jQuery("form.checkout, form#order_review");
+			var card    = jQuery('#stripe-card-number').val();
+			var cvc     = jQuery('#stripe-card-cvc').val();
+			var expires = jQuery('#stripe-card-expiry').payment( 'cardExpiryVal' );
+			var $form   = jQuery("form.checkout, form#order_review");
 
-			$form.block({message: null, overlayCSS: {background: '#fff url(' + woocommerce_params.plugin_url + '/assets/images/ajax-loader.gif) no-repeat center', opacity: 0.6}});
+			$form.block({message: null, overlayCSS: {background: '#fff url(' + woocommerce_params.ajax_loader_url + ') no-repeat center', opacity: 0.6}});
 
 			var data = {
 				number:    card,
 				cvc:       cvc,
-				exp_month: month,
-				exp_year:  year,
+				exp_month: parseInt( expires['month'] ) || 0,
+				exp_year:  parseInt( expires['year'] ) || 0
 			};
 
 			if ( jQuery('#billing_first_name').size() > 0 ) {
@@ -76,29 +69,23 @@ function stripeFormHandler() {
 				data.address_country = wc_stripe_params.billing_country;
 			}
 
-
 			Stripe.createToken( data, stripeResponseHandler );
 
 			// Prevent form submitting
 			return false;
-
 		}
-
 	}
-
 	return true;
-
 }
 
 function stripeResponseHandler( status, response ) {
-
     var $form = jQuery("form.checkout, form#order_review");
 
     if ( response.error ) {
 
         // show the errors on the form
         jQuery('.woocommerce_error, .woocommerce-error, .woocommerce-message, .woocommerce_message, .stripe_token').remove();
-        jQuery('.card-number').closest('p').before( '<ul class="woocommerce_error woocommerce-error"><li>' + response.error.message + '</li></ul>' );
+        jQuery('#stripe-card-number').closest('p').before( '<ul class="woocommerce_error woocommerce-error"><li>' + response.error.message + '</li></ul>' );
         $form.unblock();
 
     } else {

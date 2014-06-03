@@ -5,7 +5,7 @@ Template Name: Store
 
 get_header(); ?>
 
-<main role="main">
+<div class="main" role="main">
   <article class="page">
     <header>
       <h2>Store</h2>
@@ -15,15 +15,15 @@ get_header(); ?>
     		Store FAQs, featured items, process flow, etc.
     	</div>
     	<div class="grid-8-12">
-    		<?php 
+    		<?php
    			if( is_single() ):
 	    			echo '<a href="'.get_permalink( woocommerce_get_page_id( 'shop' ) ).'">Back to Store</a>';
 	    		endif;
-    			woocommerce_content(); 
+    			woocommerce_content();
     		?>
     	</div>
     	<div class="grid-2-12 well cart">
-				<?php 
+				<?php
     				if ( sizeof( $woocommerce->cart->get_cart() ) > 0 ) :
     	    			woocommerce_mini_cart();
     	    		else:
@@ -37,11 +37,11 @@ get_header(); ?>
             </div>
     	</div>
     </div>
-  
-    
+
+
 
   </article>
 
-</main>
+</div><!-- /.main -->
 
 <?php get_footer(); ?>

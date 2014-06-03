@@ -3,7 +3,7 @@ $pad: 20px;
 .grid {
   margin: 0 0 $pad 0;
   width: 100%;
-  
+
   &:after {
     /* Or @extend clearfix */
     content: "";
@@ -33,7 +33,7 @@ $pad: 20px;
 		}
 		&.grid-8-12 {
 			width: calc( 800% / 12 );
-		}  
+		}
 	}
 }
 .grid-2-12 {
@@ -50,4 +50,7 @@ $pad: 20px;
 }
 .grid-8-12 {
 	width: calc( ( 800% / 12 ) - #{$pad} );
+}
+.grid-9-12 {
+	width: calc( ( 900% / 12 ) - #{$pad} );
 }

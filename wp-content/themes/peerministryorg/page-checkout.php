@@ -5,7 +5,7 @@ Template Name: Checkout
 
 get_header(); ?>
 
-<main role="main">
+<div class="main" role="main">
   <article class="page">
     <header>
       <h2>Store</h2>
@@ -29,11 +29,11 @@ get_header(); ?>
             </div>
         </div>
     </div>
-  
-    
+
+
 
   </article>
 
-</main>
+</div><!-- /.main -->
 
 <?php get_footer(); ?>

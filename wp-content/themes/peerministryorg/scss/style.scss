@@ -16,9 +16,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @font-face {
   font-family: 'dinmedium';
   src: url('fonts/dinmedium-webfont.eot');
-  src: url('fonts/dinmedium-webfont.eot?#iefix') format('embedded-opentype'), 
-       url('fonts/dinmedium-webfont.woff') format('woff'), 
-       url('fonts/dinmedium-webfont.ttf') format('truetype'), 
+  src: url('fonts/dinmedium-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/dinmedium-webfont.woff') format('woff'),
+       url('fonts/dinmedium-webfont.ttf') format('truetype'),
        url('fonts/dinmedium-webfont.svg#dinmedium') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -26,9 +26,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @font-face {
   font-family: 'dinregular';
   src: url('fonts/dinregular-webfont.eot');
-  src: url('fonts/dinregular-webfont.eot?#iefix') format('embedded-opentype'), 
-       url('fonts/dinregular-webfont.woff') format('woff'), 
-       url('fonts/dinregular-webfont.ttf') format('truetype'), 
+  src: url('fonts/dinregular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/dinregular-webfont.woff') format('woff'),
+       url('fonts/dinregular-webfont.ttf') format('truetype'),
        url('fonts/dinregular-webfont.svg#dinregular') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -36,9 +36,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 @font-face {
   font-family: 'OSP-DIN';
   src: url('fonts/OSP-DIN-webfont.eot');
-  src: url('fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'), 
-       url('fonts/OSP-DIN-webfont.woff') format('woff'), 
-       url('fonts/OSP-DIN-webfont.ttf') format('truetype'), 
+  src: url('fonts/OSP-DIN-webfont.eot?#iefix') format('embedded-opentype'),
+       url('fonts/OSP-DIN-webfont.woff') format('woff'),
+       url('fonts/OSP-DIN-webfont.ttf') format('truetype'),
        url('fonts/OSP-DIN-webfont.svg#OSP-DIN') format('svg');
   font-weight: normal;
   font-style: normal;
@@ -78,6 +78,8 @@ $peer_green:			#38b54a;
 @import "content";
 @import "grid";
 @import "wells";
+@import "panels";
+@import "carousels";
 @import "modal";
 @import "messages";
 @import "icons";

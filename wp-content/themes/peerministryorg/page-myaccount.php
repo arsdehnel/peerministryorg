@@ -5,7 +5,7 @@ Template Name: My Account
 
 get_header(); ?>
 
-<main role="main">
+<div class="main" role="main">
   <article class="page">
     <header>
       <h2>My Account</h2>
@@ -19,6 +19,6 @@ get_header(); ?>
     </div>
   </article>
 
-</main>
+</div><!-- /.main -->
 
 <?php get_footer(); ?>
