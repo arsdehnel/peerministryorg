@@ -20,10 +20,6 @@
 
     <meta name="viewport" content="width=device-width">
 
-    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/css/main.css") ?>
-
     <!-- Wordpress Templates require a style.css in theme root directory -->
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
 
