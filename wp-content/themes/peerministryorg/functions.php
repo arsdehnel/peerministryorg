@@ -3,7 +3,7 @@
  * @package WordPress
  * @subpackage HTML5_Boilerplate
  */
- 
+
 //WooCommerce
 add_theme_support( 'woocommerce' );
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
@@ -86,4 +86,13 @@ function versioned_resource($relative_url){
   }
 
   return $relative_url.$file_version;
+}
+
+if( !is_admin()){
+	wp_deregister_script('jquery');
+	wp_register_script('jquery', ("//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"), false, '1.11.0', true);
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('theme-plugins',$GLOBALS["TEMPLATE_RELATIVE_URL"]."js/plugins.js", false, '1', true);
+	wp_enqueue_script('spinjs',$GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/spin.min.js", false, '2.0.1', true);
+	wp_enqueue_script('theme-main',$GLOBALS["TEMPLATE_RELATIVE_URL"]."js/main.js", false, '1', true);
 }
