@@ -292,7 +292,7 @@
 	Tabs.init();
 	Images.init();
 	Panels.init();
-	Modal.init();
+	//Modal.init();
 	Cart.init();
 
 })(jQuery);
