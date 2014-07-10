@@ -38,8 +38,9 @@ get_header(); ?>
 		    <?php
 				$args = array(
 					'child_of' => get_the_id(),
-					'post_type' => 'page'
-
+					'post_type' => 'page',
+					'orderby' => 'menu_order',
+					'order' => 'ASC'
 				);
 				$pages = get_pages($args);
 
