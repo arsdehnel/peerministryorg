@@ -1,33 +1,34 @@
 # 
 # Translators:
 # andromeas <andromeas@hotmail.com>, 2014
-# apokyro <apokyro@yahoo.gr>, 2012
-# axil Pι, 2013
-# Dimis13 <dimikats1@gmail.com>, 2013
-# enfanta <christinenikaki@gmail.com>, 2012
-# filippos.sdr <filippos.sdr@gmail.com>, 2014
+# Apostolis Kyromites <apokyro@yahoo.gr>, 2012
+# Achilleas Pipinellis, 2013
+# Dimitris katsanis <dimikats1@gmail.com>, 2013
+# Dimitris katsanis <dimikats1@gmail.com>, 2014
+# Christina Nikaki <christinenikaki@gmail.com>, 2012
+# Filippos Sdralias <filippos.sdr@gmail.com>, 2014
 # gorfeas <gorfeas@hotmail.com>, 2013
-# jpalks <jpalks@yahoo.gr>, 2013
+# JOHN <jpalks@yahoo.gr>, 2013
 # kaggelakis <kaggelaki@yahoo.com>, 2013
-# kyprios1 <ionikosfc@yopmail.com>, 2013
-# logothetis <thenovember5@gmail.com>, 2013
-# makisantypas <makis@realize.gr>, 2013
-# mariorho <marios.rodos@gmail.com>, 2013
-# MariosVlahos <marios.vlahos@outlook.com>, 2014
+# Jeffrey Rogers <ionikosfc@yopmail.com>, 2013
+# Logothetis Valasakis <thenovember5@gmail.com>, 2013
+# Μάκης Αντύπας <makis@realize.gr>, 2013
+# MARIOS <marios.rodos@gmail.com>, 2013
+# Marios Vlahos <marios.vlahos@outlook.com>, 2014
 # ounos <ounos@live.com>, 2014
 # pefstra <pefstra@gmail.com>, 2013
 # pvs1984 <pissasvasilis@gmail.com>, 2013
 # sharpbird <support@sharpbird.com>, 2014
-# alichani <salichani75@gmail.com>, 2014
+# Socrates Alichanides <salichani75@gmail.com>, 2014
 # theWeavers_ <the.weavers.are.weaving@gmail.com>, 2014
 # Vasilis Zboukis <vasilis@minima.net.gr>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2014-05-22 10:45:21+00:00\n"
-"PO-Revision-Date: 2014-05-28 22:12+0000\n"
-"Last-Translator: andromeas <andromeas@hotmail.com>\n"
+"POT-Creation-Date: 2014-06-30 14:28:36+00:00\n"
+"PO-Revision-Date: 2014-06-30 14:42+0000\n"
+"Last-Translator: Mike Jolley <mike.jolley@me.com>\n"
 "Language-Team: Greek (Greece) (http://www.transifex.com/projects/p/woocommerce/language/el_GR/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -82,8 +83,8 @@ msgstr "Να αφαιρεθεί αυτό το χαρακτηριστικό;"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:442
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:536
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
-#: includes/admin/settings/class-wc-settings-shipping.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
+#: includes/admin/settings/class-wc-settings-shipping.php:203
 msgid "Name"
 msgstr "Όνομα"
 
@@ -569,7 +570,7 @@ msgstr "Ρυθμίσεις WooCommerce"
 #: includes/admin/class-wc-admin-menus.php:64
 #: includes/admin/class-wc-admin-welcome.php:219
 #: includes/admin/settings/class-wc-settings-checkout.php:277
-#: includes/admin/settings/class-wc-settings-shipping.php:238
+#: includes/admin/settings/class-wc-settings-shipping.php:243
 #: includes/admin/views/html-admin-page-status-report.php:275
 msgid "Settings"
 msgstr "Ρυθμίσεις"
@@ -635,7 +636,7 @@ msgstr "προϊόν"
 #: includes/admin/class-wc-admin-taxonomies.php:88
 #: includes/admin/class-wc-admin-taxonomies.php:177
 #: includes/admin/settings/class-wc-settings-checkout.php:226
-#: includes/admin/settings/class-wc-settings-shipping.php:197
+#: includes/admin/settings/class-wc-settings-shipping.php:202
 #: includes/admin/views/html-admin-page-status-report.php:76
 msgid "Default"
 msgstr "Προεπιλογή"
@@ -933,7 +934,7 @@ msgstr "Λίστα Πελατών"
 
 #: includes/admin/class-wc-admin-reports.php:89
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:266
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:780
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
 #: includes/admin/reports/class-wc-report-stock.php:25
 #: includes/admin/reports/class-wc-report-stock.php:26
 msgid "Stock"
@@ -981,34 +982,28 @@ msgstr "Οι ρυθμίσεις σας έχουν αποθηκευτεί."
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Οι αλλαγές που έγιναν θα χαθούν αν κλείσετε αυτή τη σελίδα."
 
-#: includes/admin/class-wc-admin-settings.php:491
-msgid ""
-"The settings of this image size have been disabled because its values are "
-"being overwritten by a filter."
-msgstr ""
-
-#: includes/admin/class-wc-admin-settings.php:500
+#: includes/admin/class-wc-admin-settings.php:490
 msgid "Hard Crop?"
 msgstr "Απόλυτη περικοπή;"
 
-#: includes/admin/class-wc-admin-settings.php:525
+#: includes/admin/class-wc-admin-settings.php:515
 msgid "Select a page&hellip;"
 msgstr "Επιλέξτε σελίδα&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:548
+#: includes/admin/class-wc-admin-settings.php:538
 msgid "Choose a country&hellip;"
 msgstr "Επιλέξτε χώρα&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:572
+#: includes/admin/class-wc-admin-settings.php:562
 msgid "Choose countries&hellip;"
 msgstr "Επιλέξτε χώρες&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select all"
 msgstr "Επιλογή όλων"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select none"
 msgstr "Καμία επιλογή"
@@ -1450,7 +1445,7 @@ msgstr "Όρια κουπονιού σε κάθε πελάτη"
 msgid ""
 "Coupon usage limits can now be set per user (using email + ID) rather than "
 "global."
-msgstr ""
+msgstr "Η χρησιμοποίηση των κουπονιών μπορεί τώρα να ορίζεται ανά χρήστη (χρησιμοποιώντας τα email + ID), αντί για ολικά."
 
 #: includes/admin/class-wc-admin-welcome.php:347
 msgid "Streamlined new-account process"
@@ -1764,14 +1759,14 @@ msgstr "Εξωτερικός/Affliate"
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:397
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:596
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:51
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid "Virtual"
 msgstr "Εικονικό"
 
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:399
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:588
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:58
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid "Downloadable"
 msgstr "Λήψιμο"
 
@@ -1797,7 +1792,6 @@ msgstr "Εμφάνιση/απόκρυψη προτεινόμενων"
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:176
 #: includes/admin/views/html-bulk-edit-product.php:213
-#: includes/admin/views/html-bulk-edit-product.php:274
 msgid "Yes"
 msgstr "Ναι"
 
@@ -1808,7 +1802,6 @@ msgstr "Ναι"
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:177
 #: includes/admin/views/html-bulk-edit-product.php:214
-#: includes/admin/views/html-bulk-edit-product.php:275
 msgid "No"
 msgstr "Όχι"
 
@@ -1903,9 +1896,9 @@ msgid "Show all types"
 msgstr "Προβολή όλων των τύπων"
 
 #: includes/admin/post-types/class-wc-admin-cpt-shop_order.php:91
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:758
 #: includes/admin/settings/class-wc-settings-checkout.php:229
-#: includes/admin/settings/class-wc-settings-shipping.php:200
+#: includes/admin/settings/class-wc-settings-shipping.php:205
 msgid "Status"
 msgstr "Κατάσταση"
 
@@ -2549,7 +2542,7 @@ msgstr "Προσθήκη"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:31
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:62
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:95
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
 #: includes/admin/settings/class-wc-settings-shipping.php:25
 #: includes/admin/settings/class-wc-settings-tax.php:266
 #: includes/admin/settings/class-wc-settings-tax.php:383
@@ -2608,7 +2601,7 @@ msgid "Downloadable products give access to a file upon purchase."
 msgstr "Τα λήψιμα προϊόντα δίνουν πρόσβαση σε ένα συγκεκριμένο αρχείο μετά την αγορά."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:90
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
 #: includes/admin/settings/class-wc-settings-products.php:41
 msgid "Inventory"
 msgstr "Εμπόρευμα"
@@ -2665,7 +2658,7 @@ msgid "Sale Price"
 msgstr "Τιμή προσφοράς"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:160
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Schedule"
 msgstr "Προγραμματισμός"
 
@@ -2674,41 +2667,41 @@ msgid "Sale Price Dates"
 msgstr "Ημερομηνίες έκπτωσης"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:168
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:93
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
 msgctxt "placeholder"
 msgid "From&hellip;"
 msgstr "Από&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:169
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:89
 msgctxt "placeholder"
 msgid "To&hellip;"
 msgstr "Πρός&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:181
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:152
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:144
 msgid "Downloadable Files"
 msgstr "Λήψιμα Αρχεία"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
 msgid "This is the name of the download shown to the customer."
 msgstr "Αυτό είναι το όνομα της λήψης που βλέπει ο πελάτης"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid "File URL"
 msgstr "URL Αρχείου"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid ""
 "This is the URL or absolute path to the file which customers will get access"
 " to."
 msgstr "Αυτό είναι το URL ή η ακριβής διαδρομή του αρχείου στο οποίο οι πελάτες αποκτούν πρόσβαση"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:202
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:172
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:164
 msgid "Add File"
 msgstr "Προσθήκη Αρχείου"
 
@@ -2718,18 +2711,18 @@ msgstr "Οριο Μεταφόρτωσης"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
 #: includes/admin/post-types/meta-boxes/views/html-order-download-permission.php:19
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:199
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:205
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:191
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:197
 msgid "Unlimited"
 msgstr "Απεριόριστα"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Leave blank for unlimited re-downloads."
 msgstr "Αφήστε το κενό για απεριόριστες λήψεις."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:790
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
 msgid "Download Expiry"
 msgstr "Λήξη Λήψης"
 
@@ -2739,7 +2732,7 @@ msgid "Never"
 msgstr "Ποτέ"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid ""
 "Enter the number of days before a download link expires, or leave blank."
 msgstr "Εισάγετε τον αριθμό των ημερών για τη λήξη ενός download link, ή αφήστε το κενό."
@@ -2847,26 +2840,22 @@ msgid ""
 msgstr "Ελέγχει αν το προϊόν εμφανίζεται ως \"σε απόθεμα\" ή \"εξαντλημένο\" στο website."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:311
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:68
 msgid "Allow Backorders?"
 msgstr "Επιτρέπονται οι προ παραγγελίες όταν υπάρξει διαθέσιμο απόθεμα;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:312
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:743
 #: includes/admin/views/html-bulk-edit-product.php:253
 #: includes/admin/views/html-quick-edit-product.php:172
 msgid "Do not allow"
 msgstr "Να μην επιτρέπεται"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:313
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:744
 #: includes/admin/views/html-bulk-edit-product.php:254
 #: includes/admin/views/html-quick-edit-product.php:173
 msgid "Allow, but notify customer"
 msgstr "Επέτρεψε, αλλά ενημέρωσε τον πελάτη"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:314
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:745
 #: includes/admin/views/html-bulk-edit-product.php:255
 #: includes/admin/views/html-quick-edit-product.php:174
 msgid "Allow"
@@ -2888,8 +2877,8 @@ msgid ""
 msgstr "Ενεργοποιήστε αυτό ώστε να επιτρέπεται η αγορά μόνο ενός προϊόντος ανά παραγγελία"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:347
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:786
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 #: includes/admin/views/html-bulk-edit-product.php:103
 #: includes/admin/views/html-quick-edit-product.php:84
 msgid "Weight"
@@ -2904,21 +2893,21 @@ msgid "Dimensions"
 msgstr "Διαστάσεις"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:354
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
 #: includes/admin/views/html-bulk-edit-product.php:143
 #: includes/admin/views/html-quick-edit-product.php:97
 msgid "Length"
 msgstr "Μήκος"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:355
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:784
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
 #: includes/admin/views/html-bulk-edit-product.php:144
 #: includes/admin/views/html-quick-edit-product.php:98
 msgid "Width"
 msgstr "Μήκος"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:356
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:785
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:778
 #: includes/admin/views/html-bulk-edit-product.php:145
 #: includes/admin/views/html-quick-edit-product.php:99
 msgid "Height"
@@ -2943,12 +2932,12 @@ msgid ""
 msgstr "Οι κλάσεις μεταφορικών χρησιμοποιούνται από συγκεκριμένους τρόπους αποστολής για να ομαδοποιήσουν παρεμφερή προϊόντα."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Close all"
 msgstr "Κλείσιμο όλων"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Expand all"
 msgstr "Ανάπτυξη όλων"
 
@@ -3025,102 +3014,102 @@ msgstr "Custom θέση εμφάνισης."
 msgid "Enable reviews"
 msgstr "Ενεργοποίηση κριτικών"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:754
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:747
 msgid ""
 "Before adding variations, add and save some attributes on the "
 "<strong>Attributes</strong> tab."
 msgstr "Πριν προσθέσετε παραλλαγές, προσθέστε και αποθηκεύστε κάποια χαρακτηριστικά στο tab <strong>Χαρακτηριστικά </strong>."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:756
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:749
 msgid "Learn more"
 msgstr "Μάθετε περισσότερα"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:757
 msgid "Choose a field to bulk edit&hellip;"
 msgstr "Επέλεξε ένα πεδίο ώστε να μεγεθύνει edit&hellip;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:759
 msgid "Toggle &quot;Enabled&quot;"
 msgstr "Toggle &quot;Ενεργοποιημένο&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:760
 msgid "Toggle &quot;Downloadable&quot;"
 msgstr "Toggle &quot;Λήψιμο&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:761
 msgid "Toggle &quot;Virtual&quot;"
 msgstr "Toggle &quot;Εικονικό&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
 msgid "Delete all variations"
 msgstr "Διαγραφή όλων των παραλλαγών"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:771
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
 msgid "Pricing"
 msgstr "Κοστολόγηση "
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
 msgid "Prices"
 msgstr "Τιμές"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
 msgid "Prices increase by (fixed amount or %)"
 msgstr "Οι τιμές αυξάνονται κατά (σταθερό ποσόν ή %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:774
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
 msgid "Prices decrease by (fixed amount or %)"
 msgstr "Οι τιμές μειώνονται κατά (σταθερό ποσόν ή %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
 msgid "Sale prices"
 msgstr "Τιμές έκπτωσης"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
 msgid "Sale prices increase by (fixed amount or %)"
 msgstr "Οι τιμές έκπτωσης αυξάνονται κατά (σταθερό ποσόν ή %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:770
 msgid "Sale prices decrease by (fixed amount or %)"
 msgstr "Οι τιμές έκπτωσης μειώνονται κατά (σταθερό ποσόν ή %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:788
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:781
 msgid "Downloadable products"
 msgstr "Προσβάσιμα προϊόντα "
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:789
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
 msgid "Download limit"
 msgstr "Οριο Λήψεων"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:794
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:787
 #: includes/admin/views/html-report-by-date.php:31
 msgid "Go"
 msgstr "Πήγαινε"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:891
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:882
 msgid "Add Variation"
 msgstr "Προσθήκη παραλλαγής"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:893
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:884
 msgid "Link all variations"
 msgstr "Σύνδεση όλων των παραλλαγών"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "Defaults"
 msgstr "Προεπιλογές"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "These are the attributes that will be pre-selected on the frontend."
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:908
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:899
 msgid "No default"
 msgstr "Καμία προεπιλογή"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1012
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1003
 msgid "Product SKU must be unique."
 msgstr "O κωδικός προϊόντος πρέπει να είναι μοναδικός."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1383
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1373
 msgid "Variation #%s of %s"
 msgstr "Παραλλαγή #%s από %s"
 
@@ -3263,78 +3252,77 @@ msgid ""
 "blank to use the parent product's options."
 msgstr "Εισάγετε μία ποσότητα για να επιτρέψετε τη διαχείριση αποθεμάτων σε επίπεδο παραλλαγών, ή αφήστε κενό για να χρησιμοποιήσετε τις επιλογές του γονικού προϊόντος."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:70
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:128
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:141
-msgid "Same as parent"
-msgstr "Ίδιο με το γονέα"
-
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:81
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:73
 msgid "Regular Price:"
 msgstr "Κανονική τιμή:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:82
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:74
 msgid "Variation price (required)"
 msgstr "Τιμή διαφοροποίησης (απαιτείται)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Sale Price:"
 msgstr "Τιμή μετά από έκπτωση:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Cancel schedule"
 msgstr "Ακύρωση προγράμματος"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:92
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:84
 msgid "Sale start date:"
 msgstr "Ημερομηνία έναρξης έκπτωσης:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:96
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:88
 msgid "Sale end date:"
 msgstr "Ημερομηνία λήξης έκπτωσης:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 msgid ""
 "Enter a weight for this variation or leave blank to use the parent product "
 "weight."
 msgstr "Εισάγετε ένα βάρος για αυτή την παραλλαγή ή αφήστε κενό για να χρησιμοποιήσετε το βάρος του γονικού προϊόντος."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:113
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
 msgid "Dimensions (L&times;W&times;H)"
 msgstr "Διαστάσεις (Μ&times;Π&times;Υ)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:124
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:116
 msgid "Shipping class:"
 msgstr "Κλάση Μεταφορικών:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:139
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:120
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:133
+msgid "Same as parent"
+msgstr "Ίδιο με το γονέα"
+
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:131
 msgid "Tax class:"
 msgstr "Φορολογική Κλάση:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Download Limit:"
 msgstr "Οριο Μεταφόρτωσης:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid "Download Expiry:"
 msgstr "Λήξη Λήψης:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:218
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:210
 #: includes/admin/settings/class-wc-settings-checkout.php:269
-#: includes/admin/settings/class-wc-settings-shipping.php:230
+#: includes/admin/settings/class-wc-settings-shipping.php:235
 #: includes/admin/views/html-admin-page-status-tools.php:26
 #: includes/admin/views/html-admin-page-status-tools.php:37
 #: includes/admin/views/html-admin-page-status-tools.php:48
 msgid "Enabled"
 msgstr "Διαθέσιμο"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid ""
 "Enable this option if access is given to a downloadable file upon purchase "
 "of a product"
 msgstr "Ενεργοποιήστε αυτή την επιλογή αν θέλετε να επιτρέπεται η πρόσβαση σε ένα συγκεκριμένο αρχείο με την αγορά ενός προϊόντος"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid ""
 "Enable this option if a product is not shipped or there is no shipping cost"
 msgstr "Ενεργοποιήστε αυτή την επιλογή στην περίπτωση που ένα προϊόν δεν παραδόθηκε ή δεν υπάρχει κόστός παράδοσης"
@@ -3894,8 +3882,8 @@ msgid ""
 msgstr "Επιβάλετε SSL (HTTPS) στις σελίδες ολοκλήρωσης παραγγελίας (απαιτείται πιστοποιητικό SSL)."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:99
-msgid "Force HTTP when leaving the checkout"
-msgstr ""
+msgid "Un-force HTTPS when leaving the checkout"
+msgstr "Απενεργοποιήστε το HTTPS κατά την έξοδο από την ολοκλήρωση παραγγελίας"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:109
 msgid "Checkout Pages"
@@ -3905,7 +3893,7 @@ msgstr "Σελίδες Ταμείου"
 msgid ""
 "These pages need to be set so that WooCommerce knows where to send users to "
 "checkout."
-msgstr ""
+msgstr "Αυτές οι σελίδες πρέπει να ρυθμιστούν, ώστε το WooCommerce να γνωρίζει που θα κατευθύνει τους χρήστες στη σελίδα checkout."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:112
 msgid "Cart Page"
@@ -3967,7 +3955,7 @@ msgstr "Πύλες Πληρωμής"
 msgid ""
 "Installed gateways are listed below. Drag and drop gateways to control their"
 " display order on the frontend."
-msgstr ""
+msgstr "Παρουσιάζονται παρακάτω οι εγκατεστημένες εφαρμογές πληρωμής (gateways). Κάντε Drag and drop σε αυτές, ώστε να ορίσετε τη σειρά εμφάνισής τους στην ιστοσελίδα."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:219
 msgid "Gateway Display"
@@ -4108,7 +4096,7 @@ msgid "Sell to specific countries only"
 msgstr "Πουλώντας σε συγκεκριμένες χώρες μόνο"
 
 #: includes/admin/settings/class-wc-settings-general.php:80
-#: includes/admin/settings/class-wc-settings-shipping.php:142
+#: includes/admin/settings/class-wc-settings-shipping.php:147
 msgid "Specific Countries"
 msgstr "Συγκεκριμένες Χώρες"
 
@@ -4220,7 +4208,7 @@ msgstr "Ενεργοποίηση Lightbox"
 msgid ""
 "Include WooCommerce's lightbox. Product gallery images will open in a "
 "lightbox."
-msgstr ""
+msgstr "Να συμπεριλαμβάνεται το lightbox τουWooCommerce. Οι φωτογραφίες των gallery θα ανοίγουν σε lightbox."
 
 #: includes/admin/settings/class-wc-settings-general.php:198
 msgid "Enable enhanced country select boxes"
@@ -4233,7 +4221,7 @@ msgstr "Αυτό ενεργοποιεί ένα script που επιτρέπει 
 
 #: includes/admin/settings/class-wc-settings-general.php:221
 msgid "Frontend Styles"
-msgstr ""
+msgstr "Τρόποι εμφάνισης της ιστοσελίδας."
 
 #: includes/admin/settings/class-wc-settings-general.php:251
 msgid "Primary"
@@ -4659,7 +4647,7 @@ msgstr "Αυτό ελέγχει πως οι πολλαπλοί τρόποι απ
 
 #: includes/admin/settings/class-wc-settings-shipping.php:103
 msgid "Display shipping methods with \"radio\" buttons"
-msgstr ""
+msgstr "Να εμφανίζονται οι μέθοδοι αποστολής με κουμπάκια \"radio\" buttons."
 
 #: includes/admin/settings/class-wc-settings-shipping.php:104
 msgid "Display shipping methods in a dropdown"
@@ -4670,60 +4658,52 @@ msgid "Shipping Destination"
 msgstr "Προορισμός"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:112
-msgid "This controls which shipping address is used by default."
-msgstr ""
+msgid "Ship to billing address by default"
+msgstr "Αποστολή στην διεύθυνση χρέωσης προεπιλεγμένα"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:117
-msgid "Default to shipping address"
-msgstr "Προεπιλεγμένη διεύθυνση αποστολής"
-
-#: includes/admin/settings/class-wc-settings-shipping.php:118
-msgid "Default to billing address"
-msgstr "Προεπιλεγμένη διεύθυνση χρέωσης"
-
-#: includes/admin/settings/class-wc-settings-shipping.php:119
+#: includes/admin/settings/class-wc-settings-shipping.php:122
 msgid "Only ship to the users billing address"
 msgstr "Αποστολή μόνο στην διεύθυνση χρέωσης του χρήστη"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:127
+#: includes/admin/settings/class-wc-settings-shipping.php:132
 msgid "Restrict shipping to Location(s)"
 msgstr "Περιόρισε τοις τοποθεσίες(α) αποστολής"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:128
+#: includes/admin/settings/class-wc-settings-shipping.php:133
 msgid ""
 "Choose which countries you want to ship to, or choose to ship to all <a "
 "href=\"%s\">locations you sell to</a>."
-msgstr ""
+msgstr "Επιλέξτε σε ποιες χώρες θέλετε να είναι δυνατή η αποστολή των προϊόντων ή επιλέξτε να μπορείτε να αποστέλλετε σε όλες <a href=\"%s\">τις περιοχές</a>."
 
-#: includes/admin/settings/class-wc-settings-shipping.php:135
+#: includes/admin/settings/class-wc-settings-shipping.php:140
 msgid "Ship to all countries you sell to"
 msgstr "Αποστολή σε όλες τοις χώρες εσύ που πουλάς στό "
 
-#: includes/admin/settings/class-wc-settings-shipping.php:136
+#: includes/admin/settings/class-wc-settings-shipping.php:141
 msgid "Ship to all countries"
 msgstr "Αποστολή σε όλες τοις χώρες"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:137
+#: includes/admin/settings/class-wc-settings-shipping.php:142
 msgid "Ship to specific countries only"
 msgstr "Αποστέλλοντας σε συγκεκριμένες χώρες μόνο"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:192
+#: includes/admin/settings/class-wc-settings-shipping.php:197
 msgid "Shipping Methods"
 msgstr "Τρόποι Αποστολής"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:199
+#: includes/admin/settings/class-wc-settings-shipping.php:204
 msgid "ID"
 msgstr "ID"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "Automatic"
 msgstr "Αυτόματο "
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "The cheapest available shipping method will be selected by default."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-shipping.php:210
+#: includes/admin/settings/class-wc-settings-shipping.php:215
 msgid ""
 "Drag and drop the above shipping methods to control their display order."
 msgstr "Σύρε και άφησε στους παραπάνω τρόπους αποστολής ώστε να ελέξης της σειρά απεικόνισης"
@@ -4862,7 +4842,7 @@ msgid ""
 "\"inc. Vat\" to explain your pricing. You can also have prices substituted "
 "here using one of the following: <code>{price_including_tax}, "
 "{price_excluding_tax}</code>."
-msgstr ""
+msgstr "Ορίστε το κείμενο που θα φαίνεται μετά από τις τιμές των προϊόντων. Θα μπορούσατε, για παράδειγμα, να γράψετε \"συμπεριλαμβάνεται ο Φ.Π.Α.\" για να εξηγείτε τις τιμές. Μπορείτε, επίσης, να αντικαταστήσετε τις τιμές, χρησιμοποιώντας τον εξής κώδικα: <code>{price_including_tax}, {price_excluding_tax}</code>."
 
 #: includes/admin/settings/class-wc-settings-tax.php:163
 msgid "Display prices during cart/checkout:"
@@ -5377,7 +5357,6 @@ msgstr "Αποθήκευση αλλαγών"
 #: includes/admin/views/html-bulk-edit-product.php:212
 #: includes/admin/views/html-bulk-edit-product.php:231
 #: includes/admin/views/html-bulk-edit-product.php:252
-#: includes/admin/views/html-bulk-edit-product.php:273
 msgid "— No Change —"
 msgstr "— Καμία αλλαγή —"
 
@@ -5437,10 +5416,6 @@ msgstr "Διαθέσιμο?"
 #: includes/admin/views/html-quick-edit-product.php:167
 msgid "Backorders?"
 msgstr "Παραγγελία καθυστερούσα"
-
-#: includes/admin/views/html-bulk-edit-product.php:268
-msgid "Sold Individually?"
-msgstr "Πουλώντας μεμονωμένα;"
 
 #: includes/admin/views/html-notice-install.php:5
 msgid ""

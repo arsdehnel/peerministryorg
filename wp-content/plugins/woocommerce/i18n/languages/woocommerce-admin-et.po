@@ -1,16 +1,16 @@
 # 
 # Translators:
-# ragulka <illimar.tambek@gmail.com>, 2013-2014
+# Illimar Tambek <illimar.tambek@gmail.com>, 2013-2014
 # soldier99 <janek.tuttar@gmail.com>, 2014
-# RistoNiinemets <risto.niinemets@gmail.com>, 2013-2014
-# Tarvi Tuisk <tarvituisk@gmail.com>, 2014
+# Risto Niinemets <risto.niinemets@gmail.com>, 2013-2014
+# t4rv1 <tarvituisk@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2014-05-22 10:45:21+00:00\n"
-"PO-Revision-Date: 2014-05-29 05:25+0000\n"
-"Last-Translator: RistoNiinemets <risto.niinemets@gmail.com>\n"
+"POT-Creation-Date: 2014-06-30 14:28:36+00:00\n"
+"PO-Revision-Date: 2014-06-30 14:42+0000\n"
+"Last-Translator: Mike Jolley <mike.jolley@me.com>\n"
 "Language-Team: Estonian (http://www.transifex.com/projects/p/woocommerce/language/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,8 +65,8 @@ msgstr "Eemaldan selle omaduse?"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:442
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:536
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
-#: includes/admin/settings/class-wc-settings-shipping.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
+#: includes/admin/settings/class-wc-settings-shipping.php:203
 msgid "Name"
 msgstr "Nimi"
 
@@ -552,7 +552,7 @@ msgstr "WooCommerce'i seaded"
 #: includes/admin/class-wc-admin-menus.php:64
 #: includes/admin/class-wc-admin-welcome.php:219
 #: includes/admin/settings/class-wc-settings-checkout.php:277
-#: includes/admin/settings/class-wc-settings-shipping.php:238
+#: includes/admin/settings/class-wc-settings-shipping.php:243
 #: includes/admin/views/html-admin-page-status-report.php:275
 msgid "Settings"
 msgstr "Seaded"
@@ -618,7 +618,7 @@ msgstr "toode"
 #: includes/admin/class-wc-admin-taxonomies.php:88
 #: includes/admin/class-wc-admin-taxonomies.php:177
 #: includes/admin/settings/class-wc-settings-checkout.php:226
-#: includes/admin/settings/class-wc-settings-shipping.php:197
+#: includes/admin/settings/class-wc-settings-shipping.php:202
 #: includes/admin/views/html-admin-page-status-report.php:76
 msgid "Default"
 msgstr "Vaikimisi"
@@ -916,7 +916,7 @@ msgstr "Klientide nimekiri"
 
 #: includes/admin/class-wc-admin-reports.php:89
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:266
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:780
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
 #: includes/admin/reports/class-wc-report-stock.php:25
 #: includes/admin/reports/class-wc-report-stock.php:26
 msgid "Stock"
@@ -964,34 +964,28 @@ msgstr "Sinu seaded on salvestatud."
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Kui lahkud sellelt lehelt, lähevad tehtud muudatused kaduma."
 
-#: includes/admin/class-wc-admin-settings.php:491
-msgid ""
-"The settings of this image size have been disabled because its values are "
-"being overwritten by a filter."
-msgstr ""
-
-#: includes/admin/class-wc-admin-settings.php:500
+#: includes/admin/class-wc-admin-settings.php:490
 msgid "Hard Crop?"
 msgstr "Lõika täpselt mõõtu?"
 
-#: includes/admin/class-wc-admin-settings.php:525
+#: includes/admin/class-wc-admin-settings.php:515
 msgid "Select a page&hellip;"
 msgstr "Vali leht&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:548
+#: includes/admin/class-wc-admin-settings.php:538
 msgid "Choose a country&hellip;"
 msgstr "Vali riik&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:572
+#: includes/admin/class-wc-admin-settings.php:562
 msgid "Choose countries&hellip;"
 msgstr "Vali riigid&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select all"
 msgstr "Vali kõik"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select none"
 msgstr "Tühista valik"
@@ -1747,14 +1741,14 @@ msgstr "Väline/partner"
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:397
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:596
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:51
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid "Virtual"
 msgstr "Virtuaalne"
 
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:399
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:588
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:58
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid "Downloadable"
 msgstr "Allalaaditav"
 
@@ -1780,7 +1774,6 @@ msgstr "Lülita esiletõstmine sisse/välja"
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:176
 #: includes/admin/views/html-bulk-edit-product.php:213
-#: includes/admin/views/html-bulk-edit-product.php:274
 msgid "Yes"
 msgstr "Jah"
 
@@ -1791,7 +1784,6 @@ msgstr "Jah"
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:177
 #: includes/admin/views/html-bulk-edit-product.php:214
-#: includes/admin/views/html-bulk-edit-product.php:275
 msgid "No"
 msgstr "Ei"
 
@@ -1886,9 +1878,9 @@ msgid "Show all types"
 msgstr "Näita kõiki"
 
 #: includes/admin/post-types/class-wc-admin-cpt-shop_order.php:91
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:758
 #: includes/admin/settings/class-wc-settings-checkout.php:229
-#: includes/admin/settings/class-wc-settings-shipping.php:200
+#: includes/admin/settings/class-wc-settings-shipping.php:205
 msgid "Status"
 msgstr "Olek"
 
@@ -2532,7 +2524,7 @@ msgstr "Lisa"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:31
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:62
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:95
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
 #: includes/admin/settings/class-wc-settings-shipping.php:25
 #: includes/admin/settings/class-wc-settings-tax.php:266
 #: includes/admin/settings/class-wc-settings-tax.php:383
@@ -2591,7 +2583,7 @@ msgid "Downloadable products give access to a file upon purchase."
 msgstr "Allalaaditavad tooted annavad ostmise korral ligipääsu faili(de)le."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:90
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
 #: includes/admin/settings/class-wc-settings-products.php:41
 msgid "Inventory"
 msgstr "Laohaldus"
@@ -2648,7 +2640,7 @@ msgid "Sale Price"
 msgstr "Soodushind"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:160
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Schedule"
 msgstr "Ajasta"
 
@@ -2657,41 +2649,41 @@ msgid "Sale Price Dates"
 msgstr "Soodushinna kuupäevad"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:168
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:93
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
 msgctxt "placeholder"
 msgid "From&hellip;"
 msgstr "Alates&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:169
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:89
 msgctxt "placeholder"
 msgid "To&hellip;"
 msgstr "kuni&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:181
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:152
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:144
 msgid "Downloadable Files"
 msgstr "Allalaaditavad failid"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
 msgid "This is the name of the download shown to the customer."
 msgstr "Seda näidatakse kliendile allalaaditava faili nimena."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid "File URL"
 msgstr "Faili aadress"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid ""
 "This is the URL or absolute path to the file which customers will get access"
 " to."
 msgstr "See on URL või absoluutne kataloogitee failile, millele klient saab ligipääsu."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:202
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:172
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:164
 msgid "Add File"
 msgstr "Lisa fail"
 
@@ -2701,18 +2693,18 @@ msgstr "Allalaadimiste limiit"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
 #: includes/admin/post-types/meta-boxes/views/html-order-download-permission.php:19
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:199
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:205
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:191
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:197
 msgid "Unlimited"
 msgstr "Piiramatult"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Leave blank for unlimited re-downloads."
 msgstr "Piiramatu allalaadimise lubamiseks jäta väli tühjaks"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:790
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
 msgid "Download Expiry"
 msgstr "Allalaadimise lõppemine"
 
@@ -2722,7 +2714,7 @@ msgid "Never"
 msgstr "Mitte kunagi"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid ""
 "Enter the number of days before a download link expires, or leave blank."
 msgstr "Sisesta, mitme päeva pärast kaotab allalaadimise link oma kehtivuse, või jäta tühjaks."
@@ -2830,26 +2822,22 @@ msgid ""
 msgstr "Määrab, kas toode on või ei ole poe avalikus osas märgitud kui \"laos\" või \"otsas\"."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:311
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:68
 msgid "Allow Backorders?"
 msgstr "Luba järeltellimused?"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:312
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:743
 #: includes/admin/views/html-bulk-edit-product.php:253
 #: includes/admin/views/html-quick-edit-product.php:172
 msgid "Do not allow"
 msgstr "Ära luba"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:313
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:744
 #: includes/admin/views/html-bulk-edit-product.php:254
 #: includes/admin/views/html-quick-edit-product.php:173
 msgid "Allow, but notify customer"
 msgstr "Luba, aga teavita klienti"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:314
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:745
 #: includes/admin/views/html-bulk-edit-product.php:255
 #: includes/admin/views/html-quick-edit-product.php:174
 msgid "Allow"
@@ -2871,8 +2859,8 @@ msgid ""
 msgstr "Lülita sisse, kui soovid, et seda toodet saaks osta ainult ühekaupa."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:347
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:786
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 #: includes/admin/views/html-bulk-edit-product.php:103
 #: includes/admin/views/html-quick-edit-product.php:84
 msgid "Weight"
@@ -2887,21 +2875,21 @@ msgid "Dimensions"
 msgstr "Mõõtmed"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:354
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
 #: includes/admin/views/html-bulk-edit-product.php:143
 #: includes/admin/views/html-quick-edit-product.php:97
 msgid "Length"
 msgstr "Pikkus"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:355
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:784
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
 #: includes/admin/views/html-bulk-edit-product.php:144
 #: includes/admin/views/html-quick-edit-product.php:98
 msgid "Width"
 msgstr "Laius"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:356
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:785
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:778
 #: includes/admin/views/html-bulk-edit-product.php:145
 #: includes/admin/views/html-quick-edit-product.php:99
 msgid "Height"
@@ -2926,12 +2914,12 @@ msgid ""
 msgstr "Mõningad tarneviisid kasutavad tarneklasse sarnaste toodete rühmitamiseks."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Close all"
 msgstr "Sulge kõik"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Expand all"
 msgstr "Ava kõik"
 
@@ -3008,102 +2996,102 @@ msgstr "Kohandatud positsioon"
 msgid "Enable reviews"
 msgstr "Luba ülevaated"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:754
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:747
 msgid ""
 "Before adding variations, add and save some attributes on the "
 "<strong>Attributes</strong> tab."
 msgstr "Enne kui lisad variatsioone, lisa ja salvesta mõned omadused <strong>Omadused</strong> lehel."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:756
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:749
 msgid "Learn more"
 msgstr "Loe veel"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:757
 msgid "Choose a field to bulk edit&hellip;"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:759
 msgid "Toggle &quot;Enabled&quot;"
 msgstr "Lülita &quot;sisse/välja&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:760
 msgid "Toggle &quot;Downloadable&quot;"
 msgstr "Tee &quot;allalaaditavaks&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:761
 msgid "Toggle &quot;Virtual&quot;"
 msgstr "Tee &quot;virtuaalseks&quot;"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
 msgid "Delete all variations"
 msgstr "Kustuta kõik variatsioonid"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:771
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
 msgid "Pricing"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
 msgid "Prices"
 msgstr "Hinnad"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
 msgid "Prices increase by (fixed amount or %)"
 msgstr "Hinnad tõusevad (kindel summa või %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:774
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
 msgid "Prices decrease by (fixed amount or %)"
 msgstr "Hinnad alanevad (kindel summa või %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
 msgid "Sale prices"
 msgstr "Soodushinnad"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
 msgid "Sale prices increase by (fixed amount or %)"
 msgstr "Allahindlused suurenevad (kindel summa või %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:770
 msgid "Sale prices decrease by (fixed amount or %)"
 msgstr "Allahindlused vähenevad (kindel summa või %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:788
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:781
 msgid "Downloadable products"
 msgstr "Allalaaditavad tooted"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:789
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
 msgid "Download limit"
 msgstr "Allalaadimiste limiit"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:794
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:787
 #: includes/admin/views/html-report-by-date.php:31
 msgid "Go"
 msgstr "Mine"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:891
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:882
 msgid "Add Variation"
 msgstr "Lisa variatsioon"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:893
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:884
 msgid "Link all variations"
 msgstr "Seosta kõik variatsioonid"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "Defaults"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "These are the attributes that will be pre-selected on the frontend."
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:908
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:899
 msgid "No default"
 msgstr "Vaikevalikut ei ole"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1012
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1003
 msgid "Product SKU must be unique."
 msgstr "Tootekood peab olema unikaalne."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1383
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1373
 msgid "Variation #%s of %s"
 msgstr "Variatsioon nr. #%s / %s"
 
@@ -3246,78 +3234,77 @@ msgid ""
 "blank to use the parent product's options."
 msgstr "Sisesta kogus, et lülitada sisse variatsioonipõhine laohaldus, või jäta tühjaks, et kasutada põhitoote valikuid."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:70
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:128
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:141
-msgid "Same as parent"
-msgstr "Sama, mis ülemisel"
-
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:81
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:73
 msgid "Regular Price:"
 msgstr "Tavahind:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:82
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:74
 msgid "Variation price (required)"
 msgstr "Variatsiooni hind (nõutav)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Sale Price:"
 msgstr "Soodushind:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Cancel schedule"
 msgstr "Tühista ajastamine"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:92
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:84
 msgid "Sale start date:"
 msgstr "Soodushinna kehtivuse algus:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:96
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:88
 msgid "Sale end date:"
 msgstr "Soodushinna kehtivuse lõpp:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 msgid ""
 "Enter a weight for this variation or leave blank to use the parent product "
 "weight."
 msgstr "Sisesta selle variatsiooni kaal või jäta tühjaks, kui soovid kasutada põhitoote kaalu."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:113
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
 msgid "Dimensions (L&times;W&times;H)"
 msgstr "Mõõdud (P&times;L&times;K)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:124
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:116
 msgid "Shipping class:"
 msgstr "Tarneklass:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:139
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:120
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:133
+msgid "Same as parent"
+msgstr "Sama, mis ülemisel"
+
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:131
 msgid "Tax class:"
 msgstr "Maksuklass:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Download Limit:"
 msgstr "Allalaadimiste limiit:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid "Download Expiry:"
 msgstr "Allalaadimine aegub:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:218
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:210
 #: includes/admin/settings/class-wc-settings-checkout.php:269
-#: includes/admin/settings/class-wc-settings-shipping.php:230
+#: includes/admin/settings/class-wc-settings-shipping.php:235
 #: includes/admin/views/html-admin-page-status-tools.php:26
 #: includes/admin/views/html-admin-page-status-tools.php:37
 #: includes/admin/views/html-admin-page-status-tools.php:48
 msgid "Enabled"
 msgstr "Lubatud"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid ""
 "Enable this option if access is given to a downloadable file upon purchase "
 "of a product"
 msgstr "Lülita see valik sisse kui ligipääs allalaaditavale tootele antakse kohe ostu sooritamisel"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid ""
 "Enable this option if a product is not shipped or there is no shipping cost"
 msgstr "Lülita see valik sisse, kui toodet ei tarnita või sellel ei ole tarnekulusid"
@@ -3877,8 +3864,8 @@ msgid ""
 msgstr "Nõua SSL (HTTPS) ühendust kassa lehtedel (selleks on vajalik SSL sertifikaat)."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:99
-msgid "Force HTTP when leaving the checkout"
-msgstr ""
+msgid "Un-force HTTPS when leaving the checkout"
+msgstr "Eemalda kassast lahkudes HTTPSi nõue"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:109
 msgid "Checkout Pages"
@@ -4091,7 +4078,7 @@ msgid "Sell to specific countries only"
 msgstr "Müü valitud riikidesse"
 
 #: includes/admin/settings/class-wc-settings-general.php:80
-#: includes/admin/settings/class-wc-settings-shipping.php:142
+#: includes/admin/settings/class-wc-settings-shipping.php:147
 msgid "Specific Countries"
 msgstr "Valitud riigid"
 
@@ -4653,60 +4640,52 @@ msgid "Shipping Destination"
 msgstr "Transpordi sihtpunkt"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:112
-msgid "This controls which shipping address is used by default."
-msgstr ""
+msgid "Ship to billing address by default"
+msgstr "Tarni vaikimisi arveaadressile"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:117
-msgid "Default to shipping address"
-msgstr ""
-
-#: includes/admin/settings/class-wc-settings-shipping.php:118
-msgid "Default to billing address"
-msgstr ""
-
-#: includes/admin/settings/class-wc-settings-shipping.php:119
+#: includes/admin/settings/class-wc-settings-shipping.php:122
 msgid "Only ship to the users billing address"
 msgstr "Tarni ainult kasutaja arveaadressile"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:127
+#: includes/admin/settings/class-wc-settings-shipping.php:132
 msgid "Restrict shipping to Location(s)"
 msgstr "Piira transport asukohtadega"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:128
+#: includes/admin/settings/class-wc-settings-shipping.php:133
 msgid ""
 "Choose which countries you want to ship to, or choose to ship to all <a "
 "href=\"%s\">locations you sell to</a>."
 msgstr "Vali, millistesse riikidesse sa kaupa kohale toimetad või märgi, et soovid kaupa kohale toimetada <a href=\"%s\">kõikidesse riikidesse, kuhu müüd</a>."
 
-#: includes/admin/settings/class-wc-settings-shipping.php:135
+#: includes/admin/settings/class-wc-settings-shipping.php:140
 msgid "Ship to all countries you sell to"
 msgstr "Paku transporti kõikidesse riikidesse, kuhu müüd"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:136
+#: includes/admin/settings/class-wc-settings-shipping.php:141
 msgid "Ship to all countries"
 msgstr "Paku transporti kõikidesse riikidesse"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:137
+#: includes/admin/settings/class-wc-settings-shipping.php:142
 msgid "Ship to specific countries only"
 msgstr "Paku transport valitud riikidesse"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:192
+#: includes/admin/settings/class-wc-settings-shipping.php:197
 msgid "Shipping Methods"
 msgstr "Tarneviisid"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:199
+#: includes/admin/settings/class-wc-settings-shipping.php:204
 msgid "ID"
 msgstr "ID"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "Automatic"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "The cheapest available shipping method will be selected by default."
 msgstr "Vaikimisi valitakse kõige odavam tarnemeetod."
 
-#: includes/admin/settings/class-wc-settings-shipping.php:210
+#: includes/admin/settings/class-wc-settings-shipping.php:215
 msgid ""
 "Drag and drop the above shipping methods to control their display order."
 msgstr "Lohista ülalolevad tarneviisid sobivasse järjekorda."
@@ -5360,7 +5339,6 @@ msgstr "Salvesta muudatused"
 #: includes/admin/views/html-bulk-edit-product.php:212
 #: includes/admin/views/html-bulk-edit-product.php:231
 #: includes/admin/views/html-bulk-edit-product.php:252
-#: includes/admin/views/html-bulk-edit-product.php:273
 msgid "— No Change —"
 msgstr "— Muutmata—"
 
@@ -5420,10 +5398,6 @@ msgstr "Laos?"
 #: includes/admin/views/html-quick-edit-product.php:167
 msgid "Backorders?"
 msgstr "Järeltellimused?"
-
-#: includes/admin/views/html-bulk-edit-product.php:268
-msgid "Sold Individually?"
-msgstr ""
 
 #: includes/admin/views/html-notice-install.php:5
 msgid ""

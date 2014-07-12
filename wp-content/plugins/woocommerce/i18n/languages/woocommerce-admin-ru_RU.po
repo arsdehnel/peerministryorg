@@ -1,27 +1,27 @@
 # 
 # Translators:
 # Alexander Tinyaev <dix.alex@gmail.com>, 2014
-# me2you, 2014
-# mortifactor <daniel.sergan@gmail.com>, 2014
+# Andrey Bondar, 2014
+# Daniil Sergan <daniel.sergan@gmail.com>, 2014
 # Den Arefyev <>, 2012
 # Alexander Tinyaev <dix.alex@gmail.com>, 2014
-# flyingoff <lebedev.serge@gmail.com>, 2013
-# Сергей Павленко <info@vortexinter.ru>, 2014
-# mortifactor <daniel.sergan@gmail.com>, 2014
+# Sergey Lebedev <lebedev.serge@gmail.com>, 2013
+# serpav <info@vortexinter.ru>, 2014
+# Daniil Sergan <daniel.sergan@gmail.com>, 2014
 # Nikolay Nakuginkin <translator@mondaystar.ru>, 2014
 # ppv1979, 2014
 # asapvaleriy <shm.valeriy@gmail.com>, 2014
-# Денис Тарасов <syao_pin@ukr.net>, 2014
-# Арефьев Денис <jujjer@gmail.com>, 2013
-# Иван Тюрин <wen89@inbox.ru>, 2013
-# Натали <nat_rev81@mail.ru>, 2014
+# syao.pin <syao_pin@ukr.net>, 2014
+# jujjer <jujjer@gmail.com>, 2013
+# Иван <wen89@inbox.ru>, 2013
+# крыжановская Наталья Сергеевна <nat_rev81@mail.ru>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2014-05-22 10:45:21+00:00\n"
-"PO-Revision-Date: 2014-05-23 08:29+0000\n"
-"Last-Translator: mikejolley <mike.jolley@me.com>\n"
+"POT-Creation-Date: 2014-06-30 14:28:36+00:00\n"
+"PO-Revision-Date: 2014-06-30 14:42+0000\n"
+"Last-Translator: Mike Jolley <mike.jolley@me.com>\n"
 "Language-Team: Russian (Russia) (http://www.transifex.com/projects/p/woocommerce/language/ru_RU/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -76,8 +76,8 @@ msgstr "Удалить этот атрибут?"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:442
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:536
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
-#: includes/admin/settings/class-wc-settings-shipping.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
+#: includes/admin/settings/class-wc-settings-shipping.php:203
 msgid "Name"
 msgstr "Название"
 
@@ -567,7 +567,7 @@ msgstr "Настройки WooCommerce"
 #: includes/admin/class-wc-admin-menus.php:64
 #: includes/admin/class-wc-admin-welcome.php:219
 #: includes/admin/settings/class-wc-settings-checkout.php:277
-#: includes/admin/settings/class-wc-settings-shipping.php:238
+#: includes/admin/settings/class-wc-settings-shipping.php:243
 #: includes/admin/views/html-admin-page-status-report.php:275
 msgid "Settings"
 msgstr "Настройки"
@@ -633,7 +633,7 @@ msgstr "товар"
 #: includes/admin/class-wc-admin-taxonomies.php:88
 #: includes/admin/class-wc-admin-taxonomies.php:177
 #: includes/admin/settings/class-wc-settings-checkout.php:226
-#: includes/admin/settings/class-wc-settings-shipping.php:197
+#: includes/admin/settings/class-wc-settings-shipping.php:202
 #: includes/admin/views/html-admin-page-status-report.php:76
 msgid "Default"
 msgstr "По умолчанию"
@@ -931,7 +931,7 @@ msgstr "Список клиентов"
 
 #: includes/admin/class-wc-admin-reports.php:89
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:266
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:780
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
 #: includes/admin/reports/class-wc-report-stock.php:25
 #: includes/admin/reports/class-wc-report-stock.php:26
 msgid "Stock"
@@ -979,34 +979,28 @@ msgstr "Ваши настройки сохранены."
 msgid "The changes you made will be lost if you navigate away from this page."
 msgstr "Изменения которые вы сделали будут потеряны если вы уйдете с этой страницы."
 
-#: includes/admin/class-wc-admin-settings.php:491
-msgid ""
-"The settings of this image size have been disabled because its values are "
-"being overwritten by a filter."
-msgstr ""
-
-#: includes/admin/class-wc-admin-settings.php:500
+#: includes/admin/class-wc-admin-settings.php:490
 msgid "Hard Crop?"
 msgstr "Жесткая обрезка?"
 
-#: includes/admin/class-wc-admin-settings.php:525
+#: includes/admin/class-wc-admin-settings.php:515
 msgid "Select a page&hellip;"
 msgstr "Выберите страницу&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:548
+#: includes/admin/class-wc-admin-settings.php:538
 msgid "Choose a country&hellip;"
 msgstr "Выберите страну&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:572
+#: includes/admin/class-wc-admin-settings.php:562
 msgid "Choose countries&hellip;"
 msgstr "Выберите страны&hellip;"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select all"
 msgstr "Выбрать все"
 
-#: includes/admin/class-wc-admin-settings.php:578
+#: includes/admin/class-wc-admin-settings.php:568
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:464
 msgid "Select none"
 msgstr "Отменить выбор"
@@ -1762,14 +1756,14 @@ msgstr "Внешний/Комиссионный"
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:397
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:596
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:51
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid "Virtual"
 msgstr "Виртуальный"
 
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:399
 #: includes/admin/post-types/class-wc-admin-cpt-product.php:588
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:58
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid "Downloadable"
 msgstr "Загружаемый"
 
@@ -1795,7 +1789,6 @@ msgstr "Переключить \"Рекомендуемое\""
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:176
 #: includes/admin/views/html-bulk-edit-product.php:213
-#: includes/admin/views/html-bulk-edit-product.php:274
 msgid "Yes"
 msgstr "Да"
 
@@ -1806,7 +1799,6 @@ msgstr "Да"
 #: includes/admin/views/html-admin-page-status-report.php:282
 #: includes/admin/views/html-bulk-edit-product.php:177
 #: includes/admin/views/html-bulk-edit-product.php:214
-#: includes/admin/views/html-bulk-edit-product.php:275
 msgid "No"
 msgstr "Нет"
 
@@ -1901,9 +1893,9 @@ msgid "Show all types"
 msgstr "Показать все типы"
 
 #: includes/admin/post-types/class-wc-admin-cpt-shop_order.php:91
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:758
 #: includes/admin/settings/class-wc-settings-checkout.php:229
-#: includes/admin/settings/class-wc-settings-shipping.php:200
+#: includes/admin/settings/class-wc-settings-shipping.php:205
 msgid "Status"
 msgstr "Статус"
 
@@ -2551,7 +2543,7 @@ msgstr "Добавить"
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:31
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-order-totals.php:62
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:95
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
 #: includes/admin/settings/class-wc-settings-shipping.php:25
 #: includes/admin/settings/class-wc-settings-tax.php:266
 #: includes/admin/settings/class-wc-settings-tax.php:383
@@ -2610,7 +2602,7 @@ msgid "Downloadable products give access to a file upon purchase."
 msgstr "Загружаемый товар предоставляет доступ к файлам после продажи."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:90
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
 #: includes/admin/settings/class-wc-settings-products.php:41
 msgid "Inventory"
 msgstr "Запасы"
@@ -2667,7 +2659,7 @@ msgid "Sale Price"
 msgstr "Цена распродажи"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:160
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Schedule"
 msgstr "Запланировать"
 
@@ -2676,41 +2668,41 @@ msgid "Sale Price Dates"
 msgstr "Даты распродажи"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:168
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:93
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
 msgctxt "placeholder"
 msgid "From&hellip;"
 msgstr "От&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:169
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:89
 msgctxt "placeholder"
 msgid "To&hellip;"
 msgstr "До&hellip;"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:181
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:152
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:144
 msgid "Downloadable Files"
 msgstr "Загружаемые файлы"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:186
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:156
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:148
 msgid "This is the name of the download shown to the customer."
 msgstr "Это имя загружаемого файла которое будет показано клиенту."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid "File URL"
 msgstr "URL Файла"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:187
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:157
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:149
 msgid ""
 "This is the URL or absolute path to the file which customers will get access"
 " to."
 msgstr "Это URL или абсолютный путь к файлу к которому клиенты будут получать доступ."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:202
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:172
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:164
 msgid "Add File"
 msgstr "Добавить файл"
 
@@ -2720,18 +2712,18 @@ msgstr "Лимит загрузок"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
 #: includes/admin/post-types/meta-boxes/views/html-order-download-permission.php:19
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:199
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:205
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:191
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:197
 msgid "Unlimited"
 msgstr "Без лимита"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:222
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Leave blank for unlimited re-downloads."
 msgstr "Оставьте пустым, для безконечных повторных загрузок."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:790
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
 msgid "Download Expiry"
 msgstr "Загрузка истекает"
 
@@ -2741,7 +2733,7 @@ msgid "Never"
 msgstr "Никогда"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:228
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid ""
 "Enter the number of days before a download link expires, or leave blank."
 msgstr "Введите номер дней по окончанию которых ссылка на загрузку истечет, или оставьте пустым."
@@ -2849,26 +2841,22 @@ msgid ""
 msgstr "Контролирует, будет ли товар учитыватся как  \"на складе\" или \"нет в наличии\" на фронт-энде."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:311
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:68
 msgid "Allow Backorders?"
 msgstr "Разрешить невыполненные заказы?"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:312
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:743
 #: includes/admin/views/html-bulk-edit-product.php:253
 #: includes/admin/views/html-quick-edit-product.php:172
 msgid "Do not allow"
 msgstr "Не разрешать"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:313
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:744
 #: includes/admin/views/html-bulk-edit-product.php:254
 #: includes/admin/views/html-quick-edit-product.php:173
 msgid "Allow, but notify customer"
 msgstr "Разрешить, но уведомить клиента"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:314
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:745
 #: includes/admin/views/html-bulk-edit-product.php:255
 #: includes/admin/views/html-quick-edit-product.php:174
 msgid "Allow"
@@ -2890,8 +2878,8 @@ msgid ""
 msgstr "Включить для того чтобы товар продавался индивидуально в одном заказе"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:347
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:786
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:779
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 #: includes/admin/views/html-bulk-edit-product.php:103
 #: includes/admin/views/html-quick-edit-product.php:84
 msgid "Weight"
@@ -2906,21 +2894,21 @@ msgid "Dimensions"
 msgstr "Размеры"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:354
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:783
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
 #: includes/admin/views/html-bulk-edit-product.php:143
 #: includes/admin/views/html-quick-edit-product.php:97
 msgid "Length"
 msgstr "Длина"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:355
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:784
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
 #: includes/admin/views/html-bulk-edit-product.php:144
 #: includes/admin/views/html-quick-edit-product.php:98
 msgid "Width"
 msgstr "Ширина"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:356
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:785
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:778
 #: includes/admin/views/html-bulk-edit-product.php:145
 #: includes/admin/views/html-quick-edit-product.php:99
 msgid "Height"
@@ -2945,12 +2933,12 @@ msgid ""
 msgstr "Классы доставки используются, определенными методами доставки, чтобы сгрупировать похожие продукты."
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Close all"
 msgstr "Свернуть все"
 
 #: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:393
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:755
 msgid "Expand all"
 msgstr "Развернуть все"
 
@@ -3027,102 +3015,102 @@ msgstr "Позиция произвольного упорядочивания."
 msgid "Enable reviews"
 msgstr "Включить обзоры"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:754
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:747
 msgid ""
 "Before adding variations, add and save some attributes on the "
 "<strong>Attributes</strong> tab."
 msgstr "До того как добавлять вариации, добавьте и сохраните свойства во вкладке <strong>Свойства</strong>."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:756
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:749
 msgid "Learn more"
 msgstr "Узнайте больше"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:757
 msgid "Choose a field to bulk edit&hellip;"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:759
 msgid "Toggle &quot;Enabled&quot;"
 msgstr "Переключить \"Включен\""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:760
 msgid "Toggle &quot;Downloadable&quot;"
 msgstr "Переключить \"Загружаемый\""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:761
 msgid "Toggle &quot;Virtual&quot;"
 msgstr "Переключить \"Виртуальный\""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:762
 msgid "Delete all variations"
 msgstr "Удалить все варианты"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:771
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:764
 msgid "Pricing"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:772
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:765
 msgid "Prices"
 msgstr "Цены"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:773
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:766
 msgid "Prices increase by (fixed amount or %)"
 msgstr "Цены повышение по (фиксированной сумме или %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:774
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:767
 msgid "Prices decrease by (fixed amount or %)"
 msgstr "Цены понижение по (фиксированной сумме или %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:775
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:768
 msgid "Sale prices"
 msgstr "Цены распродаж"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:776
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:769
 msgid "Sale prices increase by (fixed amount or %)"
 msgstr "Распродажа повышение по (фиксированной сумме или %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:777
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:770
 msgid "Sale prices decrease by (fixed amount or %)"
 msgstr "Распродажа понижение по (фиксированной сумме или %)"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:788
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:781
 msgid "Downloadable products"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:789
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:782
 msgid "Download limit"
 msgstr "Лимит загрузки"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:794
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:787
 #: includes/admin/views/html-report-by-date.php:31
 msgid "Go"
 msgstr "Применить"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:891
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:882
 msgid "Add Variation"
 msgstr "Добавить вариант"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:893
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:884
 msgid "Link all variations"
 msgstr "Присоединить все варианты"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "Defaults"
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:895
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:886
 msgid "These are the attributes that will be pre-selected on the frontend."
 msgstr ""
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:908
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:899
 msgid "No default"
 msgstr "Нет умолчаний"
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1012
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1003
 msgid "Product SKU must be unique."
 msgstr "ИТП товара должен быть уникальным."
 
-#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1383
+#: includes/admin/post-types/meta-boxes/class-wc-meta-box-product-data.php:1373
 msgid "Variation #%s of %s"
 msgstr "Вариант #%s для %s"
 
@@ -3266,78 +3254,77 @@ msgid ""
 "blank to use the parent product's options."
 msgstr "Введите количество, чтобы включить управление складом на уровне вариаций, или же оставьте пустым, чтобы использовать опции родительского товара."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:70
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:128
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:141
-msgid "Same as parent"
-msgstr "Также как у родительского элемента"
-
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:81
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:73
 msgid "Regular Price:"
 msgstr "Обычная цена:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:82
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:74
 msgid "Variation price (required)"
 msgstr "Цена варианта (требуется)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Sale Price:"
 msgstr "Цена продажи:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:85
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:77
 msgid "Cancel schedule"
 msgstr "Отменить план"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:92
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:84
 msgid "Sale start date:"
 msgstr "Дата начала продажи:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:96
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:88
 msgid "Sale end date:"
 msgstr "Дата окончания продажи:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:97
 msgid ""
 "Enter a weight for this variation or leave blank to use the parent product "
 "weight."
 msgstr "Введите вес для этой вариации или оставьте пустым, чтобы использовать вес родительского товара."
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:113
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:105
 msgid "Dimensions (L&times;W&times;H)"
 msgstr "Размеры (Д&times;Ш&times;В)"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:124
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:116
 msgid "Shipping class:"
 msgstr "Класс доставки:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:139
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:120
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:133
+msgid "Same as parent"
+msgstr "Также как у родительского элемента"
+
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:131
 msgid "Tax class:"
 msgstr "Класс налога:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:198
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:190
 msgid "Download Limit:"
 msgstr "Лимит загрузок:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:204
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:196
 msgid "Download Expiry:"
 msgstr "Загрузка истекает:"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:218
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:210
 #: includes/admin/settings/class-wc-settings-checkout.php:269
-#: includes/admin/settings/class-wc-settings-shipping.php:230
+#: includes/admin/settings/class-wc-settings-shipping.php:235
 #: includes/admin/views/html-admin-page-status-tools.php:26
 #: includes/admin/views/html-admin-page-status-tools.php:37
 #: includes/admin/views/html-admin-page-status-tools.php:48
 msgid "Enabled"
 msgstr "Включить"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:220
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:212
 msgid ""
 "Enable this option if access is given to a downloadable file upon purchase "
 "of a product"
 msgstr "Включите эту опцию если доступ предоставляется загружаемому файлу при покупке товара"
 
-#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:222
+#: includes/admin/post-types/meta-boxes/views/html-variation-admin.php:214
 msgid ""
 "Enable this option if a product is not shipped or there is no shipping cost"
 msgstr "Включите эту опцию если товар не доставляется или в нем нет уплат за доставку"
@@ -3899,8 +3886,8 @@ msgid ""
 msgstr "Принудительный SSL (HTTPS) протокол на страницах оплаты (нужно наличие SSL сертификата)."
 
 #: includes/admin/settings/class-wc-settings-checkout.php:99
-msgid "Force HTTP when leaving the checkout"
-msgstr ""
+msgid "Un-force HTTPS when leaving the checkout"
+msgstr "Отключать HTTPS при выходе со страницы оплаты"
 
 #: includes/admin/settings/class-wc-settings-checkout.php:109
 msgid "Checkout Pages"
@@ -4113,7 +4100,7 @@ msgid "Sell to specific countries only"
 msgstr "Продавать только в специфических странах"
 
 #: includes/admin/settings/class-wc-settings-general.php:80
-#: includes/admin/settings/class-wc-settings-shipping.php:142
+#: includes/admin/settings/class-wc-settings-shipping.php:147
 msgid "Specific Countries"
 msgstr "Страны"
 
@@ -4675,60 +4662,52 @@ msgid "Shipping Destination"
 msgstr "Назначение доставки"
 
 #: includes/admin/settings/class-wc-settings-shipping.php:112
-msgid "This controls which shipping address is used by default."
-msgstr ""
+msgid "Ship to billing address by default"
+msgstr "Доставка по адресу платежа по умолчанию"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:117
-msgid "Default to shipping address"
-msgstr ""
-
-#: includes/admin/settings/class-wc-settings-shipping.php:118
-msgid "Default to billing address"
-msgstr ""
-
-#: includes/admin/settings/class-wc-settings-shipping.php:119
+#: includes/admin/settings/class-wc-settings-shipping.php:122
 msgid "Only ship to the users billing address"
 msgstr "Доставка только по платежным адресам пользователей"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:127
+#: includes/admin/settings/class-wc-settings-shipping.php:132
 msgid "Restrict shipping to Location(s)"
 msgstr "Ограничить доставку по локации(ям)"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:128
+#: includes/admin/settings/class-wc-settings-shipping.php:133
 msgid ""
 "Choose which countries you want to ship to, or choose to ship to all <a "
 "href=\"%s\">locations you sell to</a>."
 msgstr "Выберите в какие страны вы хотите осуществлять доставку, или выберите доставку во все страны <a href=\"%s\">локации в которых вы продаете</a>."
 
-#: includes/admin/settings/class-wc-settings-shipping.php:135
+#: includes/admin/settings/class-wc-settings-shipping.php:140
 msgid "Ship to all countries you sell to"
 msgstr "Доставка во все страны, в которых осуществяется продажа"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:136
+#: includes/admin/settings/class-wc-settings-shipping.php:141
 msgid "Ship to all countries"
 msgstr "Доставка во все страны"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:137
+#: includes/admin/settings/class-wc-settings-shipping.php:142
 msgid "Ship to specific countries only"
 msgstr "Доставка только для определенных стран"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:192
+#: includes/admin/settings/class-wc-settings-shipping.php:197
 msgid "Shipping Methods"
 msgstr "Методы доставки"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:199
+#: includes/admin/settings/class-wc-settings-shipping.php:204
 msgid "ID"
 msgstr "ID"
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "Automatic"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-shipping.php:209
+#: includes/admin/settings/class-wc-settings-shipping.php:214
 msgid "The cheapest available shipping method will be selected by default."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-shipping.php:210
+#: includes/admin/settings/class-wc-settings-shipping.php:215
 msgid ""
 "Drag and drop the above shipping methods to control their display order."
 msgstr "Перетаскивайте методы доставки сверху, чтобы установить их порядок отображения."
@@ -5034,7 +5013,7 @@ msgstr ""
 
 #: includes/admin/views/html-admin-page-addons.php:19
 msgid "Free"
-msgstr "Бесплатно"
+msgstr "Бесплатно!"
 
 #: includes/admin/views/html-admin-page-addons.php:20
 msgid "Third-party"
@@ -5382,7 +5361,6 @@ msgstr "Сохранить изменения"
 #: includes/admin/views/html-bulk-edit-product.php:212
 #: includes/admin/views/html-bulk-edit-product.php:231
 #: includes/admin/views/html-bulk-edit-product.php:252
-#: includes/admin/views/html-bulk-edit-product.php:273
 msgid "— No Change —"
 msgstr "— Без изменений —"
 
@@ -5442,10 +5420,6 @@ msgstr "В наличии?"
 #: includes/admin/views/html-quick-edit-product.php:167
 msgid "Backorders?"
 msgstr "Невыполненные заказы?"
-
-#: includes/admin/views/html-bulk-edit-product.php:268
-msgid "Sold Individually?"
-msgstr ""
 
 #: includes/admin/views/html-notice-install.php:5
 msgid ""

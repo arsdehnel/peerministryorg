@@ -1,12 +1,13 @@
 # 
 # Translators:
+# playseebow <playseebow@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: WooCommerce\n"
 "Report-Msgid-Bugs-To: https://github.com/woothemes/woocommerce/issues\n"
-"POT-Creation-Date: 2014-05-22 10:45:21+00:00\n"
-"PO-Revision-Date: 2014-05-30 13:02+0000\n"
-"Last-Translator: bornforlogic <harshad@woothemes.com>\n"
+"POT-Creation-Date: 2014-06-30 14:28:36+00:00\n"
+"PO-Revision-Date: 2014-06-30 14:42+0000\n"
+"Last-Translator: Mike Jolley <mike.jolley@me.com>\n"
 "Language-Team: Hindi (India) (http://www.transifex.com/projects/p/woocommerce/language/hi_IN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -59,7 +60,7 @@ msgstr "ऑर्डर ट्रॅकिंग"
 #: includes/shortcodes/class-wc-shortcode-my-account.php:111
 #: templates/checkout/thankyou.php:30
 msgid "My Account"
-msgstr "मेरा अकाउंट"
+msgstr "मेरा खाता"
 
 #: i18n/states/AU.php:13
 msgid "Australian Capital Territory"
@@ -3169,18 +3170,18 @@ msgstr ""
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:64
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:49
 msgid "Enable/Disable"
-msgstr ""
+msgstr "चालू / बन्‍द"
 
 #: includes/abstracts/abstract-wc-email.php:572
 #: includes/emails/class-wc-email-customer-completed-order.php:142
 #: includes/emails/class-wc-email-new-order.php:122
 msgid "Enable this email notification"
-msgstr ""
+msgstr "ईमेल द्वारा सूचना पाये"
 
 #: includes/abstracts/abstract-wc-email.php:576
 #: includes/emails/class-wc-email-customer-invoice.php:146
 msgid "Email subject"
-msgstr ""
+msgstr "ईमेल का विषय"
 
 #: includes/abstracts/abstract-wc-email.php:578
 #: includes/abstracts/abstract-wc-email.php:585
@@ -3193,78 +3194,78 @@ msgstr ""
 #: includes/emails/class-wc-email-customer-invoice.php:162
 #: includes/emails/class-wc-email-customer-invoice.php:169
 msgid "Defaults to <code>%s</code>"
-msgstr ""
+msgstr "अभाव में"
 
 #: includes/abstracts/abstract-wc-email.php:583
 #: includes/emails/class-wc-email-customer-invoice.php:153
 msgid "Email heading"
-msgstr ""
+msgstr "ईमेल का शीर्षक"
 
 #: includes/abstracts/abstract-wc-email.php:590
 #: includes/emails/class-wc-email-customer-completed-order.php:174
 #: includes/emails/class-wc-email-customer-invoice.php:174
 #: includes/emails/class-wc-email-new-order.php:147
 msgid "Email type"
-msgstr ""
+msgstr "ईमेल का प्रकार"
 
 #: includes/abstracts/abstract-wc-email.php:592
 #: includes/emails/class-wc-email-customer-completed-order.php:176
 #: includes/emails/class-wc-email-customer-invoice.php:176
 #: includes/emails/class-wc-email-new-order.php:149
 msgid "Choose which format of email to send."
-msgstr ""
+msgstr "ईमेल कौनसे रूप में भेजे"
 
 #: includes/abstracts/abstract-wc-email.php:596
 #: includes/emails/class-wc-email-customer-completed-order.php:180
 #: includes/emails/class-wc-email-customer-invoice.php:180
 #: includes/emails/class-wc-email-new-order.php:153
 msgid "Plain text"
-msgstr ""
+msgstr "केवल शाब्दिक"
 
 #: includes/abstracts/abstract-wc-email.php:597
 #: includes/emails/class-wc-email-customer-completed-order.php:181
 #: includes/emails/class-wc-email-customer-invoice.php:181
 #: includes/emails/class-wc-email-new-order.php:154
 msgid "HTML"
-msgstr ""
+msgstr "एच टी एम एल (HTML)"
 
 #: includes/abstracts/abstract-wc-email.php:598
 #: includes/emails/class-wc-email-customer-completed-order.php:182
 #: includes/emails/class-wc-email-customer-invoice.php:182
 #: includes/emails/class-wc-email-new-order.php:155
 msgid "Multipart"
-msgstr ""
+msgstr "एकाधिक रूप में"
 
 #: includes/abstracts/abstract-wc-email.php:634
 #: includes/abstracts/abstract-wc-email.php:655
 msgid "Could not write to template file."
-msgstr ""
+msgstr "टेम्पलेट फ़ाइल को नहीं लिखा जा सका."
 
 #: includes/abstracts/abstract-wc-email.php:686
 msgid "Template file copied to theme."
-msgstr ""
+msgstr "टेंपलेट फाइल की नकल (copy) थीम (theme) में बचाई"
 
 #: includes/abstracts/abstract-wc-email.php:695
 msgid "Template file deleted from theme."
-msgstr ""
+msgstr "टेंपलेट फाइल को थीम (theme) से मिटाया (deleted)."
 
 #: includes/abstracts/abstract-wc-email.php:703
 #: includes/abstracts/abstract-wc-integration.php:30
 #: includes/abstracts/abstract-wc-settings-api.php:39 woocommerce.php:181
 msgid "Settings"
-msgstr ""
+msgstr "सेट्टिंग्स"
 
 #: includes/abstracts/abstract-wc-email.php:715
 msgid "HTML template"
-msgstr ""
+msgstr "एच टी एम एल (HTML) टेंपलेट"
 
 #: includes/abstracts/abstract-wc-email.php:716
 msgid "Plain text template"
-msgstr ""
+msgstr "शाब्दिक टेंपलेट"
 
 #: includes/abstracts/abstract-wc-email.php:737
 msgid "Delete template file"
-msgstr ""
+msgstr "टेंपलेट फाइल मिटाये"
 
 #: includes/abstracts/abstract-wc-email.php:740
 msgid ""
@@ -3318,69 +3319,69 @@ msgstr ""
 msgid "CVC"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:475
+#: includes/abstracts/abstract-wc-product.php:457
 #: includes/class-wc-product-simple.php:48
-#: includes/class-wc-product-variation.php:215
+#: includes/class-wc-product-variation.php:211
 msgid "Add to cart"
-msgstr ""
+msgstr "टोकरी में डाले"
 
-#: includes/abstracts/abstract-wc-product.php:485
+#: includes/abstracts/abstract-wc-product.php:467
 msgid "Read more"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:593
-#: includes/abstracts/abstract-wc-product.php:598
-#: includes/abstracts/abstract-wc-product.php:618
+#: includes/abstracts/abstract-wc-product.php:575
+#: includes/abstracts/abstract-wc-product.php:580
+#: includes/abstracts/abstract-wc-product.php:600
 msgid "In stock"
-msgstr ""
+msgstr "उपलभ्ध है"
 
-#: includes/abstracts/abstract-wc-product.php:598
+#: includes/abstracts/abstract-wc-product.php:580
 msgid "Only %s left in stock"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:601
+#: includes/abstracts/abstract-wc-product.php:583
 msgid "%s in stock"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:608
+#: includes/abstracts/abstract-wc-product.php:590
 msgid "(backorders allowed)"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:615
-#: includes/abstracts/abstract-wc-product.php:628 templates/cart/cart.php:74
+#: includes/abstracts/abstract-wc-product.php:597
+#: includes/abstracts/abstract-wc-product.php:610 templates/cart/cart.php:74
 msgid "Available on backorder"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:621
-#: includes/abstracts/abstract-wc-product.php:631
-#: includes/abstracts/abstract-wc-product.php:635
+#: includes/abstracts/abstract-wc-product.php:603
+#: includes/abstracts/abstract-wc-product.php:613
+#: includes/abstracts/abstract-wc-product.php:617
 msgid "Out of stock"
-msgstr ""
+msgstr "स्टाक में नहीं"
 
-#: includes/abstracts/abstract-wc-product.php:928
-#: includes/abstracts/abstract-wc-product.php:934
-#: includes/class-wc-cart.php:1450 includes/class-wc-order.php:882
-#: includes/class-wc-product-variation.php:316
+#: includes/abstracts/abstract-wc-product.php:910
+#: includes/abstracts/abstract-wc-product.php:916
+#: includes/class-wc-cart.php:1449 includes/class-wc-order.php:864
+#: includes/class-wc-product-variation.php:312
 msgid "Free!"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:950
+#: includes/abstracts/abstract-wc-product.php:932
 msgctxt "min_price"
 msgid "From:"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:1060
+#: includes/abstracts/abstract-wc-product.php:1042
 #: templates/single-product/rating.php:23
 msgid "Rated %s out of 5"
 msgstr ""
 
-#: includes/abstracts/abstract-wc-product.php:1062
+#: includes/abstracts/abstract-wc-product.php:1044
 #: templates/single-product/rating.php:25
 #: templates/single-product/review.php:27
 msgid "out of 5"
-msgstr ""
+msgstr "५ में से"
 
-#: includes/abstracts/abstract-wc-product.php:1421
+#: includes/abstracts/abstract-wc-product.php:1403
 msgid "%s &ndash; %s"
 msgstr ""
 
@@ -3432,72 +3433,43 @@ msgstr ""
 msgid "The API key provided does not have write permissions"
 msgstr ""
 
-#: includes/api/class-wc-api-coupons.php:112
+#: includes/api/class-wc-api-coupons.php:107
 msgid "Invalid coupon ID"
 msgstr ""
 
-#: includes/api/class-wc-api-coupons.php:158
+#: includes/api/class-wc-api-coupons.php:152
 msgid "You do not have permission to read the coupons count"
 msgstr ""
 
-#: includes/api/class-wc-api-coupons.php:178
+#: includes/api/class-wc-api-coupons.php:171
 msgid "Invalid coupon code"
 msgstr ""
 
-#: includes/api/class-wc-api-coupons.php:196
-msgid "You do not have permission to create coupons"
-msgstr ""
-
-#: includes/api/class-wc-api-coupons.php:201
-#: includes/api/class-wc-api-customers.php:332
-#: includes/api/class-wc-api-server.php:423
-msgid "Missing parameter %s"
-msgstr ""
-
-#: includes/api/class-wc-api-coupons.php:216
-#: includes/api/class-wc-api-coupons.php:318
-msgid "The coupon code already exists"
-msgstr ""
-
-#: includes/api/class-wc-api-coupons.php:243
-#: includes/api/class-wc-api-coupons.php:330
-msgid "Invalid coupon type - the coupon type must be any of these: %s"
-msgstr ""
-
-#: includes/api/class-wc-api-coupons.php:323
-msgid "Failed to update coupon"
-msgstr ""
-
-#: includes/api/class-wc-api-customers.php:249
-#: includes/api/class-wc-api-customers.php:252
-msgid "Invalid customer Email"
-msgstr ""
-
-#: includes/api/class-wc-api-customers.php:270
+#: includes/api/class-wc-api-customers.php:192
 msgid "You do not have permission to read the customers count"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:327
+#: includes/api/class-wc-api-customers.php:208
 msgid "You do not have permission to create this customer"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:630
+#: includes/api/class-wc-api-customers.php:455
 msgid "Invalid customer ID"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:637
+#: includes/api/class-wc-api-customers.php:461
 msgid "Invalid customer"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:645
+#: includes/api/class-wc-api-customers.php:468
 msgid "You do not have permission to read this customer"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:651
+#: includes/api/class-wc-api-customers.php:473
 msgid "You do not have permission to edit this customer"
 msgstr ""
 
-#: includes/api/class-wc-api-customers.php:657
+#: includes/api/class-wc-api-customers.php:478
 msgid "You do not have permission to delete this customer"
 msgstr ""
 
@@ -3509,7 +3481,7 @@ msgstr ""
 msgid "The JSONP callback function is invalid"
 msgstr ""
 
-#: includes/api/class-wc-api-orders.php:256
+#: includes/api/class-wc-api-orders.php:255
 msgid "You do not have permission to read the orders count"
 msgstr ""
 
@@ -3546,23 +3518,23 @@ msgstr ""
 msgid "You do not have permission to delete this %s"
 msgstr ""
 
-#: includes/api/class-wc-api-resource.php:308
+#: includes/api/class-wc-api-resource.php:302
 msgid "Permanently deleted customer"
 msgstr ""
 
-#: includes/api/class-wc-api-resource.php:310
+#: includes/api/class-wc-api-resource.php:304
 msgid "The customer cannot be deleted"
 msgstr ""
 
-#: includes/api/class-wc-api-resource.php:319
+#: includes/api/class-wc-api-resource.php:313
 msgid "This %s cannot be deleted"
 msgstr ""
 
-#: includes/api/class-wc-api-resource.php:322
+#: includes/api/class-wc-api-resource.php:316
 msgid "Permanently deleted %s"
 msgstr ""
 
-#: includes/api/class-wc-api-resource.php:328
+#: includes/api/class-wc-api-resource.php:322
 msgid "Deleted %s"
 msgstr ""
 
@@ -3580,6 +3552,10 @@ msgstr ""
 
 #: includes/api/class-wc-api-server.php:369
 msgid "No route was found matching the URL and request method"
+msgstr ""
+
+#: includes/api/class-wc-api-server.php:404
+msgid "Missing parameter %s"
 msgstr ""
 
 #: includes/class-wc-ajax.php:164
@@ -3612,42 +3588,42 @@ msgstr ""
 msgid "File %d"
 msgstr ""
 
-#: includes/class-wc-ajax.php:1086 includes/class-wc-ajax.php:1087
-#: includes/class-wc-order.php:1592
+#: includes/class-wc-ajax.php:1088 includes/class-wc-ajax.php:1089
+#: includes/class-wc-order.php:1569
 msgid "Item #%s stock reduced from %s to %s."
 msgstr ""
 
-#: includes/class-wc-ajax.php:1095
+#: includes/class-wc-ajax.php:1097
 msgid ""
 "No products had their stock reduced - they may not have stock management "
 "enabled."
 msgstr ""
 
-#: includes/class-wc-ajax.php:1136 includes/class-wc-ajax.php:1137
+#: includes/class-wc-ajax.php:1138 includes/class-wc-ajax.php:1139
 msgid "Item #%s stock increased from %s to %s."
 msgstr ""
 
-#: includes/class-wc-ajax.php:1144
+#: includes/class-wc-ajax.php:1146
 msgid ""
 "No products had their stock increased - they may not have stock management "
 "enabled."
 msgstr ""
 
-#: includes/class-wc-ajax.php:1161
+#: includes/class-wc-ajax.php:1163
 #: includes/widgets/class-wc-widget-product-categories.php:39
 #: templates/single-product-reviews.php:62
 msgid "Name"
-msgstr ""
+msgstr "नाम"
 
-#: includes/class-wc-ajax.php:1161
+#: includes/class-wc-ajax.php:1163
 msgid "Value"
 msgstr ""
 
-#: includes/class-wc-ajax.php:1384
+#: includes/class-wc-ajax.php:1386
 msgid "Delete note"
 msgstr ""
 
-#: includes/class-wc-ajax.php:1532
+#: includes/class-wc-ajax.php:1534
 msgid "Guest"
 msgstr ""
 
@@ -3707,7 +3683,7 @@ msgstr ""
 
 #: includes/class-wc-cart.php:835 includes/class-wc-cart.php:854
 #: includes/class-wc-cart.php:867 includes/class-wc-frontend-scripts.php:157
-#: includes/wc-cart-functions.php:96 templates/cart/mini-cart.php:64
+#: includes/wc-cart-functions.php:98 templates/cart/mini-cart.php:64
 msgid "View Cart"
 msgstr ""
 
@@ -3736,7 +3712,7 @@ msgstr ""
 #: includes/class-wc-checkout.php:99
 msgctxt "placeholder"
 msgid "Username"
-msgstr ""
+msgstr "उपयोगकर्ता का नाम"
 
 #: includes/class-wc-checkout.php:106
 msgid "Account password"
@@ -3749,7 +3725,7 @@ msgstr ""
 
 #: includes/class-wc-checkout.php:116
 msgid "Order Notes"
-msgstr ""
+msgstr "ऑर्डर सम्बंधित टिप्पणी"
 
 #: includes/class-wc-checkout.php:117
 msgctxt "placeholder"
@@ -4808,7 +4784,7 @@ msgstr ""
 
 #: includes/class-wc-countries.php:510
 msgid "Tax"
-msgstr ""
+msgstr "कर"
 
 #: includes/class-wc-countries.php:523
 msgid "(incl. VAT)"
@@ -4824,100 +4800,100 @@ msgstr ""
 
 #: includes/class-wc-countries.php:536
 msgid "(ex. tax)"
-msgstr ""
+msgstr "कर(टैक्स) छोड़कर"
 
-#: includes/class-wc-countries.php:730
+#: includes/class-wc-countries.php:729
 msgid "Country"
 msgstr ""
 
-#: includes/class-wc-countries.php:735
+#: includes/class-wc-countries.php:734
 msgid "First Name"
 msgstr ""
 
-#: includes/class-wc-countries.php:740
+#: includes/class-wc-countries.php:739
 msgid "Last Name"
 msgstr ""
 
-#: includes/class-wc-countries.php:746
+#: includes/class-wc-countries.php:745
 msgid "Company Name"
 msgstr ""
 
-#: includes/class-wc-countries.php:750
+#: includes/class-wc-countries.php:749
 msgid "Address"
 msgstr ""
 
-#: includes/class-wc-countries.php:751
+#: includes/class-wc-countries.php:750
 msgctxt "placeholder"
 msgid "Street address"
 msgstr ""
 
-#: includes/class-wc-countries.php:756
+#: includes/class-wc-countries.php:755
 msgctxt "placeholder"
 msgid "Apartment, suite, unit etc. (optional)"
 msgstr ""
 
-#: includes/class-wc-countries.php:761 includes/class-wc-countries.php:762
+#: includes/class-wc-countries.php:760 includes/class-wc-countries.php:761
 msgid "Town / City"
 msgstr ""
 
-#: includes/class-wc-countries.php:768 includes/class-wc-countries.php:769
+#: includes/class-wc-countries.php:767 includes/class-wc-countries.php:768
 msgid "State / County"
 msgstr ""
 
-#: includes/class-wc-countries.php:775 includes/class-wc-countries.php:776
+#: includes/class-wc-countries.php:774 includes/class-wc-countries.php:775
 #: templates/cart/shipping-calculator.php:80
 msgid "Postcode / Zip"
 msgstr ""
 
-#: includes/class-wc-countries.php:838
+#: includes/class-wc-countries.php:837
 msgid "District"
 msgstr ""
 
-#: includes/class-wc-countries.php:845 includes/class-wc-countries.php:861
-#: includes/class-wc-countries.php:881 includes/class-wc-countries.php:942
-#: includes/class-wc-countries.php:961 includes/class-wc-countries.php:966
-#: includes/class-wc-countries.php:978 includes/class-wc-countries.php:1028
-#: includes/class-wc-countries.php:1052 includes/class-wc-countries.php:1093
+#: includes/class-wc-countries.php:844 includes/class-wc-countries.php:860
+#: includes/class-wc-countries.php:880 includes/class-wc-countries.php:941
+#: includes/class-wc-countries.php:960 includes/class-wc-countries.php:965
+#: includes/class-wc-countries.php:977 includes/class-wc-countries.php:1027
+#: includes/class-wc-countries.php:1051 includes/class-wc-countries.php:1092
 msgid "Province"
 msgstr ""
 
-#: includes/class-wc-countries.php:867
+#: includes/class-wc-countries.php:866
 msgid "Canton"
 msgstr ""
 
-#: includes/class-wc-countries.php:876 includes/class-wc-countries.php:1034
+#: includes/class-wc-countries.php:875 includes/class-wc-countries.php:1033
 msgid "Municipality"
 msgstr ""
 
-#: includes/class-wc-countries.php:929
+#: includes/class-wc-countries.php:928
 msgid "Town / District"
 msgstr ""
 
-#: includes/class-wc-countries.php:932
+#: includes/class-wc-countries.php:931
 msgid "Region"
 msgstr ""
 
-#: includes/class-wc-countries.php:937 includes/class-wc-countries.php:1068
+#: includes/class-wc-countries.php:936 includes/class-wc-countries.php:1067
 msgid "County"
 msgstr ""
 
-#: includes/class-wc-countries.php:1057
+#: includes/class-wc-countries.php:1056
 msgid "Zip"
 msgstr ""
 
-#: includes/class-wc-countries.php:1060
+#: includes/class-wc-countries.php:1059
 msgid "State"
 msgstr ""
 
-#: includes/class-wc-countries.php:1065
+#: includes/class-wc-countries.php:1064
 msgid "Postcode"
 msgstr ""
 
-#: includes/class-wc-countries.php:1173
+#: includes/class-wc-countries.php:1172
 msgid "Email Address"
 msgstr ""
 
-#: includes/class-wc-countries.php:1179
+#: includes/class-wc-countries.php:1178
 msgid "Phone"
 msgstr ""
 
@@ -5025,7 +5001,7 @@ msgid "Product no longer exists."
 msgstr ""
 
 #: includes/class-wc-download-handler.php:90
-#: includes/class-wc-form-handler.php:546
+#: includes/class-wc-form-handler.php:527
 #: includes/shortcodes/class-wc-shortcode-checkout.php:172
 #: includes/shortcodes/class-wc-shortcode-my-account.php:111
 msgid "Invalid order."
@@ -5058,7 +5034,7 @@ msgstr ""
 #: includes/class-wc-emails.php:336 includes/class-wc-emails.php:368
 #: includes/class-wc-emails.php:412
 msgid "Variation #%s of %s"
-msgstr ""
+msgstr "प्रकार #%s चयन %s"
 
 #: includes/class-wc-emails.php:338 includes/class-wc-emails.php:370
 #: includes/class-wc-emails.php:414
@@ -5089,121 +5065,111 @@ msgstr ""
 msgid "Address changed successfully."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:178
+#: includes/class-wc-form-handler.php:180
 msgid "Please enter your name."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:182 includes/wc-user-functions.php:48
+#: includes/class-wc-form-handler.php:184
+#: includes/wc-customer-functions.php:48
 msgid "Please provide a valid email address."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:184
+#: includes/class-wc-form-handler.php:186
 msgid "This email address is already registered."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:188
-msgid "Your current password is incorrect."
-msgstr ""
-
-#: includes/class-wc-form-handler.php:193
-msgid "Please fill out all password fields."
-msgstr ""
-
-#: includes/class-wc-form-handler.php:197
-msgid "Please enter your current password."
-msgstr ""
-
-#: includes/class-wc-form-handler.php:201
+#: includes/class-wc-form-handler.php:190
 msgid "Please re-enter your password."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:205
-#: includes/class-wc-form-handler.php:836
+#: includes/class-wc-form-handler.php:192
+#: includes/class-wc-form-handler.php:817
 msgid "Passwords do not match."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:227
+#: includes/class-wc-form-handler.php:208
 msgid "Account details changed successfully."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:355
+#: includes/class-wc-form-handler.php:334
 msgid "Payment method added."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:388
-#: includes/class-wc-form-handler.php:447
+#: includes/class-wc-form-handler.php:367
+#: includes/class-wc-form-handler.php:426
 msgid "Cart updated."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:423
+#: includes/class-wc-form-handler.php:402
 msgid "You can only have 1 %s in your cart."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:513
+#: includes/class-wc-form-handler.php:494
 msgid "The cart has been filled with the items from your previous order."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:536
+#: includes/class-wc-form-handler.php:517
 msgid "Order cancelled by customer."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:539
+#: includes/class-wc-form-handler.php:520
 msgid "Your order was cancelled."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:544
+#: includes/class-wc-form-handler.php:525
 msgid ""
 "Your order can no longer be cancelled. Please contact us if you need "
 "assistance."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:584
-#: includes/class-wc-form-handler.php:644
+#: includes/class-wc-form-handler.php:565
+#: includes/class-wc-form-handler.php:625
 msgid "Please choose product options&hellip;"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:678
+#: includes/class-wc-form-handler.php:659
 msgid ""
 "Please choose the quantity of items you wish to add to your cart&hellip;"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:685
+#: includes/class-wc-form-handler.php:666
 msgid "Please choose a product to add to your cart&hellip;"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:745
-#: includes/class-wc-form-handler.php:749
-#: includes/class-wc-form-handler.php:753
-#: includes/class-wc-form-handler.php:762
-#: includes/class-wc-form-handler.php:888
+#: includes/class-wc-form-handler.php:726
+#: includes/class-wc-form-handler.php:730
+#: includes/class-wc-form-handler.php:734
+#: includes/class-wc-form-handler.php:743
+#: includes/class-wc-form-handler.php:869
 msgid "Error"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:749
+#: includes/class-wc-form-handler.php:730
 msgid "Username is required."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:753
+#: includes/class-wc-form-handler.php:734
 msgid "Password is required."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:762
+#: includes/class-wc-form-handler.php:743
 msgid "A user could not be found with this email address."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:787
+#: includes/class-wc-form-handler.php:768
 msgid "You are now logged in as <strong>%s</strong>"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:831
+#: includes/class-wc-form-handler.php:812
 msgid "Please enter your password."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:904 includes/wc-user-functions.php:112
+#: includes/class-wc-form-handler.php:885
+#: includes/wc-customer-functions.php:112
 msgid "ERROR"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:904
+#: includes/class-wc-form-handler.php:885
 msgid "Anti-spam field was filled in."
 msgstr ""
 
@@ -5212,7 +5178,7 @@ msgid "Please select a rating"
 msgstr ""
 
 #: includes/class-wc-frontend-scripts.php:140
-#: includes/wc-template-functions.php:1603
+#: includes/wc-template-functions.php:1602
 msgid "required"
 msgstr ""
 
@@ -5249,7 +5215,7 @@ msgstr ""
 #: includes/class-wc-install.php:223
 msgctxt "Page title"
 msgid "Cart"
-msgstr ""
+msgstr "टोकरी"
 
 #: includes/class-wc-install.php:227
 msgctxt "Paeg slug"
@@ -5259,7 +5225,7 @@ msgstr ""
 #: includes/class-wc-install.php:228
 msgctxt "Page title"
 msgid "Checkout"
-msgstr ""
+msgstr "भुगतान"
 
 #: includes/class-wc-install.php:232
 msgctxt "Page slug"
@@ -5273,58 +5239,54 @@ msgstr "मेरा अकाउंट"
 
 #: includes/class-wc-install.php:455
 msgid "Customer"
-msgstr ""
+msgstr "ग्राहक"
 
 #: includes/class-wc-install.php:462
 msgid "Shop Manager"
 msgstr ""
 
-#: includes/class-wc-order.php:160
+#: includes/class-wc-order.php:142
 msgctxt "hash before order number"
 msgid "#"
 msgstr ""
 
-#: includes/class-wc-order.php:877
+#: includes/class-wc-order.php:859
 msgid "&nbsp;<small>%svia %s</small>"
 msgstr ""
 
-#: includes/class-wc-order.php:940
+#: includes/class-wc-order.php:922
 msgid "Cart Subtotal:"
 msgstr ""
 
-#: includes/class-wc-order.php:947
+#: includes/class-wc-order.php:929
 msgid "Cart Discount:"
-msgstr ""
+msgstr "छूट:"
 
-#: includes/class-wc-order.php:954
+#: includes/class-wc-order.php:936
 msgid "Shipping:"
 msgstr ""
 
-#: includes/class-wc-order.php:1001
+#: includes/class-wc-order.php:983
 msgid "Order Discount:"
-msgstr ""
+msgstr "ऑर्डर छूट:"
 
-#: includes/class-wc-order.php:1008
-msgid "Payment Method:"
-msgstr ""
-
-#: includes/class-wc-order.php:1014
+#: includes/class-wc-order.php:989
 msgid "Order Total:"
-msgstr ""
+msgstr "ऑर्डर की कुल क़ीमत"
 
-#: includes/class-wc-order.php:1032 includes/wc-cart-functions.php:249
+#: includes/class-wc-order.php:1007 includes/wc-cart-functions.php:251
 msgid "(Includes %s)"
 msgstr ""
 
-#: includes/class-wc-order.php:1281 includes/class-wc-order.php:1282
+#: includes/class-wc-order.php:1256 includes/class-wc-order.php:1257
 msgid "WooCommerce"
 msgstr ""
 
-#: includes/class-wc-order.php:1337
+#: includes/class-wc-order.php:1312
 msgid "Order status changed from %s to %s."
 msgstr ""
 
-#: includes/class-wc-order.php:1602
+#: includes/class-wc-order.php:1581
 msgid "Order item stock reduced successfully."
 msgstr ""
 
@@ -5335,7 +5297,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:58
 msgid "Product Category"
-msgstr ""
+msgstr "प्रॉडक्ट की श्रेणी"
 
 #: includes/class-wc-post-types.php:59
 msgctxt "Admin menu name"
@@ -5378,7 +5340,7 @@ msgstr ""
 #: includes/updates/woocommerce-update-2.0.php:44
 msgctxt "slug"
 msgid "product-category"
-msgstr ""
+msgstr "प्रॉडक्ट-श्रेणी"
 
 #: includes/class-wc-post-types.php:90 includes/class-wc-post-types.php:92
 #: includes/widgets/class-wc-widget-product-tag-cloud.php:27
@@ -5387,7 +5349,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:93
 msgid "Product Tag"
-msgstr ""
+msgstr "प्रॉडक्ट टॅग"
 
 #: includes/class-wc-post-types.php:94
 msgctxt "Admin menu name"
@@ -5430,14 +5392,14 @@ msgstr ""
 #: includes/updates/woocommerce-update-2.0.php:45
 msgctxt "slug"
 msgid "product-tag"
-msgstr ""
+msgstr "प्रॉडक्ट-टॅग"
 
 #: includes/class-wc-post-types.php:124 includes/class-wc-post-types.php:126
 msgid "Shipping Classes"
 msgstr ""
 
 #: includes/class-wc-post-types.php:127
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:547
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:539
 msgid "Shipping Class"
 msgstr ""
 
@@ -5514,12 +5476,12 @@ msgstr ""
 #: includes/updates/woocommerce-update-2.0.php:53
 msgctxt "slug"
 msgid "product"
-msgstr ""
+msgstr "प्रॉडक्ट्स"
 
 #: includes/class-wc-post-types.php:232
 #: includes/widgets/class-wc-widget-products.php:27
 msgid "Products"
-msgstr ""
+msgstr "प्रॉडक्ट्स"
 
 #: includes/class-wc-post-types.php:233 templates/cart/cart.php:27
 #: templates/checkout/form-pay.php:19 templates/checkout/review-order.php:18
@@ -5530,12 +5492,12 @@ msgstr ""
 #: templates/emails/customer-processing-order.php:23
 #: templates/order/order-details.php:20
 msgid "Product"
-msgstr ""
+msgstr "प्रॉडक्ट"
 
 #: includes/class-wc-post-types.php:234
 msgctxt "Admin menu name"
 msgid "Products"
-msgstr ""
+msgstr "प्रॉडक्ट्स"
 
 #: includes/class-wc-post-types.php:235
 msgid "Add Product"
@@ -5548,7 +5510,7 @@ msgstr ""
 #: includes/class-wc-post-types.php:237 includes/class-wc-post-types.php:289
 #: includes/class-wc-post-types.php:328 templates/myaccount/my-address.php:45
 msgid "Edit"
-msgstr ""
+msgstr "एडिट"
 
 #: includes/class-wc-post-types.php:238
 msgid "Edit Product"
@@ -5585,20 +5547,20 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:267
 msgid "Variations"
-msgstr ""
+msgstr "प्रकार"
 
 #: includes/class-wc-post-types.php:275
 msgctxt "Admin menu name"
 msgid "Orders"
-msgstr ""
+msgstr "ऑर्डर्स"
 
 #: includes/class-wc-post-types.php:285
 msgid "Orders"
-msgstr ""
+msgstr "ऑर्डर्स"
 
 #: includes/class-wc-post-types.php:286 templates/myaccount/my-orders.php:32
 msgid "Order"
-msgstr ""
+msgstr "ऑर्डर"
 
 #: includes/class-wc-post-types.php:287
 msgid "Add Order"
@@ -5618,7 +5580,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:292 includes/class-wc-post-types.php:293
 msgid "View Order"
-msgstr ""
+msgstr "ऑर्डर्स देखे"
 
 #: includes/class-wc-post-types.php:294
 msgid "Search Orders"
@@ -5642,16 +5604,16 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:323
 msgid "Coupons"
-msgstr ""
+msgstr "कूपन"
 
 #: includes/class-wc-post-types.php:324 templates/cart/cart.php:119
 msgid "Coupon"
-msgstr ""
+msgstr "कूपन"
 
 #: includes/class-wc-post-types.php:325
 msgctxt "Admin menu name"
 msgid "Coupons"
-msgstr ""
+msgstr "कूपन"
 
 #: includes/class-wc-post-types.php:326
 msgid "Add Coupon"
@@ -5714,7 +5676,7 @@ msgid "%1$s&ndash;%2$s"
 msgstr ""
 
 #: includes/class-wc-product-simple.php:48
-#: includes/class-wc-product-variation.php:215
+#: includes/class-wc-product-variation.php:211
 msgid "Read More"
 msgstr ""
 
@@ -5728,11 +5690,11 @@ msgid ""
 "Changing status to draft."
 msgstr ""
 
-#: includes/class-wc-product-variation.php:555
+#: includes/class-wc-product-variation.php:529
 msgid "%s &ndash; %s%s"
 msgstr ""
 
-#: includes/class-wc-shortcodes.php:975
+#: includes/class-wc-shortcodes.php:973
 msgid ""
 "Use $args[\"posts_per_page\"] instead. Deprecated argument will be removed "
 "in WC 2.2."
@@ -5819,13 +5781,13 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-new-account.php:33
 msgid "New account"
-msgstr ""
+msgstr "नया खाता"
 
 #: includes/emails/class-wc-email-customer-new-account.php:34
 msgid ""
 "Customer new account emails are sent when a customer signs up via the "
 "checkout or My Account page."
-msgstr ""
+msgstr "ग्राहक के खरीदी पूर्ण करने के दौरान अथवा अपने नये खाते खोलने पर ग्राहक को ईमेल द्वारा सूचित किया जायेगा"
 
 #: includes/emails/class-wc-email-customer-new-account.php:39
 msgid "Your account on {site_title}"
@@ -5837,11 +5799,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-note.php:31
 msgid "Customer note"
-msgstr ""
+msgstr "ग्राहक को टिप्पणी"
 
 #: includes/emails/class-wc-email-customer-note.php:32
 msgid "Customer note emails are sent when you add a note to an order."
-msgstr ""
+msgstr "जब आप ग्राहक के ऑर्डर पर टिप्पणी करते है, उन्हे ईमेल द्वारा सूचित किया जाता है "
 
 #: includes/emails/class-wc-email-customer-note.php:37
 msgid "Note added to your {site_title} order from {order_date}"
@@ -5849,11 +5811,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-note.php:38
 msgid "A note has been added to your order"
-msgstr ""
+msgstr "आपके ऑर्डर पर टिप्पणी की गयी"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:26
 msgid "Processing order"
-msgstr ""
+msgstr "ऑर्डर पर काम जारी है"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:27
 msgid ""
@@ -5863,7 +5825,7 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-processing-order.php:29
 msgid "Thank you for your order"
-msgstr ""
+msgstr "ऑर्डर के लिये धन्यवाद"
 
 #: includes/emails/class-wc-email-customer-processing-order.php:30
 msgid "Your {site_title} order receipt from {order_date}"
@@ -5871,13 +5833,13 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-reset-password.php:38
 msgid "Reset password"
-msgstr ""
+msgstr "पासवर्ड बदले"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:39
 msgid ""
 "Customer reset password emails are sent when a customer resets their "
 "password."
-msgstr ""
+msgstr "ग्राहक के पासवर्ड बदलने के अनुरोध पर उनको ईमेल सूचना भेजी जायेगी"
 
 #: includes/emails/class-wc-email-customer-reset-password.php:44
 msgid "Password Reset for {site_title}"
@@ -5885,11 +5847,11 @@ msgstr ""
 
 #: includes/emails/class-wc-email-customer-reset-password.php:45
 msgid "Password Reset Instructions"
-msgstr ""
+msgstr "पासवर्ड बदलने की जानकारी"
 
 #: includes/emails/class-wc-email-new-order.php:26
 msgid "New order"
-msgstr ""
+msgstr "नया ऑर्डर"
 
 #: includes/emails/class-wc-email-new-order.php:27
 msgid "New order emails are sent when an order is received."
@@ -5897,7 +5859,7 @@ msgstr ""
 
 #: includes/emails/class-wc-email-new-order.php:29
 msgid "New customer order"
-msgstr ""
+msgstr "ग्राहक का नया ऑर्डर"
 
 #: includes/emails/class-wc-email-new-order.php:30
 msgid "[{site_title}] New customer order ({order_number}) - {order_date}"
@@ -5905,25 +5867,25 @@ msgstr ""
 
 #: includes/emails/class-wc-email-new-order.php:126
 msgid "Recipient(s)"
-msgstr ""
+msgstr "प्राप्तकर्ता"
 
 #: includes/emails/class-wc-email-new-order.php:128
 msgid ""
 "Enter recipients (comma separated) for this email. Defaults to "
 "<code>%s</code>."
-msgstr ""
+msgstr "सभी प्राप्तकर्ताओ के नाम (नामो के बीच अल्पविराम लगाये)"
 
 #: includes/emails/class-wc-email-new-order.php:135
 msgid ""
 "This controls the email subject line. Leave blank to use the default "
 "subject: <code>%s</code>."
-msgstr ""
+msgstr "विषय यहा लिखे"
 
 #: includes/emails/class-wc-email-new-order.php:142
 msgid ""
 "This controls the main heading contained within the email notification. "
 "Leave blank to use the default heading: <code>%s</code>."
-msgstr ""
+msgstr "एमआल का शीर्षक यहा लिखे"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:25
 msgid "BACS"
@@ -5936,7 +5898,7 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:68
 msgid "Enable Bank Transfer"
-msgstr ""
+msgstr "बैंक से स्थानांतरण"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:72
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:58
@@ -5957,7 +5919,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-recently-viewed.php:28
 #: includes/widgets/class-wc-widget-top-rated-products.php:30
 msgid "Title"
-msgstr ""
+msgstr "शीर्षक"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:74
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:60
@@ -5982,7 +5944,7 @@ msgstr ""
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:139
 #: includes/wc-template-functions.php:980
 msgid "Description"
-msgstr ""
+msgstr "विवरण"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:81
 #: includes/gateways/cheque/class-wc-gateway-cheque.php:67
@@ -6015,16 +5977,16 @@ msgstr ""
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:111
 msgid "Account Name"
-msgstr ""
+msgstr "खाते का नाम"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:112
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:254
 msgid "Account Number"
-msgstr ""
+msgstr "खाते की सांख्या"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:113
 msgid "Bank Name"
-msgstr ""
+msgstr "बैंक का नाम"
 
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:114
 #: includes/gateways/bacs/class-wc-gateway-bacs.php:258
@@ -6455,42 +6417,54 @@ msgstr ""
 
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:762
 #: includes/gateways/paypal/class-wc-gateway-paypal.php:770
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:782
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:787
 msgid "Payment %s via IPN."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:773
-msgid "Payment for order %s refunded/reversed"
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:775
+msgid "Order refunded/reversed"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:774
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:776
 msgid "Order %s has been marked as refunded - PayPal reason code: %s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:785
-msgid "Payment for order %s reversed"
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:779
+msgid "Payment for order %s refunded/reversed"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:786
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:792
+msgid "Order reversed"
+msgstr ""
+
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:793
 msgid ""
 "Order %s has been marked on-hold due to a reversal - PayPal reason code: %s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:792
-msgid "Reversal cancelled for order %s"
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:796
+msgid "Payment for order %s reversed"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:793
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:804
+msgid "Reversal Cancelled"
+msgstr ""
+
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:805
 msgid ""
 "Order %s has had a reversal cancelled. Please check the status of payment "
 "and update the order status accordingly."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:877
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:808
+msgid "Reversal cancelled for order %s"
+msgstr ""
+
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:880
 msgid "Validation error: PayPal amounts do not match (amt %s)."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:885
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:888
 msgid "PDT payment completed"
 msgstr ""
 
@@ -6535,7 +6509,7 @@ msgstr ""
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:102
 #: includes/shipping/local-pickup/class-wc-shipping-local-pickup.php:106
 msgid "Specific Countries"
-msgstr ""
+msgstr "विशिष्ट देश"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:105
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:94
@@ -6548,12 +6522,12 @@ msgstr ""
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:109
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:83
 msgid "Tax Status"
-msgstr ""
+msgstr "टैक्स की स्थिति"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:113
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:87
 msgid "Taxable"
-msgstr ""
+msgstr "कर योग्य"
 
 #: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:114
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:88
@@ -6627,57 +6601,57 @@ msgid ""
 "blank to disable."
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:541
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:533
 msgid "Costs"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:548
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:540
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:102
 msgid "Cost"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:548
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:540
 msgid "Cost, excluding tax."
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:549
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:541
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:110
 msgid "Handling Fee"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:549
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:541
 msgid ""
 "Fee excluding tax. Enter an amount, e.g. 2.50, or a percentage, e.g. 5%."
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:554
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:546
 msgid "Add Cost"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:554
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:546
 msgid "Delete selected costs"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:560
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:552
 msgid "Any class"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:561
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:562
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:553
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:554
 #: includes/shipping/free-shipping/class-wc-shipping-free-shipping.php:102
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:115
 #: includes/shipping/international-delivery/class-wc-shipping-international-delivery.php:123
 #: templates/order/order-details.php:122 templates/order/order-details.php:137
 #: templates/single-product/meta.php:23
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:580
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:610
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:572
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:602
 msgid "Select a class&hellip;"
 msgstr ""
 
-#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:624
+#: includes/shipping/flat-rate/class-wc-shipping-flat-rate.php:616
 msgid "Delete the selected rates?"
 msgstr ""
 
@@ -6870,7 +6844,7 @@ msgstr ""
 #: templates/emails/customer-note.php:22
 #: templates/emails/customer-processing-order.php:18
 msgid "Order:"
-msgstr ""
+msgstr "ऑर्डर:"
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:138
 #: templates/checkout/thankyou.php:44
@@ -6880,7 +6854,7 @@ msgstr ""
 #: includes/shortcodes/class-wc-shortcode-checkout.php:142
 #: templates/checkout/thankyou.php:48
 msgid "Total:"
-msgstr ""
+msgstr "कुल"
 
 #: includes/shortcodes/class-wc-shortcode-checkout.php:147
 #: templates/checkout/thankyou.php:53
@@ -6947,35 +6921,35 @@ msgstr ""
 msgid "This product is protected and cannot be purchased."
 msgstr ""
 
-#: includes/wc-cart-functions.php:81
+#: includes/wc-cart-functions.php:83
 msgid "Added &quot;%s&quot; to your cart."
 msgstr ""
 
-#: includes/wc-cart-functions.php:81
+#: includes/wc-cart-functions.php:83
 msgid "&quot; and &quot;"
 msgstr ""
 
-#: includes/wc-cart-functions.php:84
+#: includes/wc-cart-functions.php:86
 msgid "&quot;%s&quot; was successfully added to your cart."
 msgstr ""
 
-#: includes/wc-cart-functions.php:92
+#: includes/wc-cart-functions.php:94
 msgid "Continue Shopping"
 msgstr ""
 
-#: includes/wc-cart-functions.php:191
+#: includes/wc-cart-functions.php:193
 msgid "Coupon:"
 msgstr ""
 
-#: includes/wc-cart-functions.php:217
+#: includes/wc-cart-functions.php:219
 msgid "Free shipping coupon"
 msgstr ""
 
-#: includes/wc-cart-functions.php:223
+#: includes/wc-cart-functions.php:225
 msgid "[Remove]"
 msgstr ""
 
-#: includes/wc-cart-functions.php:286
+#: includes/wc-cart-functions.php:288
 msgid "Free"
 msgstr ""
 
@@ -7139,10 +7113,6 @@ msgstr ""
 msgid "Vietnamese Dong"
 msgstr ""
 
-#: includes/wc-core-functions.php:207
-msgid "Egyptian Pound"
-msgstr ""
-
 #: includes/wc-coupon-functions.php:22
 msgid "Cart Discount"
 msgstr ""
@@ -7159,21 +7129,35 @@ msgstr ""
 msgid "Product % Discount"
 msgstr ""
 
+#: includes/wc-customer-functions.php:52
+msgid ""
+"An account is already registered with your email address. Please login."
+msgstr ""
+
+#: includes/wc-customer-functions.php:61
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: includes/wc-customer-functions.php:65
+msgid ""
+"An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: includes/wc-customer-functions.php:86
+msgid "Please enter an account password."
+msgstr ""
+
+#: includes/wc-customer-functions.php:112
+msgid ""
+"Couldn&#8217;t register you&hellip; please contact us if you continue to "
+"have problems."
+msgstr ""
+
 #: includes/wc-order-functions.php:295
 msgid "Unpaid order cancelled - time limit reached."
 msgstr ""
 
-#: includes/wc-page-functions.php:78
-msgctxt "edit-address-slug"
-msgid "billing"
-msgstr ""
-
-#: includes/wc-page-functions.php:79
-msgctxt "edit-address-slug"
-msgid "shipping"
-msgstr ""
-
-#: includes/wc-product-functions.php:234
+#: includes/wc-product-functions.php:235
 msgctxt "slug"
 msgid "uncategorized"
 msgstr ""
@@ -7194,7 +7178,7 @@ msgstr ""
 msgid ""
 "This is a demo store for testing purposes &mdash; no orders shall be "
 "fulfilled."
-msgstr ""
+msgstr "परीक्षण प्रयोजनों के लिए एक डेमो दुकान है - कोई भी ऑर्डर को पूरा नहीं किया जाएगा."
 
 #: includes/wc-template-functions.php:400
 msgid "Search Results: &ldquo;%s&rdquo;"
@@ -7229,62 +7213,38 @@ msgstr ""
 msgid "Order Again"
 msgstr ""
 
-#: includes/wc-template-functions.php:1653
+#: includes/wc-template-functions.php:1649
 #: templates/cart/shipping-calculator.php:28
 msgid "Select a country&hellip;"
-msgstr ""
+msgstr "कोई देश चुनें"
 
-#: includes/wc-template-functions.php:1660
+#: includes/wc-template-functions.php:1656
 msgid "Update country"
 msgstr ""
 
-#: includes/wc-template-functions.php:1710
+#: includes/wc-template-functions.php:1699
 #: templates/cart/shipping-calculator.php:52
 msgid "Select a state&hellip;"
 msgstr ""
 
-#: includes/wc-template-functions.php:1851
+#: includes/wc-template-functions.php:1812
 msgid "Search for:"
 msgstr ""
 
-#: includes/wc-template-functions.php:1852
+#: includes/wc-template-functions.php:1813
 msgid "Search for products"
 msgstr ""
 
-#: includes/wc-template-functions.php:1853
+#: includes/wc-template-functions.php:1814
 msgid "Search"
-msgstr ""
+msgstr "खोज"
 
-#: includes/wc-term-functions.php:135
+#: includes/wc-term-functions.php:144
 msgid "Select a category"
 msgstr ""
 
-#: includes/wc-term-functions.php:139
+#: includes/wc-term-functions.php:148
 msgid "Uncategorized"
-msgstr ""
-
-#: includes/wc-user-functions.php:52
-msgid ""
-"An account is already registered with your email address. Please login."
-msgstr ""
-
-#: includes/wc-user-functions.php:61
-msgid "Please enter a valid account username."
-msgstr ""
-
-#: includes/wc-user-functions.php:65
-msgid ""
-"An account is already registered with that username. Please choose another."
-msgstr ""
-
-#: includes/wc-user-functions.php:86
-msgid "Please enter an account password."
-msgstr ""
-
-#: includes/wc-user-functions.php:112
-msgid ""
-"Couldn&#8217;t register you&hellip; please contact us if you continue to "
-"have problems."
 msgstr ""
 
 #: includes/widgets/class-wc-widget-cart.php:23
@@ -7298,7 +7258,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-cart.php:29
 #: includes/widgets/class-wc-widget-cart.php:56
 msgid "Cart"
-msgstr ""
+msgstr "टोकरी"
 
 #: includes/widgets/class-wc-widget-cart.php:35
 msgid "Hide if cart is empty"
@@ -7346,11 +7306,11 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-layered-nav.php:75
 msgid "Attribute"
-msgstr ""
+msgstr "गुण"
 
 #: includes/widgets/class-wc-widget-layered-nav.php:81
 msgid "Display type"
-msgstr ""
+msgstr "प्रदर्शन के प्रकार"
 
 #: includes/widgets/class-wc-widget-layered-nav.php:83
 msgid "List"
@@ -7417,7 +7377,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-product-categories.php:36
 #: includes/widgets/class-wc-widget-products.php:51
 msgid "Order by"
-msgstr ""
+msgstr "क्रम चयन"
 
 #: includes/widgets/class-wc-widget-product-categories.php:38
 msgid "Category Order"
@@ -7475,7 +7435,7 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-products.php:41
 msgid "Show"
-msgstr ""
+msgstr "देखाए"
 
 #: includes/widgets/class-wc-widget-products.php:43
 msgid "All Products"
@@ -7492,7 +7452,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-products.php:53
 #: templates/myaccount/my-orders.php:33
 msgid "Date"
-msgstr ""
+msgstr "तारीक"
 
 #: includes/widgets/class-wc-widget-products.php:54 templates/cart/cart.php:28
 #: templates/emails/admin-new-order.php:24
@@ -7501,7 +7461,7 @@ msgstr ""
 #: templates/emails/customer-note.php:29
 #: templates/emails/customer-processing-order.php:25
 msgid "Price"
-msgstr ""
+msgstr "क़ीमत"
 
 #: includes/widgets/class-wc-widget-products.php:55
 msgid "Random"
@@ -7509,12 +7469,12 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-products.php:56
 msgid "Sales"
-msgstr ""
+msgstr "विक्रय"
 
 #: includes/widgets/class-wc-widget-products.php:62
 msgctxt "Sorting order"
 msgid "Order"
-msgstr ""
+msgstr "ऑर्डर"
 
 #: includes/widgets/class-wc-widget-products.php:64
 msgid "ASC"
@@ -7538,7 +7498,7 @@ msgstr ""
 
 #: includes/widgets/class-wc-widget-recent-reviews.php:23
 msgid "WooCommerce Recent Reviews"
-msgstr ""
+msgstr "वूकोमर्स : हाल की समीक्षाएँ"
 
 #: includes/widgets/class-wc-widget-recent-reviews.php:27
 msgid "Recent Reviews"
@@ -7615,7 +7575,7 @@ msgstr ""
 
 #: templates/cart/cart-shipping.php:93
 msgid "Shipping"
-msgstr ""
+msgstr "शिप्पिंग"
 
 #: templates/cart/cart-totals.php:16
 msgid "Cart Totals"
@@ -7627,7 +7587,7 @@ msgstr ""
 
 #: templates/cart/cart-totals.php:75 templates/checkout/review-order.php:79
 msgid "Order Total"
-msgstr ""
+msgstr "ऑर्डर की कुल क़ीमत"
 
 #: templates/cart/cart-totals.php:87
 msgid " (taxes estimated for %s)"
@@ -7645,12 +7605,12 @@ msgstr ""
 #: templates/emails/customer-note.php:28
 #: templates/emails/customer-processing-order.php:24
 msgid "Quantity"
-msgstr ""
+msgstr "मात्रा"
 
 #: templates/cart/cart.php:30 templates/checkout/review-order.php:19
 #: templates/myaccount/my-orders.php:35 templates/order/order-details.php:21
 msgid "Total"
-msgstr ""
+msgstr "कुल"
 
 #: templates/cart/cart.php:47
 msgid "Remove this item"
@@ -7658,7 +7618,7 @@ msgstr ""
 
 #: templates/cart/cart.php:119 templates/checkout/form-coupon.php:26
 msgid "Coupon code"
-msgstr ""
+msgstr "कूपन कोड"
 
 #: templates/cart/cart.php:119 templates/checkout/form-coupon.php:30
 msgid "Apply Coupon"
@@ -7682,11 +7642,11 @@ msgstr ""
 
 #: templates/cart/mini-cart.php:59
 msgid "Subtotal"
-msgstr ""
+msgstr "उप - जॉड़"
 
 #: templates/cart/mini-cart.php:65
 msgid "Checkout"
-msgstr ""
+msgstr "भुगतान"
 
 #: templates/cart/shipping-calculator.php:22
 msgid "Calculate Shipping"
@@ -7700,7 +7660,7 @@ msgstr ""
 
 #: templates/cart/shipping-calculator.php:72
 msgid "City"
-msgstr ""
+msgstr "शहर"
 
 #: templates/cart/shipping-calculator.php:85
 msgid "Update Totals"
@@ -7767,11 +7727,11 @@ msgstr ""
 
 #: templates/checkout/form-pay.php:20
 msgid "Qty"
-msgstr ""
+msgstr "मात्रा"
 
 #: templates/checkout/form-pay.php:21
 msgid "Totals"
-msgstr ""
+msgstr "कुल"
 
 #: templates/checkout/form-pay.php:54
 msgid "Payment"
@@ -7841,7 +7801,7 @@ msgstr ""
 
 #: templates/checkout/thankyou.php:28 templates/myaccount/my-orders.php:71
 msgid "Pay"
-msgstr ""
+msgstr "मूल्य प्रदान"
 
 #: templates/checkout/thankyou.php:36 templates/checkout/thankyou.php:67
 msgid "Thank you. Your order has been received."
@@ -7863,7 +7823,7 @@ msgstr ""
 #: templates/emails/plain/admin-new-order.php:39
 #: templates/order/order-details.php:97
 msgid "Customer details"
-msgstr ""
+msgstr "ग्राहक की जानकारी"
 
 #: templates/emails/admin-new-order.php:53
 #: templates/emails/customer-completed-order.php:54
@@ -7875,7 +7835,7 @@ msgstr ""
 #: templates/emails/plain/customer-processing-order.php:41
 #: templates/order/order-details.php:101
 msgid "Email:"
-msgstr ""
+msgstr "ईमेल:"
 
 #: templates/emails/admin-new-order.php:56
 #: templates/emails/customer-completed-order.php:57
@@ -7886,7 +7846,7 @@ msgstr ""
 #: templates/emails/plain/customer-note.php:52
 #: templates/emails/plain/customer-processing-order.php:44
 msgid "Tel:"
-msgstr ""
+msgstr "फोन नंबर"
 
 #: templates/emails/customer-completed-order.php:14
 #: templates/emails/plain/customer-completed-order.php:13
@@ -7968,12 +7928,12 @@ msgstr ""
 #: templates/emails/email-addresses.php:18
 #: templates/emails/plain/email-addresses.php:12
 msgid "Billing address"
-msgstr ""
+msgstr "बिल भेजने का पता"
 
 #: templates/emails/email-addresses.php:28
 #: templates/emails/plain/email-addresses.php:17
 msgid "Shipping address"
-msgstr ""
+msgstr "सामान भेजने का पता"
 
 #: templates/emails/email-order-items.php:25
 msgid "Product Image"
@@ -8076,7 +8036,7 @@ msgstr ""
 #: templates/global/quantity-input.php:12
 msgctxt "Product quantity input tooltip"
 msgid "Qty"
-msgstr ""
+msgstr "मात्रा"
 
 #: templates/loop/no-products-found.php:14
 msgid "No products were found matching your selection."
@@ -8136,47 +8096,39 @@ msgstr ""
 
 #: templates/myaccount/form-edit-account.php:20
 msgid "First name"
-msgstr ""
+msgstr "नाम"
 
 #: templates/myaccount/form-edit-account.php:24
 msgid "Last name"
-msgstr ""
+msgstr "कुलनाम"
 
 #: templates/myaccount/form-edit-account.php:28
 #: templates/myaccount/form-login.php:81
 msgid "Email address"
-msgstr ""
+msgstr "ईमेल"
 
-#: templates/myaccount/form-edit-account.php:33
-msgid "Password Change"
+#: templates/myaccount/form-edit-account.php:32
+msgid "Password (leave blank to leave unchanged)"
 msgstr ""
 
 #: templates/myaccount/form-edit-account.php:36
-msgid "Current Password (leave blank to leave unchanged)"
+msgid "Confirm new password"
 msgstr ""
 
-#: templates/myaccount/form-edit-account.php:40
-msgid "New Password (leave blank to leave unchanged)"
-msgstr ""
-
-#: templates/myaccount/form-edit-account.php:44
-msgid "Confirm New Password"
-msgstr ""
-
-#: templates/myaccount/form-edit-account.php:50
+#: templates/myaccount/form-edit-account.php:41
 msgid "Save changes"
-msgstr ""
+msgstr "परिवर्तन बचाए"
 
 #: templates/myaccount/form-edit-address.php:16
 #: templates/myaccount/my-address.php:19 templates/myaccount/my-address.php:25
 #: templates/order/order-details.php:118
 msgid "Billing Address"
-msgstr ""
+msgstr "बिल भेजने का पता"
 
 #: templates/myaccount/form-edit-address.php:16
 #: templates/myaccount/my-address.php:20 templates/order/order-details.php:133
 msgid "Shipping Address"
-msgstr ""
+msgstr "सामान भेजने का पता"
 
 #: templates/myaccount/form-edit-address.php:40
 msgid "Save Address"
@@ -8193,7 +8145,7 @@ msgstr ""
 
 #: templates/myaccount/form-login.php:74
 msgid "Username"
-msgstr ""
+msgstr "उपयोगकर्ता का नाम"
 
 #: templates/myaccount/form-login.php:95
 msgid "Anti-spam"
@@ -8268,7 +8220,7 @@ msgstr ""
 
 #: templates/myaccount/my-orders.php:34
 msgid "Status"
-msgstr ""
+msgstr "स्थति"
 
 #: templates/myaccount/my-orders.php:62
 msgid "%s for %s item"
@@ -8278,11 +8230,11 @@ msgstr[1] ""
 
 #: templates/myaccount/my-orders.php:78
 msgid "Cancel"
-msgstr ""
+msgstr "रद्द करें"
 
 #: templates/myaccount/my-orders.php:84
 msgid "View"
-msgstr ""
+msgstr "देखे"
 
 #: templates/myaccount/view-order.php:19
 msgid ""
