@@ -16,7 +16,7 @@ define('WP_CACHE', true); // Added by W3 Total Cache
  *
  * @package WordPress
  */
- 
+
 // Define Environments - may be a string or array of options for an environment
 $environments = array(
 	'dev.'	    => 'dev',
@@ -73,11 +73,12 @@ switch(ENVIRONMENT){
 		define('DB_PASSWORD', 'Ro^LJ@0vCk&_');
 		define('DB_HOST', 'localhost');
 		define('WP_DEBUG', false);
+		define('WP_MEMORY_LIMIT', '32M');
 
 		break;
 
 }
- 
+
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
