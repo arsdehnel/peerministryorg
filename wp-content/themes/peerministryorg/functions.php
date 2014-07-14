@@ -4,6 +4,10 @@
  * @subpackage HTML5_Boilerplate
  */
 
+@ini_set( 'upload_max_size' , '64M' );
+@ini_set( 'post_max_size', '64M');
+@ini_set( 'max_execution_time', '300' );
+
 //WooCommerce
 add_theme_support( 'woocommerce' );
 add_filter( 'woocommerce_enqueue_styles', '__return_false' );
