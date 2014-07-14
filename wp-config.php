@@ -20,9 +20,9 @@ define('WP_CACHE', true); // Added by W3 Total Cache
 // Define Environments - may be a string or array of options for an environment
 $environments = array(
 	'dev.'	    => 'dev',
-	'preview.'  => 'test',
+	'preview.'  => 'prod',
 	'www.'      => 'prod',
-	'v2.'       => 'test',
+	'v2.'       => 'prod',
 	'v1.'       => 'prod',
 );
 
@@ -56,17 +56,7 @@ switch(ENVIRONMENT){
 
 		break;
 
-	case 'test':
-
-		define('DB_NAME', 'peerministryorg');
-		define('DB_USER', 'peerministryorg');
-		define('DB_PASSWORD', 'Ro^LJ@0vCk&_');
-		define('DB_HOST', 'localhost');
-		define('WP_DEBUG', false);
-
-		break;
-
-	case 'production':
+	case 'prod':
 
 		define('DB_NAME', 'peerministryorg');
 		define('DB_USER', 'peerministryorg');
