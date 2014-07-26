@@ -37,5 +37,8 @@
 	.panel-content{
 		padding-left: 45px;
 		@include clearfix();
+		img{
+			margin: 5px;
+		}
 	}
 }
