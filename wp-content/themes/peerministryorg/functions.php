@@ -20,6 +20,11 @@ add_action( 'hook_woocommerce_in_cart_product_thumbnail', 'woocommerce_cart_thum
 add_filter( 'wp_link_query_args', 'peerministry_link_types' );
 
 function peerministry_link_types( $query ){
+
+	$post_types = $query['post_type'];
+	unset($post_types[array_search('simplemodal',$post_types)]);
+	$query['post_type'] = $post_types;
+
 	$query['post_status'] = array('publish','inherit');
 	return $query;
 }
