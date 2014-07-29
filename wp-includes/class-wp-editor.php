@@ -1303,6 +1303,8 @@ final class _WP_Editors {
 			'update_post_term_cache' => false,
 			'update_post_meta_cache' => false,
 			'post_status' => 'publish',
+			// 'post_status' => array('publish','inherit'),
+			// 'post_status' => 'inherit',
 			'posts_per_page' => 20,
 		);
 
