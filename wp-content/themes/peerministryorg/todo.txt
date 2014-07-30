@@ -1,0 +1,1 @@
+- pdf links opening attachment page rather than directly opening PDF
