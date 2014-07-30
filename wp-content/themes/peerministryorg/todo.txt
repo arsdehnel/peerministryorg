@@ -1,1 +1,3 @@
 - pdf links opening attachment page rather than directly opening PDF
+- h1 and h2 are same size
+- favicon
