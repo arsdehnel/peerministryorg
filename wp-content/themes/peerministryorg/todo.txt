@@ -8,3 +8,4 @@
 - stripe setup
 - email to lyle upon order
 - email to user upon order
+- admin menu editor

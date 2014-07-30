@@ -25,10 +25,10 @@ get_header(); ?>
     	</div>
     	<div class="grid-4-12 well">
     		<header>
-	    		<?php echo get_field('well_title'); ?>
+	    		<?php echo get_field('well_title_2'); ?>
     		</header>
         	<div class="well-contents">
-          		<?php echo get_field('well_content'); ?>
+          		<?php echo get_field('well_content_2'); ?>
         	</div>
     	</div>
     </div>
