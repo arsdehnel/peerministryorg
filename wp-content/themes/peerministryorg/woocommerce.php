@@ -12,7 +12,7 @@ get_header(); ?>
     </header>
     <div class="grid">
     	<div class="grid-2-12">
-    		Store FAQs, featured items, process flow, etc.
+
     	</div>
     	<div class="grid-8-12">
     		<?php

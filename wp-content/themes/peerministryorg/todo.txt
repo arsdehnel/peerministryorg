@@ -2,11 +2,9 @@
 - favicon
 - short description for products
 - header images set only once for the site
-- product images being cut off
 - product detail page remove content in left rail
 - prefill payment form for logged in users
-- stripe setup
 - email to lyle upon order
 - email to user upon order
 - admin menu editor
-- image wrapper isn't containing the images
+- order submission going to 404
