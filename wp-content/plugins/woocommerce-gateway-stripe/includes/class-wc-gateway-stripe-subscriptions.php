@@ -53,19 +53,28 @@ class WC_Gateway_Stripe_Subscriptions extends WC_Gateway_Stripe {
 					throw new Exception( __( 'Please make sure your card details have been entered correctly and that your browser supports JavaScript.', 'woocommerce-gateway-stripe' ) );
 				}
 
-				$initial_payment = WC_Subscriptions_Order::get_total_initial_payment( $order );
+				if ( $customer_id ) {
 
-				$customer_response = $this->add_customer( $order, $stripe_token );
+					// Store the ID in the order
+					update_post_meta( $order->id, '_stripe_customer_id', $customer_id );
+
+				} else {
+
+					// Store token/add customer
+					$customer_id = $this->add_customer( $order, $stripe_token );
+
+					if ( is_wp_error( $customer_id ) ) {
+						throw new Exception( $customer_id->get_error_message() );
+					}
+				}
+
+				$initial_payment = WC_Subscriptions_Order::get_total_initial_payment( $order );
 
 				if ( $initial_payment > 0 ) {
 					$payment_response = $this->process_subscription_payment( $order, $initial_payment );
 				}
 
-				if ( is_wp_error( $customer_response ) ) {
-
-					throw new Exception( $customer_response->get_error_message() );
-
-				} else if ( isset( $payment_response ) && is_wp_error( $payment_response ) ) {
+				if ( isset( $payment_response ) && is_wp_error( $payment_response ) ) {
 
 					throw new Exception( $payment_response->get_error_message() );
 

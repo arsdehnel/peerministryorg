@@ -68,6 +68,37 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 	}
 
 	/**
+	 * Get Stripe amount to pay
+	 * @return float
+	 */
+	public function get_stripe_amount( $total ) {
+		switch ( get_woocommerce_currency() ) {
+			// Zero decimal currencies
+			case 'BIF' : 
+			case 'CLP' :
+			case 'DJF' :
+			case 'GNF' :
+			case 'JPY' :
+			case 'KMF' :
+			case 'KRW' :
+			case 'MGA' :
+			case 'PYG' :
+			case 'RWF' :
+			case 'VND' :
+			case 'VUV' :
+			case 'XAF' :
+			case 'XOF' :
+			case 'XPF' :
+				$total = absint( $total );
+			break;
+			default :
+				$total = $total * 100; // In cents
+			break;
+		}
+		return $total;
+	}
+
+	/**
  	 * Check if SSL is enabled and notify the user
  	 */
 	public function admin_notices() {
@@ -214,7 +245,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 				?>
 				<p class="form-row form-row-wide">
 
-					<a class="button" style="float:right;" href="<?php echo get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ); ?>#saved-cards"><?php _e( 'Manage cards', 'woocommerce-gateway-stripe' ); ?></a>
+					<a class="button" style="float:right;" href="<?php echo apply_filters( 'wc_stripe_manage_saved_cards_url', get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>#saved-cards"><?php _e( 'Manage cards', 'woocommerce-gateway-stripe' ); ?></a>
 
 					<?php 
 					foreach ( $credit_cards as $i => $credit_card ) : 
@@ -234,7 +265,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 
 			<div class="stripe_new_card" <?php if ( $checked === 0 ) : ?>style="display:none;"<?php endif; ?>
 				data-description=""
-				data-amount="<?php echo WC()->cart->total * 100; ?>"
+				data-amount="<?php echo $this->get_stripe_amount( WC()->cart->total ); ?>"
 				data-name="<?php echo sprintf( __( '%s', 'woocommerce-gateway-stripe' ), get_bloginfo( 'name' ) ); ?>"
 				data-label="<?php _e( 'Confirm and Pay', 'woocommerce-gateway-stripe' ); ?>"
 				data-currency="<?php echo strtolower( get_woocommerce_currency() ); ?>"
@@ -276,8 +307,9 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 		}
 
 		$stripe_params = array(
-			'key'        => $this->publishable_key,
-			'i18n_terms' => __( 'Please accept the terms and conditions first', 'woocommerce-gateway-stripe' )
+			'key'                  => $this->publishable_key,
+			'i18n_terms'           => __( 'Please accept the terms and conditions first', 'woocommerce-gateway-stripe' ),
+			'i18n_required_fields' => __( 'Please fill in requried checkout fields first', 'woocommerce-gateway-stripe' ),
 		);
 
 		// If we're on the pay page we need to pass stripe.js the address of the order.
@@ -357,7 +389,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 			}
 
 			// Other charge data
-			$post_data['amount']      = $order->order_total * 100; // In cents, minimum amount = 50
+			$post_data['amount']      = $this->get_stripe_amount( $order->order_total );
 			$post_data['currency']    = strtolower( get_woocommerce_currency() );
 			$post_data['description'] = sprintf( __( '%s - Order %s', 'wp_stripe' ), wp_specialchars_decode( get_bloginfo( 'name' ), ENT_QUOTES ), $order->get_order_number() );
 			$post_data['capture']     = $this->capture ? 'true' : 'false';
@@ -430,7 +462,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 	 * @return void
 	 */
 	public function add_customer( $order, $stripe_token ) {
-		if ( is_user_logged_in() && $stripe_token ) {
+		if ( $stripe_token ) {
 			$response = $this->stripe_request( array(
 				'email'       => $order->billing_email,
 				'description' => 'Customer: ' . $order->billing_first_name . ' ' . $order->billing_last_name,
@@ -442,7 +474,7 @@ class WC_Gateway_Stripe extends WC_Payment_Gateway {
 				return $response;
 			} else {
 
-				if ( ! empty( $response->default_card ) ) {
+				if ( is_user_logged_in() && ! empty( $response->default_card ) ) {
 					add_user_meta( get_current_user_id(), '_stripe_customer_id', array(
 						'customer_id' => $response->id,
 						'active_card' => $response->default_card->last4,

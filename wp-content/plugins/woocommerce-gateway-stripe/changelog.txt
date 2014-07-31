@@ -1,5 +1,13 @@
 *** Stripe Changelog ***
 
+2014.07.25 - version 2.0.3
+* wc_stripe_manage_saved_cards_url filter.
+* Zero decimal currency handling.
+* Only open stripe model when required fields are completed.
+
+2014.06.06 - version 2.0.2
+* Fix use of saved cards on subscriptions.
+
 2014.05.29 - version 2.0.1
 * Fix ajax loading gif.
 * Fix notices.

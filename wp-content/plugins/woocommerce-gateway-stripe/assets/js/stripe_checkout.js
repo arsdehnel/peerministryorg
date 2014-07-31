@@ -20,10 +20,23 @@ jQuery( function() {
 			alert( wc_stripe_params.i18n_terms );
 			return false;
 		}
+		$required_inputs = jQuery( '.woocommerce-billing-fields .address-field.validate-required' );
 
-		var $form = jQuery("form.checkout, form#order_review");
+		if ( $required_inputs.size() ) {
+			var required_error = false;
+			$required_inputs.each( function() {
+				if ( jQuery( this ).find( 'input.input-text' ).val() === '' ) {
+					required_error = true;
+				}
+			});
+			if ( required_error ) {
+				alert( wc_stripe_params.i18n_required_fields );
+				return false;
+			}
+		}
+		var $form            = jQuery("form.checkout, form#order_review");
 		var $stripe_new_card = jQuery( '.stripe_new_card' );
-		var token = $form.find('input.stripe_token');
+		var token            = $form.find('input.stripe_token');
 
 		token.val('');
 
