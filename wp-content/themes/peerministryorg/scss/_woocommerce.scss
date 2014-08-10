@@ -172,7 +172,7 @@ $input_width : 250px;
 
 //common to mini-cart, full-size cart and checkout page
 .cart,
-#order_review .shop_table,
+.checkout .shop_table,
 table.order_details{
 	.product-link{
 		display: block;
@@ -259,7 +259,7 @@ table.order_details{
 		li{
 			position: relative;
 			list-style: none;
-			padding: 8px 8px 8px 50px;
+			padding: 8px 8px 8px 60px;
 			margin: 0 0 10px;
 			border-top: 1px solid $peer_blue;
 			&:first-child{
@@ -267,9 +267,8 @@ table.order_details{
 			}
 			img{
 				position: absolute;
-				top: 5px;
-				left: 5px;
-				margin-right: 8px;
+				top: 0;
+				left: 0;
 				max-width: 40px;
 				padding: 1px;
 				border: 1px solid #999;
@@ -309,7 +308,7 @@ table.order_details{
 	}
 }
 
-#order_review .shop_table{
+.checkout .shop_table{
 	.product-name{
 		width: 70%;
 	}
@@ -334,7 +333,7 @@ table.order_details{
 }
 
 .cart,
-#order_review .shop_table,
+.checkout .shop_table,
 table.order_details{
 	width: 100%;
 	margin-top: 20px;
@@ -395,6 +394,7 @@ table.order_details{
 	margin: 0;
 	fieldset,
 	li{
+		border: 0;
 		padding: 0;
 		margin: 0;
 	}

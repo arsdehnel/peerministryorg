@@ -10,7 +10,8 @@
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 ?>
-<div class="grid-6-12" id="order_review">
+<div id="order_review">
+<div class="grid-6-12">
 
 	<table class="shop_table">
 		<thead>
@@ -99,7 +100,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 									<?php echo apply_filters( 'woocommerce_checkout_cart_item_quantity', ' <strong class="product-quantity">' . sprintf( '&times; %s', $cart_item['quantity'] ) . '</strong>', $cart_item, $cart_item_key ); ?>
 								</div>
 								<?php
-								
+
 									$item_data = WC()->cart->get_item_data( $cart_item );
 
 									if( strlen( $item_data ) > 0 ):
@@ -113,7 +114,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 										//echo $woocommerce->cart->get_item_data( $values );
 
 									endif;
-									
+
 								?>
 							</td>
 							<td class="product-total">
@@ -133,7 +134,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 	<?php do_action( 'woocommerce_review_order_before_payment' ); ?>
 
 	<div id="payment">
-		<h3 id="order_review_heading"><?php _e( 'Payment', 'woocommerce' ); ?></h3>
+		<h3 id="payment_heading"><?php _e( 'Payment', 'woocommerce' ); ?></h3>
 		<?php if ( WC()->cart->needs_payment() ) : ?>
 		<ul class="payment_methods methods">
 			<?php
@@ -192,7 +193,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			echo apply_filters( 'woocommerce_order_button_html', '<input type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="' . esc_attr( $order_button_text ) . '" data-value="' . esc_attr( $order_button_text ) . '" />' );
 			?>
 
-			<?php if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) { 
+			<?php if ( wc_get_page_id( 'terms' ) > 0 && apply_filters( 'woocommerce_checkout_show_terms', true ) ) {
 				$terms_is_checked = apply_filters( 'woocommerce_terms_is_checked_default', isset( $_POST['terms'] ) );
 				?>
 				<p class="form-row terms">
@@ -211,4 +212,5 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 	<?php do_action( 'woocommerce_review_order_after_payment' ); ?>
 
+</div>
 </div>
