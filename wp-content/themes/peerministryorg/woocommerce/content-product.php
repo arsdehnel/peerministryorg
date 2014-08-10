@@ -41,6 +41,7 @@ $classes[] = 'grid-4-12';
 
 	<div class="product-inner">
 
+		<div class="product-details">
 		<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
 		<a class="product-page-link" href="<?php the_permalink(); ?>">
@@ -54,7 +55,8 @@ $classes[] = 'grid-4-12';
 				do_action( 'woocommerce_before_shop_loop_item_title' );
 			?>
 			<h3><?php the_title(); ?></h3>
-			<p><?php the_content(); ?></p>
+
+		</a>
 
 			<?php
 				/**
@@ -64,8 +66,8 @@ $classes[] = 'grid-4-12';
 				 */
 				do_action( 'woocommerce_after_shop_loop_item_title' );
 			?>
-
-		</a>
+			<p><?php the_excerpt(); ?></p>
+		</div><!-- /.product-details -->
 
 		<?php
 

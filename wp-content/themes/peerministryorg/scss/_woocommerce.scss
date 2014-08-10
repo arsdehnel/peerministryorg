@@ -16,8 +16,8 @@ $input_width : 250px;
 		padding: 0;
 	 	.product .product-inner{
 			display: block;
-			float: left;
 			background: rgba( 255, 255, 255, .7 );
+			border: 1px solid #ccc;
 			box-shadow: 6px 6px 0 #ccc;
 			position: relative;
 			width: 100%;
@@ -33,7 +33,14 @@ $input_width : 250px;
 			}
 		 	.product-page-link{
 		 		display: block;
-		 		margin-bottom: 26px;
+			}
+			.product-details{
+				overflow: scroll;
+				max-height: 200px;
+				img{
+					margin: 10px 10px 10px 0;
+					float: left;
+				}
 			}
 			.variations .label,
 			.single_variation,
