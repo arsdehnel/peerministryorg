@@ -35,7 +35,7 @@ if ( 0 == ( $woocommerce_loop['loop'] - 1 ) % $woocommerce_loop['columns'] || 1 
 if ( 0 == $woocommerce_loop['loop'] % $woocommerce_loop['columns'] )
 	$classes[] = 'last';
 
-$classes[] = 'grid-4-12';
+$classes[] = 'grid-6-12';
 ?>
 <li <?php post_class( $classes ); ?>>
 
