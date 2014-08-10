@@ -18,6 +18,14 @@ remove_action( 'woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 3
 remove_action( 'woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_price', 10 );
 add_action( 'hook_woocommerce_in_cart_product_thumbnail', 'woocommerce_cart_thumb', 50 );
 add_filter( 'wp_link_query_args', 'peerministry_link_types' );
+add_filter( 'woocommerce_product_tabs', 'remove_additional_info_tab', 99 );
+
+function remove_additional_info_tab( $tabs ){
+	if( is_array( $tabs ) && array_key_exists( 'additional_information', $tabs ) ){
+		unset( $tabs['additional_information'] );
+	}
+	return $tabs;
+}
 
 function peerministry_link_types( $query ){
 

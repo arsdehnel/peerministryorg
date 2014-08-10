@@ -1,8 +1,6 @@
-- pdf links opening attachment page rather than directly opening PDF
 - favicon
 - short description for products
 - header images set only once for the site
-- product detail page remove content in left rail
 - prefill payment form for logged in users
 - email to lyle upon order
 - email to user upon order
