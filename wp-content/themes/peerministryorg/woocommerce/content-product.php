@@ -54,6 +54,8 @@ $classes[] = 'grid-4-12';
 				do_action( 'woocommerce_before_shop_loop_item_title' );
 			?>
 			<h3><?php the_title(); ?></h3>
+			<p><?php the_content(); ?></p>
+
 			<?php
 				/**
 				 * woocommerce_after_shop_loop_item_title hook
