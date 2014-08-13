@@ -421,7 +421,9 @@ table.order_details{
 			border-bottom: none;
 		}
 	}
-	input,
+	input[type=text],
+	input[type=number],
+	input[type=email],
 	select,
 	textarea{
 		width: $input_width;
