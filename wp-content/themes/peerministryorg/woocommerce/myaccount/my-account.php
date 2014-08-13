@@ -16,7 +16,6 @@ wc_print_notices(); ?>
 	<?php do_action( 'woocommerce_before_my_account' ); ?>
 		<div class="grid-3-12 well well-nav">
 			<?php wc_get_template( 'myaccount/my-profile-nav.php' ); ?>
-			<?php echo wc_lostpassword_url(); ?>
 		</div>
 		<div class="grid-6-12">
 			<div class="container">
