@@ -17,7 +17,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
     <title><?php wp_title('&laquo;', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-
+	<link rel="shortcut icon" href="https://www.everydayllc.org/images/favicon.ico">
     <meta name="viewport" content="width=device-width">
 
     <!-- Wordpress Templates require a style.css in theme root directory -->
