@@ -28,8 +28,9 @@ get_header(); ?>
     	    			woocommerce_mini_cart();
     	    		else:
                         ?>
+                    	<h2>Your Cart!</h2>
     	    			<p>
-                            Currently your cart has no items in it.  Select an item's "Add To Cart" yellow button in the item listing in the middle of this page to add an item to your cart.
+							Waiting and willing to be filled with your orders.
                         </p>
                         <?php
     	    		endif;
