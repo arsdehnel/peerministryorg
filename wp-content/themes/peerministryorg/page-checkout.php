@@ -30,7 +30,7 @@ get_header(); ?>
 			?>
     	</div>
         <div class="grid-2-12 well cart">
-            <header>Download instructions?</header>
+            <header>Download instructions</header>
             <div class="well-contents">
                 <p>After clicking on “Place order” the next window will provide the lines to click and download your files. You will also receive an email with the same opportunity to download files. </p>
             </div>
