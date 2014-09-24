@@ -1,5 +1,9 @@
 # Remove SASS cache files #
 *.scssc
+.sass-cache
+
+# don't need the node modules #
+node_modules
 
 # No need to add the upgrade folder to the repo #
 wp-content/upgrade/*
@@ -19,3 +23,4 @@ readme.html
 license.txt
 .log
 .DS_Store
+

@@ -1,0 +1,21 @@
+{
+  "name": "Peer-Ministry-2014-WordPress-Theme",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "*",
+    "grunt-contrib-imagemin": "~0.7.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "load-grunt-tasks": "~0.4.0"
+  },
+  "dependencies": {
+    "grunt-contrib-sass": "^0.7.4",
+    "load-grunt-tasks": "^0.4.0",
+    "grunt-contrib-uglify": "^0.4.1",
+    "grunt-autoprefixer": "^1.0.1",
+    "grunt-contrib-imagemin": "^0.7.2"
+  }
+}
