@@ -24,7 +24,7 @@
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
 
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
-    <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/modernizr-2.6.1.min.js") ?>
+    <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."js/vendor/modernizr-peerministryorg.min.js") ?>
 
     <!-- Wordpress Head Items -->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
