@@ -1,41 +1,43 @@
 .image-carousels{
 	display: none;
 }
-.js .image-carousels{
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: -1;
-	.image-module{
-		box-sizing: border-box;
+@include breakpoint( papa-bear ) {
+	.js .image-carousels{
+		display: block;
 		position: absolute;
-		padding: 10px;
-		background: $peer_teal;
-		width: 100px;
-		height: 100px;
-		&.left{
-			top: 70px;
-			left: 140px;
-			img{
-				max-height: 180px;
-				max-width: 270px;
-			}
-		}
-		&.right{
-			top: 100px;
-			right: 140px;
-			img{
-				max-height: 150px;
-				max-width: 200px;
-			}
-		}
-		img{
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: -1;
+		.image-module{
+			box-sizing: border-box;
 			position: absolute;
-			&.loader{
-				visibility: hidden;
-				opacity: 0;
+			padding: 10px;
+			background: $peer_teal;
+			width: 100px;
+			height: 100px;
+			&.left{
+				top: 70px;
+				left: 140px;
+				img{
+					max-height: 180px;
+					max-width: 270px;
+				}
+			}
+			&.right{
+				top: 100px;
+				right: 140px;
+				img{
+					max-height: 150px;
+					max-width: 200px;
+				}
+			}
+			img{
+				position: absolute;
+				&.loader{
+					visibility: hidden;
+					opacity: 0;
+				}
 			}
 		}
 	}
