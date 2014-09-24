@@ -12,13 +12,15 @@ body {
   font-family: $styled-font;
   font-size: 12px;
 }
-header[role=banner] h1
-{
+header[role=banner] h1 {
+	height: 120px;
+	width: 354px;
+	margin: 10px auto;
+	overflow: hidden;
 	background: url("images/logos/peer_md.png") 0 0 no-repeat;
 	text-indent: 100%;
 	white-space: nowrap;
-	overflow: hidden;
-	margin: 60px auto 30px;
-	height: 120px;
-	width: 354px;
+	@include breakpoint( papa-bear ) {
+		margin: 60px auto 30px;
+	}
 }
