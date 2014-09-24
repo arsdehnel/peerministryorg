@@ -160,6 +160,7 @@ h1 {
   color: white;
   text-decoration: none;
   vertical-align: middle;
+  text-transform: uppercase;
 }
 .nav-main a:nth-child(1), .nav-main a:nth-child(7) {
   background: #2aace2;
@@ -221,6 +222,9 @@ h1 {
 }
 .nav-main a.active {
   text-decoration: underline;
+}
+.nav-main a.cart {
+  margin-top: 0;
 }
 
 .nav-tab-wrapper, .woocommerce .product .woocommerce-tabs {

@@ -18,6 +18,7 @@
 		color: white;
 		text-decoration: none;
 		vertical-align: middle;
+		text-transform: uppercase;
 		&:nth-child(1),
 		&:nth-child(7) {
 			background: $peer_blue;
@@ -77,5 +78,8 @@
 	a.active {
 		text-decoration: underline;
 		// TODO add gradient underline rather than text decoration underline
+	}
+	a.cart {
+		margin-top: 0;
 	}
 }
