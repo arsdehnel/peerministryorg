@@ -1,31 +1,81 @@
 .nav-main {
-	line-height: 30px;
-	width: 100%;
-	height: 45px;
 	padding: 0;
-	margin: 0 0 10px;
+	margin: 0 auto 10px;
 	text-align: center;
-	a{
-		text-shadow: 0 0 3px #666;
-		font-family: $styled-font;
-		text-decoration: none;
-		font-size: 20px;
-		color: #ffffff;
-		text-transform: uppercase;
-		-webkit-transition: all .3s;
-		transition: all .3s;
-		padding: 10px;
-	  vertical-align: top;
-    &.cart{
-      color: $peer_green;
-      text-shadow: 0 0 3px white;
-    }
+	@include breakpoint( mama-bear ) {
+		display: table;
 	}
-	a:hover,
-	a.active{
-		color: #999999;
-		font-size: 28px;
- 		text-shadow: 0 0 3px #fff;
+	@include breakpoint( papa-bear ) {
+		height: 45px;
+		text-align: center;
+		display: block;
+	}
+	a {
+		width: 25%;
+		display: inline-block;
 		padding: 4px;
+		background: $peer_teal;
+		color: white;
+		text-decoration: none;
+		vertical-align: middle;
+		&:nth-child(1),
+		&:nth-child(7) {
+			background: $peer_blue;
+		}
+		&:nth-child(2),
+		&:nth-child(8) {
+			background: $peer_orange;
+		}
+		&:nth-child(3),
+		&:nth-child(5) {
+			background: $peer_yellow;
+		}
+		@include breakpoint( mama-bear ) {
+			display: table-cell;
+			padding: 9px;
+			font-size: 16px;
+			width: 12.5%;
+			a:nth-child(1),
+			a:nth-child(5) {
+				background: $peer_blue;
+			}
+			a:nth-child(2),
+			a:nth-child(6) {
+				background: $peer_orange;
+			}
+			a:nth-child(3),
+			a:nth-child(7) {
+				background: $peer_yellow;
+			}
+		}
+		@include breakpoint( papa-bear ) {
+			display: inline-block;
+			width: auto;
+			padding: 10px;
+			background: none !important;
+			text-shadow: 0 0 3px #666;
+			font-family: $styled-font;
+			text-decoration: none;
+			font-size: 20px;
+			text-transform: uppercase;
+			transition: all .3s;
+			vertical-align: top;
+	    	&.cart{
+	      		color: $peer_green;
+	      		text-shadow: 0 0 3px white;
+	    	}
+		}
+	}
+	a:hover {
+ 		text-shadow: 2px 2px 2px #444;
+		@include breakpoint( papa-bear ) {
+			text-shadow: 0 0 4px white;
+			font-size: 28px;
+			padding: 4px;
+		}
+	}
+	a.active {
+		text-decoration: underline;
+		// TODO add gradient underline rather than text decoration underline
 	}
 }

@@ -64,6 +64,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
    ---------------------------------------------------------- */
 * {
   -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -200,8 +201,7 @@ h1 {
     text-decoration: none;
     font-size: 20px;
     text-transform: uppercase;
-    -webkit-transition: all .3s;
-            transition: all .3s;
+    transition: all .3s;
     vertical-align: top;
   }
   .nav-main a.cart {
@@ -245,6 +245,7 @@ h1 {
   height: 31px;
   width: 155px;
   -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
   transition: all 0.3s;
   font-family: "din-neuzeit-grotesk-light", arial, sans-serif;
   padding: 8px 16px 8px 4px;
@@ -277,7 +278,9 @@ h1 {
 }
 .nav-tab-wrapper .tabs a.active, .woocommerce .product .woocommerce-tabs .tabs a.active {
   -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
   transform: scale(1.2);
   margin-top: 1px;
   color: black;
@@ -331,13 +334,13 @@ h1 {
 
 .main .image-wrapper {
   -webkit-transition: all 0.7s linear;
+  -moz-transition: all 0.7s linear;
   transition: all 0.7s linear;
   padding: 6px;
   background: #fff;
   display: block;
   margin: 20px;
-  -webkit-box-shadow: 3px 3px 12px #666;
-          box-shadow: 3px 3px 12px #666;
+  box-shadow: 3px 3px 12px #666;
 }
 .main .image-wrapper img {
   max-width: 100%;
@@ -493,10 +496,14 @@ h1 {
   left: 10px;
   height: 30px;
   -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
   transform: rotate(-90deg);
   -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
   -ms-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
   transform-origin: 0 0;
 }
 .panel-well .panel-content {
@@ -528,8 +535,7 @@ h1 {
     z-index: -1;
   }
   .js .image-carousels .image-module {
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     position: absolute;
     padding: 10px;
     background: #0091b6;
@@ -800,10 +806,14 @@ h1 {
   border: 1px solid rgba(0, 0, 0, 0.2);
   *border-right-width: 2px;
   *border-bottom-width: 2px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
   border-radius: 5px;
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
   background-clip: padding-box;
   text-align: left;
 }
@@ -914,8 +924,7 @@ h1 {
   display: block;
   background: rgba(255, 255, 255, 0.7);
   border: 1px solid #ccc;
-  -webkit-box-shadow: 6px 6px 0 #ccc;
-          box-shadow: 6px 6px 0 #ccc;
+  box-shadow: 6px 6px 0 #ccc;
   position: relative;
   width: 100%;
   height: 250px;
@@ -953,8 +962,7 @@ h1 {
 .woocommerce .products .product .product-inner .button {
   border: 1px solid #20862e;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #71c97d;
-          box-shadow: inset 0 1px 0 0 #71c97d;
+  box-shadow: inset 0 1px 0 0 #71c97d;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -962,13 +970,11 @@ h1 {
   background-color: #38b54a;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #38b54a), color-stop(100%, #239233));
   background-image: -webkit-linear-gradient(#38b54a, #239233);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#38b54a), to(#239233));
   background-image: linear-gradient(#38b54a, #239233);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #177a26;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   color: white;
   text-align: center;
   line-height: 18px;
@@ -976,19 +982,16 @@ h1 {
   font-family: "din-neuzeit-grotesk-light", arial, sans-serif;
 }
 .woocommerce .products .product .product-inner .button:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #4bbc5b;
-          box-shadow: inset 0 1px 0 0 #4bbc5b;
+  box-shadow: inset 0 1px 0 0 #4bbc5b;
   cursor: pointer;
   background-color: #369d45;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #369d45), color-stop(100%, #21852f));
   background-image: -webkit-linear-gradient(#369d45, #21852f);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#369d45), to(#21852f));
   background-image: linear-gradient(#369d45, #21852f);
 }
 .woocommerce .products .product .product-inner .button:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
 }
 .woocommerce .products .product .product-inner .button .caret {
   border-top: 7px solid white;
@@ -1006,8 +1009,7 @@ h1 {
 .woocommerce .button {
   border: 1px solid #d1af00;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #f9e26c;
-          box-shadow: inset 0 1px 0 0 #f9e26c;
+  box-shadow: inset 0 1px 0 0 #f9e26c;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1015,31 +1017,26 @@ h1 {
   background-color: #ffda19;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffda19), color-stop(100%, #e0bc00));
   background-image: -webkit-linear-gradient(#ffda19, #e0bc00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffda19), to(#e0bc00));
   background-image: linear-gradient(#ffda19, #e0bc00);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #bc9e00;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   color: #444;
   text-align: center;
   line-height: 18px;
 }
 .woocommerce .button:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #f8d93a;
-          box-shadow: inset 0 1px 0 0 #f8d93a;
+  box-shadow: inset 0 1px 0 0 #f8d93a;
   cursor: pointer;
   background-color: #f9d205;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9d205), color-stop(100%, #d1af00));
   background-image: -webkit-linear-gradient(#f9d205, #d1af00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9d205), to(#d1af00));
   background-image: linear-gradient(#f9d205, #d1af00);
 }
 .woocommerce .button:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
 }
 .woocommerce .button .caret {
   margin-top: 5px;
@@ -1255,8 +1252,7 @@ table.order_details::after {
 .well.cart footer a {
   border: 1px solid #0f85b6;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #74c4e5;
-          box-shadow: inset 0 1px 0 0 #74c4e5;
+  box-shadow: inset 0 1px 0 0 #74c4e5;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1264,35 +1260,29 @@ table.order_details::after {
   background-color: #2aace2;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2aace2), color-stop(100%, #108fc4));
   background-image: -webkit-linear-gradient(#2aace2, #108fc4);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2aace2), to(#108fc4));
   background-image: linear-gradient(#2aace2, #108fc4);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #0879a8;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   margin-top: -2px;
 }
 .well.cart footer a:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #48b2dd;
-          box-shadow: inset 0 1px 0 0 #48b2dd;
+  box-shadow: inset 0 1px 0 0 #48b2dd;
   cursor: pointer;
   background-color: #229dd1;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #229dd1), color-stop(100%, #1084b5));
   background-image: -webkit-linear-gradient(#229dd1, #1084b5);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#229dd1), to(#1084b5));
   background-image: linear-gradient(#229dd1, #1084b5);
 }
 .well.cart footer a:active:not(:disabled) {
   border: 1px solid #0f85b6;
-  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
 }
 .well.cart footer a.checkout {
   border: 1px solid #20862e;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #71c97d;
-          box-shadow: inset 0 1px 0 0 #71c97d;
+  box-shadow: inset 0 1px 0 0 #71c97d;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1300,28 +1290,23 @@ table.order_details::after {
   background-color: #38b54a;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #38b54a), color-stop(100%, #239233));
   background-image: -webkit-linear-gradient(#38b54a, #239233);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#38b54a), to(#239233));
   background-image: linear-gradient(#38b54a, #239233);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #177a26;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
 }
 .well.cart footer a.checkout:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #4bbc5b;
-          box-shadow: inset 0 1px 0 0 #4bbc5b;
+  box-shadow: inset 0 1px 0 0 #4bbc5b;
   cursor: pointer;
   background-color: #369d45;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #369d45), color-stop(100%, #21852f));
   background-image: -webkit-linear-gradient(#369d45, #21852f);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#369d45), to(#21852f));
   background-image: linear-gradient(#369d45, #21852f);
 }
 .well.cart footer a.checkout:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
 }
 
 .cart .product-name {
@@ -1377,7 +1362,6 @@ table.order_details th {
   background-color: #eeeeee;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
   background-image: -webkit-linear-gradient(#eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
   background-image: linear-gradient(#eeeeee, #cccccc);
   border-left: 1px solid #999;
 }
@@ -1418,8 +1402,7 @@ table.order_details .coupon #coupon_code {
 table.order_details .coupon .button {
   border: 1px solid #d1af00;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #f9e26c;
-          box-shadow: inset 0 1px 0 0 #f9e26c;
+  box-shadow: inset 0 1px 0 0 #f9e26c;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1427,32 +1410,27 @@ table.order_details .coupon .button {
   background-color: #ffda19;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffda19), color-stop(100%, #e0bc00));
   background-image: -webkit-linear-gradient(#ffda19, #e0bc00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffda19), to(#e0bc00));
   background-image: linear-gradient(#ffda19, #e0bc00);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #bc9e00;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
 }
 .cart .coupon .button:hover:not(:disabled),
 .checkout .shop_table .coupon .button:hover:not(:disabled),
 table.order_details .coupon .button:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #f8d93a;
-          box-shadow: inset 0 1px 0 0 #f8d93a;
+  box-shadow: inset 0 1px 0 0 #f8d93a;
   cursor: pointer;
   background-color: #f9d205;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9d205), color-stop(100%, #d1af00));
   background-image: -webkit-linear-gradient(#f9d205, #d1af00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9d205), to(#d1af00));
   background-image: linear-gradient(#f9d205, #d1af00);
 }
 .cart .coupon .button:active:not(:disabled),
 .checkout .shop_table .coupon .button:active:not(:disabled),
 table.order_details .coupon .button:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
 }
 .cart .minus,
 .cart .plus,
@@ -1462,8 +1440,7 @@ table.order_details .minus,
 table.order_details .plus {
   border: 1px solid #d1af00;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #f9e26c;
-          box-shadow: inset 0 1px 0 0 #f9e26c;
+  box-shadow: inset 0 1px 0 0 #f9e26c;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1471,13 +1448,11 @@ table.order_details .plus {
   background-color: #ffda19;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffda19), color-stop(100%, #e0bc00));
   background-image: -webkit-linear-gradient(#ffda19, #e0bc00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffda19), to(#e0bc00));
   background-image: linear-gradient(#ffda19, #e0bc00);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #bc9e00;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
   padding: 0px 4px;
 }
 .cart .minus:hover:not(:disabled),
@@ -1486,13 +1461,11 @@ table.order_details .plus {
 .checkout .shop_table .plus:hover:not(:disabled),
 table.order_details .minus:hover:not(:disabled),
 table.order_details .plus:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #f8d93a;
-          box-shadow: inset 0 1px 0 0 #f8d93a;
+  box-shadow: inset 0 1px 0 0 #f8d93a;
   cursor: pointer;
   background-color: #f9d205;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9d205), color-stop(100%, #d1af00));
   background-image: -webkit-linear-gradient(#f9d205, #d1af00);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f9d205), to(#d1af00));
   background-image: linear-gradient(#f9d205, #d1af00);
 }
 .cart .minus:active:not(:disabled),
@@ -1502,8 +1475,7 @@ table.order_details .plus:hover:not(:disabled) {
 table.order_details .minus:active:not(:disabled),
 table.order_details .plus:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
 }
 .cart .minus,
 .checkout .shop_table .minus,
@@ -1523,8 +1495,7 @@ table.order_details .button,
 table.order_details .remove {
   border: 1px solid #0f85b6;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #74c4e5;
-          box-shadow: inset 0 1px 0 0 #74c4e5;
+  box-shadow: inset 0 1px 0 0 #74c4e5;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1532,13 +1503,11 @@ table.order_details .remove {
   background-color: #2aace2;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2aace2), color-stop(100%, #108fc4));
   background-image: -webkit-linear-gradient(#2aace2, #108fc4);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2aace2), to(#108fc4));
   background-image: linear-gradient(#2aace2, #108fc4);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #0879a8;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
 }
 .cart .button:hover:not(:disabled),
 .cart .remove:hover:not(:disabled),
@@ -1546,13 +1515,11 @@ table.order_details .remove {
 .checkout .shop_table .remove:hover:not(:disabled),
 table.order_details .button:hover:not(:disabled),
 table.order_details .remove:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #48b2dd;
-          box-shadow: inset 0 1px 0 0 #48b2dd;
+  box-shadow: inset 0 1px 0 0 #48b2dd;
   cursor: pointer;
   background-color: #229dd1;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #229dd1), color-stop(100%, #1084b5));
   background-image: -webkit-linear-gradient(#229dd1, #1084b5);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#229dd1), to(#1084b5));
   background-image: linear-gradient(#229dd1, #1084b5);
 }
 .cart .button:active:not(:disabled),
@@ -1562,16 +1529,14 @@ table.order_details .remove:hover:not(:disabled) {
 table.order_details .button:active:not(:disabled),
 table.order_details .remove:active:not(:disabled) {
   border: 1px solid #0f85b6;
-  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
 }
 .cart .checkout-button,
 .checkout .shop_table .checkout-button,
 table.order_details .checkout-button {
   border: 1px solid #20862e;
   border-radius: 3px;
-  -webkit-box-shadow: inset 0 1px 0 0 #71c97d;
-          box-shadow: inset 0 1px 0 0 #71c97d;
+  box-shadow: inset 0 1px 0 0 #71c97d;
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -1579,32 +1544,27 @@ table.order_details .checkout-button {
   background-color: #38b54a;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #38b54a), color-stop(100%, #239233));
   background-image: -webkit-linear-gradient(#38b54a, #239233);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#38b54a), to(#239233));
   background-image: linear-gradient(#38b54a, #239233);
   padding: 5px 18px;
   text-decoration: none;
   text-shadow: 0 1px 0 #177a26;
-  -webkit-background-clip: padding-box;
-          background-clip: padding-box;
+  background-clip: padding-box;
 }
 .cart .checkout-button:hover:not(:disabled),
 .checkout .shop_table .checkout-button:hover:not(:disabled),
 table.order_details .checkout-button:hover:not(:disabled) {
-  -webkit-box-shadow: inset 0 1px 0 0 #4bbc5b;
-          box-shadow: inset 0 1px 0 0 #4bbc5b;
+  box-shadow: inset 0 1px 0 0 #4bbc5b;
   cursor: pointer;
   background-color: #369d45;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #369d45), color-stop(100%, #21852f));
   background-image: -webkit-linear-gradient(#369d45, #21852f);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#369d45), to(#21852f));
   background-image: linear-gradient(#369d45, #21852f);
 }
 .cart .checkout-button:active:not(:disabled),
 .checkout .shop_table .checkout-button:active:not(:disabled),
 table.order_details .checkout-button:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
 }
 
 .payment_methods {
@@ -1763,5 +1723,3 @@ textarea {
 .form-actions {
   margin-left: 170px;
 }
-
-/*# sourceMappingURL=style.css.map */
