@@ -12,7 +12,7 @@ get_header(); ?>
       <h2><?php the_title(); ?></h2>
     </header>
     <div class="grid">
-    	<div class="grid-3-12">
+    	<div class="grid-3-12 grid-sm-0-12">
 		    <?php
 			    $image_1 = get_field('image_1');
 				if( is_array( $image_1 ) ):

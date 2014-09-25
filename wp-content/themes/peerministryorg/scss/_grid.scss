@@ -54,3 +54,10 @@ $pad: 20px;
 .grid-9-12 {
 	width: calc( ( 900% / 12 ) - #{$pad} );
 }
+
+.grid-sm-0-12 {
+	display: none;
+	@include breakpoint( mama-bear ){
+		display: block;
+	}
+}

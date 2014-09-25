@@ -410,6 +410,15 @@ h1 {
   width: calc(( 900% / 12 ) - 20px );
 }
 
+.grid-sm-0-12 {
+  display: none;
+}
+@media (min-width: 500px) {
+  .grid-sm-0-12 {
+    display: block;
+  }
+}
+
 .well {
   color: #025577;
   padding: 0;
