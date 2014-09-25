@@ -61,3 +61,10 @@ $pad: 20px;
 		display: block;
 	}
 }
+
+.grid-sm-12-12 {
+	width: 100%;
+	@include breakpoint( mama-bear ){
+		width: auto;
+	}
+}

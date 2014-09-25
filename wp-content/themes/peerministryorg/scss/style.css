@@ -422,6 +422,15 @@ h1 {
   }
 }
 
+.grid-sm-12-12 {
+  width: 100%;
+}
+@media (min-width: 500px) {
+  .grid-sm-12-12 {
+    width: auto;
+  }
+}
+
 .well {
   color: #025577;
   padding: 0;

@@ -34,7 +34,7 @@ get_header(); ?>
 				endforeach;
 		    ?>
     	</div>
-    	<div class="grid-6-12 nav-tab-wrapper">
+    	<div class="grid-6-12 nav-tab-wrapper grid-sm-12-12">
 		    <?php
 				$args = array(
 					'child_of' => get_the_id(),
@@ -70,7 +70,7 @@ get_header(); ?>
 
 		    ?>
     	</div>
-    	<div class="grid-3-12 well content">
+    	<div class="grid-3-12 grid-sm-12-12 well content">
     		<header>
 	    		<?php echo get_field('well_title'); ?>
     		</header>
