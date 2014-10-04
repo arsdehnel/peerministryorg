@@ -1,4 +1,4 @@
-/*
+/*!
 Theme Name: Peer Ministry
 Theme URI: http://arsdehnel.net/themes/peerministryorg/
 Author: Adam Dehnel
@@ -16,7 +16,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   src: url("fonts/din-neuzeit-grotesk-light.eot?#iefix");
   src: url("fonts/din-neuzeit-grotesk-light.eot?#iefix") format("eot"), url("fonts/din-neuzeit-grotesk-light.woff") format("woff"), url("fonts/din-neuzeit-grotesk-light.ttf") format("truetype"), url("fonts/din-neuzeit-grotesk-light.svg#din-neuzeit-grotesk-light") format("svg");
 }
-
 /* @font-face {
   font-family: 'dinmedium';
   src: url('fonts/dinmedium-webfont.eot');
@@ -55,7 +54,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   font-weight: normal;
   font-style: normal;
 }
-
 /* ----------------------------------------------------------
     COLORS
    ---------------------------------------------------------- */
@@ -374,60 +372,57 @@ h1 {
   margin-right: 0;
 }
 .grid [class*='grid-']:last-of-type.grid-2-12 {
-  width: calc(200% / 12 );
+  width: calc( 200% / 12 );
 }
 .grid [class*='grid-']:last-of-type.grid-3-12 {
   width: 25%;
 }
 .grid [class*='grid-']:last-of-type.grid-4-12 {
-  width: calc(100% / 3 );
+  width: calc( 100% / 3 );
 }
 .grid [class*='grid-']:last-of-type.grid-8-12 {
-  width: calc(800% / 12 );
+  width: calc( 800% / 12 );
 }
 
 .grid-2-12 {
-  width: calc(( 200% / 12 ) - 20px );
+  width: calc( ( 200% / 12 ) - 20px );
 }
 
 .grid-3-12 {
-  width: calc(25% - 20px );
+  width: calc( 25% - 20px );
 }
 
 .grid-4-12 {
-  width: calc(( 100% / 3 ) - 20px );
+  width: calc( ( 100% / 3 ) - 20px );
 }
 
 .grid-6-12 {
-  width: calc(50% - 20px );
+  width: calc( 50% - 20px );
 }
 
 .grid-8-12 {
-  width: calc(( 800% / 12 ) - 20px );
+  width: calc( ( 800% / 12 ) - 20px );
 }
 
 .grid-9-12 {
-  width: calc(( 900% / 12 ) - 20px );
+  width: calc( ( 900% / 12 ) - 20px );
 }
 
+/*
 .grid-sm-0-12 {
-  display: none;
-}
-@media (min-width: 500px) {
-  .grid-sm-0-12 {
-    display: block;
-  }
+	display: none;
+	@include breakpoint( mama-bear ){
+		display: block;
+	}
 }
 
 .grid-sm-12-12 {
-  width: 100%;
+	width: 100%;
+	@include breakpoint( mama-bear ){
+		width: auto;
+	}
 }
-@media (min-width: 500px) {
-  .grid-sm-12-12 {
-    width: auto;
-  }
-}
-
+*/
 .well {
   color: #025577;
   padding: 0;
@@ -946,7 +941,7 @@ h1 {
   font-family: "din-neuzeit-grotesk-light", arial, sans-serif;
   font-weight: bold;
   margin: 0;
-  letter-spacing: -0.02em;
+  letter-spacing: -.02em;
   text-transform: uppercase;
   font-size: 14px;
 }
@@ -1009,8 +1004,8 @@ h1 {
 }
 .woocommerce .products .product .product-inner .button:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
 }
 .woocommerce .products .product .product-inner .button .caret {
   border-top: 7px solid white;
@@ -1060,8 +1055,8 @@ h1 {
 }
 .woocommerce .button:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
 }
 .woocommerce .button .caret {
   margin-top: 5px;
@@ -1307,8 +1302,8 @@ table.order_details::after {
 }
 .well.cart footer a:active:not(:disabled) {
   border: 1px solid #0f85b6;
-  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eee;
 }
 .well.cart footer a.checkout {
   border: 1px solid #20862e;
@@ -1342,8 +1337,8 @@ table.order_details::after {
 }
 .well.cart footer a.checkout:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
 }
 
 .cart .product-name {
@@ -1396,11 +1391,11 @@ table.order_details td {
 .cart th,
 .checkout .shop_table th,
 table.order_details th {
-  background-color: #eeeeee;
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc));
-  background-image: -webkit-linear-gradient(#eeeeee, #cccccc);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#eeeeee), to(#cccccc));
-  background-image: linear-gradient(#eeeeee, #cccccc);
+  background-color: #eee;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #ccc));
+  background-image: -webkit-linear-gradient(#eee, #ccc);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+  background-image: linear-gradient(#eee, #ccc);
   border-left: 1px solid #999;
 }
 .cart th:first-of-type,
@@ -1473,8 +1468,8 @@ table.order_details .coupon .button:hover:not(:disabled) {
 .checkout .shop_table .coupon .button:active:not(:disabled),
 table.order_details .coupon .button:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
 }
 .cart .minus,
 .cart .plus,
@@ -1524,8 +1519,8 @@ table.order_details .plus:hover:not(:disabled) {
 table.order_details .minus:active:not(:disabled),
 table.order_details .plus:active:not(:disabled) {
   border: 1px solid #d1af00;
-  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #c1a200, inset 0 0 8px 4px #c1a200, 0 1px 1px 0 #eee;
 }
 .cart .minus,
 .checkout .shop_table .minus,
@@ -1584,8 +1579,8 @@ table.order_details .remove:hover:not(:disabled) {
 table.order_details .button:active:not(:disabled),
 table.order_details .remove:active:not(:disabled) {
   border: 1px solid #0f85b6;
-  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #0f7aa6, inset 0 0 8px 4px #0f7aa6, 0 1px 1px 0 #eee;
 }
 .cart .checkout-button,
 .checkout .shop_table .checkout-button,
@@ -1625,8 +1620,8 @@ table.order_details .checkout-button:hover:not(:disabled) {
 .checkout .shop_table .checkout-button:active:not(:disabled),
 table.order_details .checkout-button:active:not(:disabled) {
   border: 1px solid #20862e;
-  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
-          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eeeeee;
+  -webkit-box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
+          box-shadow: inset 0 0 8px 4px #1e782b, inset 0 0 8px 4px #1e782b, 0 1px 1px 0 #eee;
 }
 
 .payment_methods {
