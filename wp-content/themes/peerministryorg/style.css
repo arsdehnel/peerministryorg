@@ -912,8 +912,7 @@ h1 {
   overflow-x: hidden;
 }
 .woocommerce .page-title {
-  position: absolute;
-  left: 9999px;
+  display: none;
 }
 .woocommerce .woocommerce-ordering,
 .woocommerce .woocommerce-result-count {
